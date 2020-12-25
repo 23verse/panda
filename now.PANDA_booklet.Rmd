@@ -1,0 +1,161 @@
+---
+documentclass: book
+classoption: oneside
+title: "Discovery of innovative target genes for virus-associated cancers"
+vignette: >
+ %\VignetteIndexEntry{VDC Booklet}
+ %\VignetteEngine{knitr::rmarkdown}
+ %\VignetteEncoding{UTF-8}
+output: 
+  BiocStyle::html_document:
+        toc: true
+        toc_depth: 3
+        number_sections: true
+        theme: journal
+        highlight: monochrome
+        toc_float: true
+        code_folding: hide
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(collapse=TRUE, comment="##")
+knitr::opts_chunk$set(dpi=300)
+knitr::opts_chunk$set(cache=FALSE)
+knitr::opts_chunk$set(echo=TRUE)
+knitr::opts_chunk$set(warning=FALSE)
+knitr::opts_chunk$set(message=FALSE)
+knitr::opts_chunk$set(fig_cap="yes")
+knitr::opts_chunk$set(eval=F)
+```
+
+
+# Abstract {#index}
+
+We reason that, for cancer genes identified through virus-host interactions using in vitro models to be valid, it requires genetic support in vivo from genome-wide association studies (GWAS) on neoplastic or precancerous traits. We thus revisit the list of host genes that physically interact with tumour virus, through our recently developed genetic-led target prioritisation approach. We have generated a priority list of innovative target genes, with top prioritised genes functionally relevant to transcriptional regulations by NF-kappa B in response to TNF. From the priority list, we have further identified a network of pathway crosstalk genes that can inform on a range of aspects of viral oncology: the involvement of the Notch signaling, and many tumour virus associated pathways; containing protein kinase-like structural domains, including genes targeted by drugs already in clinical use for cancers (CDK4, EGFR, and JAK1); revealing evolutionary roots in Euteleostomi identifying TFRC as under-explored relative to more studied genes (such as CDK4, FOS and STAT1/3/4) from that era; the likely involvement in telomere maintenance including TFRC in addition to known telomerase-like genes (such as MYC, FOS and STAT3); predicting upstream regulators (such as EHMT2, TFEB, CCAR2 and ERBB3) that could regulate telomerase-like genes. We conclude that the information of host-virus interactions coupled with contemporary genetic-led prioritisations can accelerate discovery of innovative targets in virus-associated cancers.
+
+```{r, eval=FALSE, echo=FALSE}
+cd ~/Sites/XGR/VDC/BOOKLET
+################################################
+R
+library(tidyverse)
+
+## load
+load("now.VDC_booklet.RData")
+
+## save
+save(list=ls(), file="now.VDC_booklet.RData", compress="xz")
+
+## bookdown::render_book + bookdown::gitbook
+## use configuration in '_output.yml' and '_bookdown.yml'
+bookdown::render_book("now.VDC_booklet.Rmd", c("bookdown::gitbook","bookdown::pdf_book","bookdown::tufte_html_book")[1])
+
+q('no')
+
+####################################################
+
+##########################
+https://23verse.github.io/panda
+##########################
+## bookdown::render_book + bookdown::gitbook
+cd ~/Sites/SVN/github/panda
+# delete previous *.html *.png *.css *.js *.ttf *.Rmd files *.yml files
+find ./ -type f -name '*.html' -o -type f -name '*.png' -o -type f -name '*.css' -o -type f -name '*.js' -o -type f -name '*.ttf' -o -type f -name '*.Rmd' -o -type f -name '*.yml' -o -type f -name '*.RDS' -o -type f -name '*.r' | xargs rm -rf
+############
+# copy the whole package from ~/Sites/startbootstrap-panda to ~/Sites/SVN/github/panda
+cp -rf ~/Sites/startbootstrap-panda/* ./
+# add new *.html *.png *.css *.js *.ttf *.Rmd *.yml files
+git status | grep 'modified' | awk '{print $2}' | xargs git add
+git status | grep 'deleted' | awk '{print $2}' | xargs git rm
+find ./ -type f -name '*.html' -o -type f -name '*.png' -o -type f -name '*.css' -o -type f -name '*.js' -o -type f -name '*.ttf' -o -type f -name '*.Rmd' -o -type f -name '*.yml' -o -type f -name '*.RDS' -o -type f -name '*.r' | xargs git add
+git add --all
+git commit -m 'Update VDC'
+git push origin main
+##########################
+
+####################################################
+## GitHub Pages
+
+One site per account but unlimited projects can be created from https://pages.github.com:
+
+> **One site `https://github.com/23verse/23verse.github.io`**
+
+# visit https://github.com/new (enter "23verse.github.io" -> Initialize this repository with a README)
+# clone into the local machine 
+cd ~/Sites/SVN/github
+git clone git@github.com:23verse/23verse.github.io
+cd ~/Sites/SVN/github/23verse.github.io
+git pull origin master
+## https://github.com/23verse/23verse.github.io/settings/access: add "hfang-bristol"
+echo "Hello 23verse" > index.html
+git add --all
+git commit -m 'Initial commit'
+git push origin master
+# Alive (https://23verse.github.io)
+
+> **A project `https://github.com/23verse/panda`**
+
+# visit https://github.com/new (enter "panda" -> Initialize this repository with a README)
+## https://github.com/23verse/panda/settings/access: add "hfang-bristol"
+# clone into the local machine 
+cd ~/Sites/SVN/github
+git clone git@github.com:23verse/panda.git
+cd ~/Sites/SVN/github/panda
+git pull origin main
+echo "Hello PANDA" > index.html
+git add --all
+git commit -m 'Initial commit'
+git push origin main
+# visit https://github.com/23verse/panda/settings -> GitHub Pages (main/root)
+# Alive (https://23verse.github.io/panda): PANDA (p53 and As)
+####################################################
+
+```
+
+```{r, eval=F, echo=F}
+library(tidyverse)
+RData.location <- "~/Sites/XGR/VDC/BOOKLET"
+```
+
+```{r, eval=F, echo=F}
+## VDC_priority.txt.gz
+cp ~/Databases/grant_app/jobs/Oxford/Oxford_Wellcome_Trust_Centre_for_Human_Genetics/ULTRA-DD/MDPI/VDC/VDC_priority.txt.gz ~/Sites/XGR/VDC/BOOKLET
+
+## VDC_reactome.txt
+cp ~/Databases/grant_app/jobs/Oxford/Oxford_Wellcome_Trust_Centre_for_Human_Genetics/ULTRA-DD/MDPI/VDC/VDC_reactome.txt ~/Sites/XGR/VDC/BOOKLET
+
+## VDC_subg_nodes.txt
+cp ~/Databases/grant_app/jobs/Oxford/Oxford_Wellcome_Trust_Centre_for_Human_Genetics/ULTRA-DD/MDPI/VDC/VDC_subg_nodes.txt ~/Sites/XGR/VDC/BOOKLET
+
+## Crosstalk.approved_phased.txt
+cp ~/Databases/grant_app/jobs/Oxford/Oxford_Wellcome_Trust_Centre_for_Human_Genetics/ULTRA-DD/MDPI/VDC/Crosstalk.approved_phased.txt ~/Sites/XGR/VDC/BOOKLET
+
+```
+
+
+# List of prioritised target genes
+
+## Schematic
+
+```{r schematic, fig.cap="Schematic overview of how to prioritise target genes for virus-associated cancers.", fig.width=9, fig.height=9, echo=FALSE, eval=T, fig.align="center",out.width="100%"}
+library(png)
+library(grid)
+img <- readPNG("booklet.VDC.schematic.png")
+grid.raster(img)
+```
+
+## Table
+
+Taking as two inputs (i) the host gene list (see [paper](https://pubmed.ncbi.nlm.nih.gov/22810586)) and (ii) GWAS-detected SNPs for cell proliferation disorders (sourced from the GWAS Catalogue), we generate the list of host genes ranked by priority rating (scored 0-5; see the column `Rating`).
+
+```{r, echo=FALSE, eval=T}
+read_delim("VDC_priority.txt.gz", delim="\t") %>% transmute(Target=name, Rank=rank, Rating=signif(rating,digits=4), Description=description) %>% DT::datatable(options=list(pageLength=10,searchHighlight=T,dom='Bfrtip',buttons=c('csv','copy'), dom='t',scrollX=T), style='default', caption="", rownames=FALSE, escape=F, extensions=c('Buttons'))
+```
+
+## Manhattan
+
+```{r manhattan, fig.cap="Manhattan plot illustrating priority rating (scored 0-5; Y-axis) for innovative target genes (color-coded by chromosomes; X-axis), with top 40 genes labelled.", fig.width=9, fig.height=4, echo=FALSE, eval=T, fig.align="center",out.width="100%"}
+library(png)
+library(grid)
+img <- readPNG("booklet.VDC.manhattan.png")
+grid.raster(img)
+```
