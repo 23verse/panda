@@ -17,6 +17,158 @@
   <!-- Custom styles for this template -->
   <link href="css/customised-panda.css" rel="stylesheet">
 
+  <!-- CSS for DataTables -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.23/datatables.min.css"/>
+  
+  <style>
+		thead > tr > th {
+			font-size: 10px;
+			color: rgba(0,0,0,0.6);
+			text-align: center;
+			border: 2px solid rgba(0,0,0,0.6);
+			/*border: 1px solid rgba(250,175,186,0.3);*/
+			background-color: transparent;
+		}
+		
+		thead > tr > th.my_style {
+			font-size: 12px;
+			color: rgba(0,0,0,0.8);
+			text-align: center;
+			background-color: rgba(204,204,204,0.5);
+			/*background-color: rgba(250,175,186,0.1);*/
+			border: 1px solid rgba(204,204,204,0.5);
+			/*border: 1px solid rgba(250,175,186,1);*/
+		}
+		
+		tbody > tr > td {
+			font-size: 9px;
+			text-align: center;
+			border: 1px solid #ccc;
+			/*border: 1px solid rgba(250,175,186,0.2);*/
+		}
+		tbody > tr > td:first-child {
+			text-align: left;
+			border: 1px solid rgba(204,204,204,1);
+			/*border: 1px solid rgba(250,175,186,0.1);*/
+		}
+		tbody > tr > td:nth-last-child(1) {
+			text-align: left;
+			border: 1px solid rgba(204,204,204,1);
+			/*border: 1px solid rgba(250,175,186,0.1);*/
+		}
+		
+		tbody > tr > td:hover {
+			-moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.8);
+			-webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.8);
+			box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.8);
+		}
+
+		tfoot > tr > th {
+			font-size: 11px;
+			color: rgba(0,0,0,0.8);
+			text-align: center;
+			border: 1px solid rgba(204,204,204,0.2);
+			/*border: 1px solid rgba(250,175,186,0.5);*/
+			background-color: transparent;
+		}
+	</style>
+
+		<!-- JS for newWin -->
+		<script type="text/javascript">
+			// new windows			
+			function newWin(url, name, width, height) { 
+				var left = (screen.width/2)-(width/2);
+				var top = (screen.height/2)-(height/2);
+				window.open(url,name,'scrollbars=yes,resizable=yes,fullscreen=yes, width=' + width + ', height='+height+', top='+top+', left='+left);
+			}
+		</script>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- JS for DataTables -->
+  <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.23/datatables.min.js"></script>
+  
+  
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+				$('#menu1_table').DataTable({
+					"ajax": "panda_data/panda.json",
+
+					// Scroll - horizontal and vertical
+					"scrollY":        "300px",
+					"scrollCollapse": true,
+					"paging":         false,
+					"scrollX": 		  true,
+					"processing": 	  true,
+					
+					"aoColumns": [
+						{
+							mData:"Variant",
+						},
+						{
+							mData:"Name",
+						},
+						{
+							mData:"IARCsomatic",
+						},
+						{
+							mData:"IARCgermline",
+						},
+						{
+							mData:"TCGA",
+						},
+						{
+							mData:"ClinicalSignificance",
+						},
+						{
+							mData:"Location",
+						},
+						{
+							mData:"SolventAccessibility",
+						},
+						{
+							mData:"TemperatureSensitive",
+						},
+						{
+							mData:"MutationType",
+						},
+						{
+							mData:"Structure1",
+							mRender: function ( data, type, full ) {
+								if(full.Structure1=='-'){
+									return '-';
+								}else{
+									// return '<a href="panda_data/structure/'+data+'.png"</a>';
+									//return "<img src='panda_data/structure/"+data+".png' height='50px'>";
+									
+									// return "<a href=\"javascript:newWin('panda_data/structure/"+data+".png', 'Booklet', '909', '1169')\">Show</a>";
+									
+									return "<a href=\"javascript:newWin('panda_data/structure/"+data+".png', 'Zoom', '909', '1169')\"><img src='panda_data/structure/"+data+".png' height='50px'></a>";
+									
+								}
+							}
+						},
+						{
+							mData:"Structure2",
+							mRender: function ( data, type, full ) {
+								if(full.Structure2=='-'){
+									return '-';
+								}else{
+									return "<a href=\"javascript:newWin('panda_data/structure/"+data+".png', 'Zoom', '909', '1169')\"><img src='panda_data/structure/"+data+".png' height='50px'></a>";
+									
+								}
+							}
+						},
+					],
+				});
+			
+		});
+	</script>
+  
 </head>
 
 <body>
@@ -46,34 +198,51 @@
   <!-- Page Content -->
   <div class="container">
 
-    <!-- Jumbotron Header -->
-    <header class="jumbotron my-4">
-    
-		<!-- Projects Row -->
+	<!-- Projects Row -->
 		<div class="row">
-			<div class="col-md-3 img-portfolio text-center">
-				<img src="img/panda.logo1.png" height="180px">
-			</div>
-			<div class="col-md-6 display-4 text-center">
-				PANDA <span class="display-5">(<u>p</u>53 <u>and</u> <u>A</u>s)</span>
+			<div class="col-md-12 display-5 text-left">
+				Explore p53 mutations studied in PANDA
 				<hr>
-			  	<li class="lead text-left">Quantification of p53 activities after rescue</li>
-			  	<li class="lead text-left">Atom-level mechanism on p53 rescue</li>
-			  	<li class="lead text-left">List of ATO-applicable p53 mutations</li>
-			  	<hr>
-			</div>
-			<div class="col-md-3 img-portfolio text-center">
-				<img src="img/panda.logo2.png" height="180px">
 			</div>
 		</div>
-		<!-- /.row -->
-		
-		<div class="text-center">
-			<a href="#" class="btn btn-primary btn-lg">Explore variants studied by PANDA</a>
-		</div>
-		
-    </header>
+	<!-- /.row -->
 
+	
+	<!--
+	<a href="javascript:newWin('panda_data/structure/1-1.png', 'Booklet', '909', '1169')"><img src='panda_data/structure/1-1.png' height='50px'></a>
+	-->
+	
+	<div class = "panel-body">
+		
+		<table id="menu1_table" class="compact wrap" cellpadding="5px" cellspacing="0" width="100%">
+					<thead>
+						
+						<tr>
+							<th colspan="2" class="my_style">Mutation</th>
+							<th colspan="3" class="my_style">Frequency in cancer</th>
+							<th rowspan="2"><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="whether or not genomic seed genes">Clinical significance</span><div></th>
+							<th colspan="6" class="my_style">STRUCTURE</th>
+						</tr>
+						
+						<tr>
+							<th><div>Short</div></th>
+							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="5-star rating.">Full</span></div></th>
+							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">IARC (somatic)</span></div></th>
+							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">IARC (germline)</span></div></th>
+							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">TCGA</span></div></th>
+							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="5-star rating.">Location</span></div></th>
+							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">Solvent accessibility</span></div></th>
+							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">Temperature sensitive</span></div></th>
+							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">Mutation type</span></div></th>
+							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">View 1</span></div></th>
+							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">View 2</span></div></th>
+							
+							
+						</tr>
+					</thead>
+					
+				</table>
+	</div>
 
   </div>
   <!-- /.container -->
@@ -87,9 +256,7 @@
     <!-- /.container -->
   </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 

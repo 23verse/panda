@@ -34,10 +34,21 @@ knitr::opts_chunk$set(eval=F)
 We reason that, for cancer genes identified through virus-host interactions using in vitro models to be valid, it requires genetic support in vivo from genome-wide association studies (GWAS) on neoplastic or precancerous traits. We thus revisit the list of host genes that physically interact with tumour virus, through our recently developed genetic-led target prioritisation approach. We have generated a priority list of innovative target genes, with top prioritised genes functionally relevant to transcriptional regulations by NF-kappa B in response to TNF. From the priority list, we have further identified a network of pathway crosstalk genes that can inform on a range of aspects of viral oncology: the involvement of the Notch signaling, and many tumour virus associated pathways; containing protein kinase-like structural domains, including genes targeted by drugs already in clinical use for cancers (CDK4, EGFR, and JAK1); revealing evolutionary roots in Euteleostomi identifying TFRC as under-explored relative to more studied genes (such as CDK4, FOS and STAT1/3/4) from that era; the likely involvement in telomere maintenance including TFRC in addition to known telomerase-like genes (such as MYC, FOS and STAT3); predicting upstream regulators (such as EHMT2, TFEB, CCAR2 and ERBB3) that could regulate telomerase-like genes. We conclude that the information of host-virus interactions coupled with contemporary genetic-led prioritisations can accelerate discovery of innovative targets in virus-associated cancers.
 
 ```{r, eval=FALSE, echo=FALSE}
-cd ~/Sites/XGR/VDC/BOOKLET
+cd ~/Sites/startbootstrap-panda/panda_data
 ################################################
 R
 library(tidyverse)
+
+df <- read_delim('panda.txt', delim='\t')
+df <- df %>% mutate(IARCsomatic=ifelse(is.na(IARCsomatic), '-', IARCsomatic)) %>% mutate(IARCgermline=ifelse(is.na(IARCgermline), '-', IARCgermline)) %>% mutate(TCGA=ifelse(is.na(TCGA), '-', TCGA)) %>% mutate(ClinicalSignificance=ifelse(is.na(ClinicalSignificance), '-', ClinicalSignificance)) %>% mutate(SolventAccessibility=ifelse(is.na(SolventAccessibility), '-', SolventAccessibility)) %>% mutate(Structure1=ifelse(is.na(Structure1), '-', Structure1)) %>% mutate(Structure2=ifelse(is.na(Structure2), '-', Structure2))
+
+# save to the json file
+res_f <- jsonlite::toJSON(df, pretty=T, digits=10)
+res_f <- paste("{","\"data\":",res_f,"}", sep="\n")
+base::write(res_f, file='panda.json')
+
+
+
 
 ## load
 load("now.VDC_booklet.RData")

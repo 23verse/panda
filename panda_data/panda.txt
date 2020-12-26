@@ -1,0 +1,802 @@
+Variant	Name	IARCsomatic	IARCgermline	TCGA	ClinicalSignificance	Location	SolventAccessibility	TemperatureSensitive	MutationType	Structure1	Structure2
+p.V272M	p.Val272Met	0.381	0.067	0.183	Uncertain significance	DBD, loop-sheet-helix motif, S10 sheet	relative buried (1.1)	strong (69% cells die at 32℃)	structural	NA	NA
+p.E11Q	p.Glylu11Glyln	0.033	0.090	NA	Conflicting interpretations of pathogenicity	N-terminal	NA	weak (-92% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.V31I	p.Val31Ile	0.023	0.314	NA	Conflicting interpretations of pathogenicity	N-terminal	NA	weak (-53% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.S46F	p.Ser46Prohe	0.013	NA	NA	NA	N-terminal	NA	weak (-4% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.P47L	p.Pro47Leu	0.020	NA	NA	NA	N-terminal	NA	intermediate (4% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.D49H	p.Asp49His	0.027	0.067	NA	Uncertain significance	N-terminal	NA	weak (-63% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.E56K	p.Glylu56Lys	0.013	NA	NA	NA	N-terminal	NA	weak (-44% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.D61N	p.Asp61Asn	0.013	NA	NA	NA	N-terminal	NA	weak (-45% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.E68G	p.Glylu68Gly	0.013	NA	NA	NA	N-terminal	NA	intermediate (7% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.P77A	p.Pro77Ala	0.013	NA	NA	NA	N-terminal	NA	weak (-144% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.P82L	p.Pro82Leu	0.023	0.224	0.009	Conflicting interpretations of pathogenicity	N-terminal	NA	weak (-46% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.A84V	p.Ala84Val	0.027	NA	NA	NA	N-terminal	NA	weak (-9% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.A88V	p.Ala88Val	0.013	NA	NA	Uncertain significance	N-terminal	NA	intermediate (5% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.P89S	p.Pro89Ser	0.017	NA	NA	NA	N-terminal	NA	weak (-48% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.S96F	p.Ser96Prohe	0.013	NA	NA	NA	N-terminal	relative exposed (88.8)	weak (-97% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.P98L	p.Pro98Leu	0.027	NA	NA	Uncertain significance	N-terminal	relative buried (26.9)	strong (63% cells die at 32℃)	N- & C- terminal not inclued	1-1	1-2
+p.P98S	p.Pro98Ser	0.017	NA	NA	NA	N-terminal	relative buried (26.9)	intermediate (14% cells die at 32℃)	N- & C- terminal not inclued	1-1	1-2
+p.T102I	p.Thr102Ile	0.027	NA	NA	Uncertain significance	DBD, short loop	relative exposed (68.7)	strong (30% cells die at 32℃)	likely non structural	1-1	1-2
+p.G105R	p.Gly105Arg	0.013	NA	0.018	Conflicting interpretations of pathogenicity	DBD, short loop	relative buried (16)	strong (77% cells die at 32℃)	structural	1-1	1-2
+p.G105V	p.Gly105Val	0.017	0.022	0.037	NA	DBD, short loop	relative buried (16)	strong (49% cells die at 32℃)	structural	1-1	1-2
+p.G105C	p.Gly105Cys	0.013	0.180	0.055	NA	DBD, short loop	relative buried (16)	strong (53% cells die at 32℃)	structural	1-1	1-2
+p.S106R	p.Ser106Arg	0.023	0.157	0.046	NA	DBD, short loop	relative exposed (87)	strong (24% cells die at 32℃)	likely non structural	1-1	1-2
+p.Y107D	p.Tyr107Asp	0.013	NA	0.027	NA	DBD, short loop	NA	strong (29% cells die at 32℃)	likely non structural	1-1	1-2
+p.R110P	p.Arg110Pro	0.054	0.202	0.018	Pathogenic/Likely pathogenic	DBD, β-sandwich, S1 sheet	relative exposed (32.9)	intermediate (12% cells die at 32℃)	likely structural	1-1	1-2
+p.R110L	p.Arg110Leu	0.124	0.292	0.110	Pathogenic/Likely pathogenic	DBD, β-sandwich, S1 sheet	relative exposed (32.9)	strong (50% cells die at 32℃)	likely structural	1-1	1-2
+p.R110C	p.Arg110Cys	0.043	NA	0.009	Uncertain significance	DBD, β-sandwich, S1 sheet	relative exposed (32.9)	strong (35% cells die at 32℃)	likely structural	1-1	1-2
+p.L111Q	p.Leu111Glyln	0.027	NA	0.018	NA	DBD, β-sandwich, S1 sheet	relative buried (17.9)	strong (22% cells die at 32℃)	structural	1-1	1-2
+p.L111P	p.Leu111Pro	0.020	0.022	0.027	Uncertain significance	DBD, β-sandwich, S1 sheet	relative buried (17.9)	strong (42% cells die at 32℃)	structural	1-1	1-2
+p.L111R	p.Leu111Arg	0.013	NA	0.018	NA	DBD, β-sandwich, S1 sheet	relative buried (17.9)	weak (-10% cells die at 32℃)	structural	1-1	1-2
+p.F113V	p.Prohe113Val	0.023	NA	0.018	Uncertain significance	DBD, loop-sheet-helix motif, L1 loop	relative buried (19.8)	strong (38% cells die at 32℃)	structural	1-1	1-2
+p.F113S	p.Prohe113Ser	0.017	NA	NA	NA	DBD, loop-sheet-helix motif, L1 loop	relative buried (19.8)	strong (33% cells die at 32℃)	structural	1-1	1-2
+p.F113C	p.Prohe113Cys	0.037	NA	0.037	NA	DBD, loop-sheet-helix motif, L1 loop	relative buried (19.8)	strong (24% cells die at 32℃)	structural	1-1	1-2
+p.F113L	p.Prohe113Leu	0.017	NA	0.009	NA	DBD, loop-sheet-helix motif, L1 loop	relative buried (19.8)	strong (74% cells die at 32℃)	structural	1-1	1-2
+p.S116C	p.Ser116Cys	0.013	NA	NA	NA	DBD, loop-sheet-helix motif, L1 loop	relative exposed (40.7)	weak (-7% cells die at 32℃)	likely structural	1-1	1-2
+p.G117E	p.Gly117Glylu	0.010	NA	NA	NA	DBD, loop-sheet-helix motif, L1 loop	relative exposed (40.6)	intermediate (8% cells die at 32℃)	likely structural	1-1	1-2
+p.T118I	p.Thr118Ile	0.010	0.022	NA	Uncertain significance	DBD, loop-sheet-helix motif, L1 loop	NA	weak (-7% cells die at 32℃)	likely non structural	2-1	2-2
+p.K120R	p.Lys120Arg	0.010	NA	NA	NA	DBD, loop-sheet-helix motif, L1 loop	relative exposed (60.6)	weak (-5% cells die at 32℃)	contacting	2-1	2-2
+p.K120M	p.Lys120Met	0.020	NA	NA	NA	DBD, loop-sheet-helix motif, L1 loop	relative exposed (60.6)	intermediate (7% cells die at 32℃)	contacting	2-1	2-2
+p.K120E	p.Lys120Glylu	0.017	NA	0.027	Conflicting interpretations of pathogenicity	DBD, loop-sheet-helix motif, L1 loop	relative exposed (60.6)	intermediate (6% cells die at 32℃)	likely non structural	2-1	2-2
+p.S121F	p.Ser121Prohe	0.007	NA	NA	NA	DBD, loop-sheet-helix motif, L1 loop	relative exposed (39.2)	weak (0% cells die at 32℃)	likely structural	2-1	2-2
+p.C124R	p.Cys124Arg	0.013	NA	NA	NA	DBD, loop-sheet-helix motif, L1 loop	relative buried (8.7)	strong (69% cells die at 32℃)	structural	2-1	2-2
+p.T125K	p.Thr125Lys	0.013	0.067	NA	Uncertain significance	DBD, loop-sheet-helix motif, S2 sheet	relative buried (0.6)	intermediate (14% cells die at 32℃)	structural	2-1	2-2
+p.T125M	p.Thr125Met	0.040	0.067	0.037	Conflicting interpretations of pathogenicity	DBD, loop-sheet-helix motif, S2 sheet	relative buried (0.6)	strong (41% cells die at 32℃)	structural	2-1	2-2
+p.Y126N	p.Tyr126Asn	0.023	NA	0.027	Uncertain significance	DBD, loop-sheet-helix motif, S2 sheet	relative buried (17)	weak (-7% cells die at 32℃)	structural	2-1	2-2
+p.Y126H	p.Tyr126His	0.010	NA	0.009	NA	DBD, loop-sheet-helix motif, S2 sheet	relative buried (17)	strong (29% cells die at 32℃)	structural	2-1	2-2
+p.Y126D	p.Tyr126Asp	0.023	NA	0.027	Conflicting interpretations of pathogenicity	DBD, loop-sheet-helix motif, S2 sheet	relative buried (17)	intermediate (19% cells die at 32℃)	structural	2-1	2-2
+p.Y126S	p.Tyr126Ser	0.010	NA	0.018	NA	DBD, loop-sheet-helix motif, S2 sheet	relative buried (17)	intermediate (12% cells die at 32℃)	structural	2-1	2-2
+p.Y126C	p.Tyr126Cys	0.074	0.067	0.037	Uncertain significance	DBD, loop-sheet-helix motif, S2 sheet	relative buried (17)	strong (26% cells die at 32℃)	structural	2-1	2-2
+p.S127T	p.Ser127Thr	0.013	0.022	0.009	NA	DBD, loop-sheet-helix motif, S2 sheet	relative buried (0)	strong (41% cells die at 32℃)	structural	2-1	2-2
+p.S127P	p.Ser127Pro	0.027	0.022	0.009	NA	DBD, loop-sheet-helix motif, S2 sheet	relative buried (0)	strong (23% cells die at 32℃)	structural	2-1	2-2
+p.S127Y	p.Ser127Tyr	0.040	NA	0.055	NA	DBD, loop-sheet-helix motif, S2 sheet	relative buried (0)	intermediate (9% cells die at 32℃)	structural	2-1	2-2
+p.S127F	p.Ser127Prohe	0.124	NA	0.082	Conflicting interpretations of pathogenicity	DBD, loop-sheet-helix motif, S2 sheet	relative buried (0)	strong (30% cells die at 32℃)	structural	2-1	2-2
+p.P128S	p.Pro128Ser	0.027	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (72)	weak (-39% cells die at 32℃)	likely non structural	2-1	2-2
+p.P128L	p.Pro128Leu	0.017	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (72)	weak (-44% cells die at 32℃)	likely non structural	2-1	2-2
+p.A129T	p.Ala129Thr	0.010	NA	NA	Likely benign	DBD, loop-sheet-helix motif, short loop	relative exposed (87.6)	intermediate (6% cells die at 32℃)	likely non structural	2-1	2-2
+p.A129D	p.Ala129Asp	0.013	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (87.6)	intermediate (1% cells die at 32℃)	likely non structural	2-1	2-2
+p.A129V	p.Ala129Val	0.023	NA	NA	not provided	DBD, loop-sheet-helix motif, short loop	relative exposed (87.6)	intermediate (14% cells die at 32℃)	likely non structural	2-1	2-2
+p.L130H	p.Leu130His	0.020	0.045	NA	NA	DBD, loop-sheet-helix motif, short loop	relative buried (27.7)	strong (58% cells die at 32℃)	structural	2-1	2-2
+p.L130P	p.Leu130Pro	0.020	0.045	0.009	Likely pathogenic	DBD, loop-sheet-helix motif, short loop	relative buried (27.7)	weak (-8% cells die at 32℃)	structural	2-1	2-2
+p.L130R	p.Leu130Arg	0.037	NA	0.009	NA	DBD, loop-sheet-helix motif, short loop	relative buried (27.7)	strong (70% cells die at 32℃)	structural	2-1	2-2
+p.L130V	p.Leu130Val	0.080	NA	0.046	Uncertain significance	DBD, loop-sheet-helix motif, short loop	relative buried (27.7)	strong (59% cells die at 32℃)	structural	2-1	2-2
+p.L130F	p.Leu130Prohe	0.057	0.112	0.037	Uncertain significance	DBD, loop-sheet-helix motif, short loop	relative buried (27.7)	strong (61% cells die at 32℃)	structural	2-1	2-2
+p.N131K	p.Asn131Lys	0.013	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (42.6)	weak (-12% cells die at 32℃)	likely structural	3-1	3-2
+p.N131S	p.Asn131Ser	0.033	0.045	0.018	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (42.6)	strong (49% cells die at 32℃)	likely structural	3-1	3-2
+p.N131I	p.Asn131Ile	0.027	0.269	0.037	Likely pathogenic	DBD, loop-sheet-helix motif, short loop	relative exposed (42.6)	strong (59% cells die at 32℃)	likely structural	3-1	3-2
+p.N131H	p.Asn131His	0.010	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (42.6)	strong (46% cells die at 32℃)	likely structural	3-1	3-2
+p.N131Y	p.Asn131Tyr	0.043	NA	NA	Pathogenic	DBD, loop-sheet-helix motif, short loop	relative exposed (42.6)	strong (32% cells die at 32℃)	likely structural	3-1	3-2
+p.K132N	p.Lys132Asn	0.248	NA	0.164	NA	DBD, loop-sheet-helix motif, S2' sheet	relative buried (6.1)	weak (-13% cells die at 32℃)	structural	3-1	3-2
+p.K132T	p.Lys132Thr	0.020	NA	0.018	NA	DBD, loop-sheet-helix motif, S2' sheet	relative buried (6.1)	intermediate (15% cells die at 32℃)	structural	3-1	3-2
+p.K132R	p.Lys132Arg	0.221	0.045	0.055	Uncertain significance	DBD, loop-sheet-helix motif, S2' sheet	relative buried (6.1)	strong (28% cells die at 32℃)	structural	3-1	3-2
+p.K132M	p.Lys132Met	0.050	NA	0.009	Uncertain significance	DBD, loop-sheet-helix motif, S2' sheet	relative buried (6.1)	weak (-23% cells die at 32℃)	structural	3-1	3-2
+p.K132Q	p.Lys132Glyln	0.064	0.045	0.009	NA	DBD, loop-sheet-helix motif, S2' sheet	relative buried (6.1)	weak (-3% cells die at 32℃)	structural	3-1	3-2
+p.K132E	p.Lys132Glylu	0.084	0.112	0.064	Conflicting interpretations of pathogenicity	DBD, loop-sheet-helix motif, S2' sheet	relative buried (6.1)	intermediate (8% cells die at 32℃)	structural	3-1	3-2
+p.M133K	p.Met133Lys	0.077	NA	0.018	NA	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0.1)	strong (21% cells die at 32℃)	structural	3-1	3-2
+p.M133T	p.Met133Thr	0.023	1.145	NA	Pathogenic	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0.1)	strong (55% cells die at 32℃)	structural	3-1	3-2
+p.M133R	p.Met133Arg	0.023	0.404	0.009	NA	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0.1)	strong (21% cells die at 32℃)	structural	3-1	3-2
+p.M133I	p.Met133Ile	0.027	NA	NA	NA	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0.1)	weak (-34% cells die at 32℃)	structural	3-1	3-2
+p.M133L	p.Met133Leu	0.017	NA	NA	NA	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0.1)	weak (-188% cells die at 32℃)	structural	3-1	3-2
+p.M133V	p.Met133Val	0.017	NA	NA	Uncertain significance	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0.1)	weak (-88% cells die at 32℃)	structural	3-1	3-2
+p.F134L	p.Prohe134Leu	0.097	0.045	0.046	NA	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0)	weak (-19% cells die at 32℃)	structural	3-1	3-2
+p.F134V	p.Prohe134Val	0.040	NA	0.018	NA	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0)	weak (-3% cells die at 32℃)	structural	3-1	3-2
+p.F134S	p.Prohe134Ser	0.010	NA	NA	NA	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0)	intermediate (18% cells die at 32℃)	structural	3-1	3-2
+p.F134C	p.Prohe134Cys	0.030	NA	NA	Likely pathogenic	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0)	intermediate (20% cells die at 32℃)	structural	3-1	3-2
+p.C135S	p.Cys135Ser	0.054	NA	NA	NA	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0)	strong (65% cells die at 32℃)	structural	3-1	3-2
+p.C135R	p.Cys135Arg	0.064	NA	0.037	NA	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0)	weak (-11% cells die at 32℃)	structural	3-1	3-2
+p.C135G	p.Cys135Gly	0.030	NA	NA	Uncertain significance	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0)	strong (67% cells die at 32℃)	structural	3-1	3-2
+p.C135Y	p.Cys135Tyr	0.314	NA	0.100	Likely pathogenic	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0)	intermediate (13% cells die at 32℃)	structural	3-1	3-2
+p.C135W	p.Cys135Trp	0.094	NA	0.027	Uncertain significance	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0)	intermediate (15% cells die at 32℃)	structural	3-1	3-2
+p.C135F	p.Cys135Prohe	0.217	NA	0.073	Likely pathogenic	DBD, loop-sheet-helix motif, S2' sheet	relative buried (0)	weak (-21% cells die at 32℃)	structural	3-1	3-2
+p.Q136H	p.Glyln136His	0.027	NA	0.009	Uncertain significance	DBD, loop-sheet-helix motif, short loop	relative buried (17.8)	strong (58% cells die at 32℃)	structural	3-1	3-2
+p.Q136P	p.Glyln136Pro	0.013	NA	0.018	NA	DBD, loop-sheet-helix motif, short loop	relative buried (17.8)	strong (54% cells die at 32℃)	structural	3-1	3-2
+p.Q136R	p.Glyln136Arg	0.030	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative buried (17.8)	weak (-7% cells die at 32℃)	structural	3-1	3-2
+p.Q136E	p.Glyln136Glylu	0.030	NA	0.055	Uncertain significance	DBD, loop-sheet-helix motif, short loop	relative buried (17.8)	intermediate (16% cells die at 32℃)	structural	3-1	3-2
+p.L137M	p.Leu137Met	0.013	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative buried (27.4)	weak (-157% cells die at 32℃)	structural	3-1	3-2
+p.L137Q	p.Leu137Glyln	0.020	NA	0.009	NA	DBD, loop-sheet-helix motif, short loop	relative buried (27.4)	weak (-119% cells die at 32℃)	structural	3-1	3-2
+p.L137P	p.Leu137Pro	0.013	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative buried (27.4)	weak (-37% cells die at 32℃)	structural	3-1	3-2
+p.L137V	p.Leu137Val	0.017	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative buried (27.4)	weak (-146% cells die at 32℃)	structural	3-1	3-2
+p.A138T	p.Ala138Thr	0.033	NA	0.018	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (45.6)	strong (22% cells die at 32℃)	likely structural	3-1	3-2
+p.A138P	p.Ala138Pro	0.110	0.202	NA	Likely pathogenic	DBD, loop-sheet-helix motif, short loop	relative exposed (45.6)	weak (-10% cells die at 32℃)	likely structural	3-1	3-2
+p.A138D	p.Ala138Asp	0.010	NA	NA	Uncertain significance	DBD, loop-sheet-helix motif, short loop	relative exposed (45.6)	strong (20% cells die at 32℃)	likely structural	3-1	3-2
+p.A138V	p.Ala138Val	0.187	0.202	0.037	Uncertain significance	DBD, loop-sheet-helix motif, short loop	relative exposed (45.6)	strong (48% cells die at 32℃)	likely structural	3-1	3-2
+p.K139N	p.Lys139Asn	0.057	NA	0.037	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (44)	strong (45% cells die at 32℃)	likely structural	3-1	3-2
+p.K139T	p.Lys139Thr	0.010	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (44)	weak (-8% cells die at 32℃)	likely structural	3-1	3-2
+p.K139R	p.Lys139Arg	0.013	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (44)	intermediate (12% cells die at 32℃)	likely structural	3-1	3-2
+p.K139Q	p.Lys139Glyln	0.010	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (44)	weak (-25% cells die at 32℃)	likely structural	3-1	3-2
+p.K139E	p.Lys139Glylu	0.010	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (44)	strong (24% cells die at 32℃)	likely structural	3-1	3-2
+p.T140I	p.Thr140Ile	0.057	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (30.7)	intermediate (16% cells die at 32℃)	likely structural	3-1	3-2
+p.T140A	p.Thr140Ala	0.023	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (30.7)	weak (-9% cells die at 32℃)	likely structural	3-1	3-2
+p.T140S	p.Thr140Ser	0.017	NA	NA	NA	DBD, loop-sheet-helix motif, short loop	relative exposed (30.7)	weak (-48% cells die at 32℃)	likely structural	3-1	3-2
+p.C141S	p.Cys141Ser	0.013	NA	0.009	Likely pathogenic	DBD, loop-sheet-helix motif, S3 sheet	relative buried (0)	intermediate (17% cells die at 32℃)	structural	4-1	4-2
+p.C141R	p.Cys141Arg	0.060	NA	0.018	NA	DBD, loop-sheet-helix motif, S3 sheet	relative buried (0)	strong (21% cells die at 32℃)	structural	4-1	4-2
+p.C141Y	p.Cys141Tyr	0.345	0.561	0.128	Pathogenic/Likely pathogenic	DBD, loop-sheet-helix motif, S3 sheet	relative buried (0)	intermediate (18% cells die at 32℃)	structural	4-1	4-2
+p.C141W	p.Cys141Trp	0.047	0.045	0.046	Conflicting interpretations of pathogenicity	DBD, loop-sheet-helix motif, S3 sheet	relative buried (0)	strong (47% cells die at 32℃)	structural	4-1	4-2
+p.P142H	p.Pro142His	0.013	NA	NA	NA	DBD, β-sandwich, S3 sheet	relative buried (16.4)	intermediate (13% cells die at 32℃)	structural	4-1	4-2
+p.P142L	p.Pro142Leu	0.043	NA	0.009	NA	DBD, β-sandwich, S3 sheet	relative buried (16.4)	strong (41% cells die at 32℃)	structural	4-1	4-2
+p.P142S	p.Pro142Ser	0.030	NA	NA	NA	DBD, β-sandwich, S3 sheet	relative buried (16.4)	weak (-68% cells die at 32℃)	structural	4-1	4-2
+p.P142F	p.Pro142Prohe	0.010	NA	NA	NA	DBD, β-sandwich, S3 sheet	relative buried (16.4)	strong (61% cells die at 32℃)	structural	4-1	4-2
+p.V143M	p.Val143Met	0.117	0.022	0.027	Uncertain significance	DBD, β-sandwich, S3 sheet	relative buried (0)	strong (42% cells die at 32℃)	structural	4-1	4-2
+p.V143L	p.Val143Leu	0.017	NA	NA	Uncertain significance	DBD, β-sandwich, S3 sheet	relative buried (0)	weak (-36% cells die at 32℃)	structural	4-1	4-2
+p.V143E	p.Val143Glylu	0.023	NA	0.018	NA	DBD, β-sandwich, S3 sheet	relative buried (0)	intermediate (2% cells die at 32℃)	structural	4-1	4-2
+p.V143A	p.Val143Ala	0.070	0.090	0.018	NA	DBD, β-sandwich, S3 sheet	relative buried (0)	strong (40% cells die at 32℃)	structural	4-1	4-2
+p.V143G	p.Val143Gly	0.030	NA	0.027	Uncertain significance	DBD, β-sandwich, S3 sheet	relative buried (0)	weak (-29% cells die at 32℃)	structural	4-1	4-2
+p.Q144H	p.Glyln144His	0.017	NA	0.009	NA	DBD, β-sandwich, S3 sheet	relative buried (18.8)	intermediate (3% cells die at 32℃)	structural	4-1	4-2
+p.Q144P	p.Glyln144Pro	0.023	NA	0.009	Uncertain significance	DBD, β-sandwich, S3 sheet	relative buried (18.8)	strong (62% cells die at 32℃)	structural	4-1	4-2
+p.Q144R	p.Glyln144Arg	0.037	NA	NA	NA	DBD, β-sandwich, S3 sheet	relative buried (18.8)	intermediate (10% cells die at 32℃)	structural	4-1	4-2
+p.Q144L	p.Glyln144Leu	0.040	0.067	0.009	NA	DBD, β-sandwich, S3 sheet	relative buried (18.8)	strong (51% cells die at 32℃)	structural	4-1	4-2
+p.L145M	p.Leu145Met	0.010	NA	NA	NA	DBD, β-sandwich, S3 sheet	relative buried (0.7)	weak (-22% cells die at 32℃)	structural	4-1	4-2
+p.L145Q	p.Leu145Glyln	0.067	NA	0.009	Uncertain significance	DBD, β-sandwich, S3 sheet	relative buried (0.7)	intermediate (13% cells die at 32℃)	structural	4-1	4-2
+p.L145P	p.Leu145Pro	0.080	NA	0.018	Uncertain significance	DBD, β-sandwich, S3 sheet	relative buried (0.7)	intermediate (5% cells die at 32℃)	structural	4-1	4-2
+p.L145R	p.Leu145Arg	0.047	NA	0.018	NA	DBD, β-sandwich, S3 sheet	relative buried (0.7)	intermediate (4% cells die at 32℃)	structural	4-1	4-2
+p.L145V	p.Leu145Val	0.013	NA	NA	NA	DBD, β-sandwich, S3 sheet	relative buried (0.7)	weak (-6% cells die at 32℃)	structural	4-1	4-2
+p.W146R	p.Trp146Arg	0.027	NA	NA	NA	DBD, β-sandwich, S3 sheet	relative exposed (33.1)	weak (-22% cells die at 32℃)	likely structural	4-1	4-2
+p.W146S	p.Trp146Ser	0.013	NA	0.009	NA	DBD, β-sandwich, S3 sheet	relative exposed (33.1)	weak (-18% cells die at 32℃)	likely structural	4-1	4-2
+p.W146C	p.Trp146Cys	0.010	NA	NA	NA	DBD, β-sandwich, S3 sheet	relative exposed (33.1)	weak (-73% cells die at 32℃)	likely structural	4-1	4-2
+p.V147I	p.Val147Ile	0.033	0.022	NA	Uncertain significance	DBD, β-sandwich, short loop	relative buried (16.9)	intermediate (5% cells die at 32℃)	structural	4-1	4-2
+p.V147E	p.Val147Glylu	0.013	NA	NA	NA	DBD, β-sandwich, short loop	relative buried (16.9)	weak (0% cells die at 32℃)	structural	4-1	4-2
+p.V147D	p.Val147Asp	0.027	NA	NA	NA	DBD, β-sandwich, short loop	relative buried (16.9)	weak (-30% cells die at 32℃)	structural	4-1	4-2
+p.V147A	p.Val147Ala	0.017	NA	NA	NA	DBD, β-sandwich, short loop	relative buried (16.9)	strong (45% cells die at 32℃)	structural	4-1	4-2
+p.V147G	p.Val147Gly	0.030	NA	0.009	NA	DBD, β-sandwich, short loop	relative buried (16.9)	strong (46% cells die at 32℃)	structural	4-1	4-2
+p.D148N	p.Asp148Asn	0.017	NA	0.009	NA	DBD, β-sandwich, short loop	relative exposed (75)	intermediate (19% cells die at 32℃)	likely non structural	4-1	4-2
+p.D148E	p.Asp148Glylu	0.020	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (75)	intermediate (20% cells die at 32℃)	likely non structural	4-1	4-2
+p.D148Y	p.Asp148Tyr	0.010	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (75)	strong (22% cells die at 32℃)	likely non structural	4-1	4-2
+p.S149T	p.Ser149Thr	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (45)	intermediate (16% cells die at 32℃)	likely structural	4-1	4-2
+p.S149P	p.Ser149Pro	0.017	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (45)	intermediate (14% cells die at 32℃)	likely structural	4-1	4-2
+p.S149F	p.Ser149Prohe	0.040	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (45)	weak (-14% cells die at 32℃)	likely structural	4-1	4-2
+p.T150K	p.Thr150Lys	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (60.3)	weak (-120% cells die at 32℃)	likely non structural	4-1	4-2
+p.T150I	p.Thr150Ile	0.040	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (60.3)	intermediate (17% cells die at 32℃)	likely non structural	4-1	4-2
+p.P151T	p.Pro151Thr	0.074	0.112	0.037	Likely pathogenic	DBD, β-sandwich, short loop	relative buried (3.1)	strong (62% cells die at 32℃)	structural	5-1	5-2
+p.P151H	p.Pro151His	0.144	NA	0.055	Uncertain significance	DBD, β-sandwich, short loop	relative buried (3.1)	weak (-27% cells die at 32℃)	structural	5-1	5-2
+p.P151R	p.Pro151Arg	0.074	NA	0.037	Uncertain significance	DBD, β-sandwich, short loop	relative buried (3.1)	intermediate (15% cells die at 32℃)	structural	5-1	5-2
+p.P151L	p.Pro151Leu	0.047	NA	0.009	NA	DBD, β-sandwich, short loop	relative buried (3.1)	strong (30% cells die at 32℃)	structural	5-1	5-2
+p.P151A	p.Pro151Ala	0.067	0.067	0.027	Uncertain significance	DBD, β-sandwich, short loop	relative buried (3.1)	strong (55% cells die at 32℃)	structural	5-1	5-2
+p.P151S	p.Pro151Ser	0.348	0.180	0.146	Pathogenic/Likely pathogenic	DBD, β-sandwich, short loop	relative buried (3.1)	intermediate (3% cells die at 32℃)	structural	5-1	5-2
+p.P152T	p.Pro152Thr	0.033	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (43.9)	strong (65% cells die at 32℃)	likely structural	5-1	5-2
+p.P152Q	p.Pro152Glyln	0.017	NA	0.018	NA	DBD, β-sandwich, short loop	relative exposed (43.9)	strong (57% cells die at 32℃)	likely structural	5-1	5-2
+p.P152R	p.Pro152Arg	0.023	0.022	NA	NA	DBD, β-sandwich, short loop	relative exposed (43.9)	strong (78% cells die at 32℃)	likely structural	5-1	5-2
+p.P152L	p.Pro152Leu	0.294	1.077	0.082	Pathogenic	DBD, β-sandwich, short loop	relative exposed (43.9)	strong (52% cells die at 32℃)	likely structural	5-1	5-2
+p.P152A	p.Pro152Ala	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (43.9)	strong (72% cells die at 32℃)	likely structural	5-1	5-2
+p.P152S	p.Pro152Ser	0.117	NA	0.018	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (43.9)	strong (66% cells die at 32℃)	likely structural	5-1	5-2
+p.P153T	p.Pro153Thr	0.017	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (93)	weak (-134% cells die at 32℃)	likely non structural	5-1	5-2
+p.P153L	p.Pro153Leu	0.033	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (93)	weak (-71% cells die at 32℃)	likely non structural	5-1	5-2
+p.P153A	p.Pro153Ala	0.013	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (93)	weak (-206% cells die at 32℃)	likely non structural	5-1	5-2
+p.P153S	p.Pro153Ser	0.070	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (93)	weak (-128% cells die at 32℃)	likely non structural	5-1	5-2
+p.G154S	p.Gly154Ser	0.050	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (45)	intermediate (9% cells die at 32℃)	likely structural	5-1	5-2
+p.G154D	p.Gly154Asp	0.033	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (45)	intermediate (2% cells die at 32℃)	likely structural	5-1	5-2
+p.G154V	p.Gly154Val	0.227	0.045	0.073	NA	DBD, β-sandwich, short loop	relative exposed (45)	strong (53% cells die at 32℃)	likely structural	5-1	5-2
+p.T155N	p.Thr155Asn	0.114	0.090	0.037	Conflicting interpretations of pathogenicity	DBD, β-sandwich, short loop	relative buried (2.5)	strong (41% cells die at 32℃)	structural	5-1	5-2
+p.T155I	p.Thr155Ile	0.087	0.022	0.018	NA	DBD, β-sandwich, short loop	relative buried (2.5)	strong (61% cells die at 32℃)	structural	5-1	5-2
+p.T155P	p.Thr155Pro	0.077	NA	0.046	NA	DBD, β-sandwich, short loop	relative buried (2.5)	strong (57% cells die at 32℃)	structural	5-1	5-2
+p.T155A	p.Thr155Ala	0.037	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative buried (2.5)	weak (-118% cells die at 32℃)	structural	5-1	5-2
+p.T155S	p.Thr155Ser	0.030	NA	NA	NA	DBD, β-sandwich, short loop	relative buried (2.5)	weak (-68% cells die at 32℃)	structural	5-1	5-2
+p.R156S	p.Arg156Ser	0.013	NA	NA	NA	DBD, β-sandwich, S4 sheet	relative buried (23.2)	intermediate (11% cells die at 32℃)	structural	5-1	5-2
+p.R156H	p.Arg156His	0.064	0.763	0.009	Conflicting interpretations of pathogenicity	DBD, β-sandwich, S4 sheet	relative buried (23.2)	strong (28% cells die at 32℃)	structural	5-1	5-2
+p.R156P	p.Arg156Pro	0.154	0.224	0.055	NA	DBD, β-sandwich, S4 sheet	relative buried (23.2)	strong (36% cells die at 32℃)	structural	5-1	5-2
+p.R156L	p.Arg156Leu	0.027	NA	NA	NA	DBD, β-sandwich, S4 sheet	relative buried (23.2)	weak (-130% cells die at 32℃)	structural	5-1	5-2
+p.R156G	p.Arg156Gly	0.027	NA	0.009	NA	DBD, β-sandwich, S4 sheet	relative buried (23.2)	strong (67% cells die at 32℃)	structural	5-1	5-2
+p.R156C	p.Arg156Cys	0.060	0.067	0.009	Uncertain significance	DBD, β-sandwich, S4 sheet	relative buried (23.2)	weak (-51% cells die at 32℃)	structural	5-1	5-2
+p.V157I	p.Val157Ile	0.064	0.157	NA	Uncertain significance	DBD, β-sandwich, S4 sheet	relative buried (0.7)	weak (-39% cells die at 32℃)	structural	5-1	5-2
+p.V157L	p.Val157Leu	0.030	NA	0.018	NA	DBD, β-sandwich, S4 sheet	relative buried (0.7)	strong (68% cells die at 32℃)	structural	5-1	5-2
+p.V157D	p.Val157Asp	0.054	0.157	0.027	Likely pathogenic	DBD, β-sandwich, S4 sheet	relative buried (0.7)	intermediate (7% cells die at 32℃)	structural	5-1	5-2
+p.V157A	p.Val157Ala	0.007	NA	NA	Likely pathogenic	DBD, β-sandwich, S4 sheet	relative buried (0.7)	strong (67% cells die at 32℃)	structural	5-1	5-2
+p.V157G	p.Val157Gly	0.050	0.022	0.027	NA	DBD, β-sandwich, S4 sheet	relative buried (0.7)	strong (25% cells die at 32℃)	structural	5-1	5-2
+p.V157F	p.Val157Prohe	0.713	0.022	0.274	Likely pathogenic	DBD, β-sandwich, S4 sheet	relative buried (0.7)	strong (20% cells die at 32℃)	structural	5-1	5-2
+p.R158S	p.Arg158Ser	0.017	NA	0.018	NA	DBD, β-sandwich, S4 sheet	relative buried (14)	intermediate (13% cells die at 32℃)	structural	5-1	5-2
+p.R158H	p.Arg158His	0.381	0.965	0.155	Pathogenic/Likely pathogenic	DBD, β-sandwich, S4 sheet	relative buried (14)	intermediate (14% cells die at 32℃)	structural	5-1	5-2
+p.R158P	p.Arg158Pro	0.077	NA	0.027	Uncertain significance	DBD, β-sandwich, S4 sheet	relative buried (14)	weak (-51% cells die at 32℃)	structural	5-1	5-2
+p.R158L	p.Arg158Leu	0.345	0.112	0.210	Pathogenic	DBD, β-sandwich, S4 sheet	relative buried (14)	strong (40% cells die at 32℃)	structural	5-1	5-2
+p.R158G	p.Arg158Gly	0.077	0.202	0.027	NA	DBD, β-sandwich, S4 sheet	relative buried (14)	strong (23% cells die at 32℃)	structural	5-1	5-2
+p.R158C	p.Arg158Cys	0.104	0.112	0.018	Conflicting interpretations of pathogenicity	DBD, β-sandwich, S4 sheet	relative buried (14)	intermediate (2% cells die at 32℃)	structural	5-1	5-2
+p.A159T	p.Ala159Thr	0.027	NA	NA	NA	DBD, β-sandwich, S4 sheet	relative buried (0.2)	intermediate (14% cells die at 32℃)	structural	5-1	5-2
+p.A159P	p.Ala159Pro	0.110	NA	0.110	Uncertain significance	DBD, β-sandwich, S4 sheet	relative buried (0.2)	intermediate (15% cells die at 32℃)	structural	5-1	5-2
+p.A159D	p.Ala159Asp	0.047	0.045	NA	NA	DBD, β-sandwich, S4 sheet	relative buried (0.2)	intermediate (15% cells die at 32℃)	structural	5-1	5-2
+p.A159V	p.Ala159Val	0.197	NA	0.137	Uncertain significance	DBD, β-sandwich, S4 sheet	relative buried (0.2)	strong (54% cells die at 32℃)	structural	5-1	5-2
+p.A159S	p.Ala159Ser	0.033	NA	NA	NA	DBD, β-sandwich, S4 sheet	relative buried (0.2)	intermediate (2% cells die at 32℃)	structural	5-1	5-2
+p.M160K	p.Met160Lys	0.013	NA	NA	NA	DBD, β-sandwich, S4 sheet	relative buried (14.1)	strong (61% cells die at 32℃)	structural	5-1	5-2
+p.M160T	p.Met160Thr	0.010	NA	NA	NA	DBD, β-sandwich, S4 sheet	relative buried (14.1)	strong (27% cells die at 32℃)	structural	5-1	5-2
+p.M160I	p.Met160Ile	0.057	NA	0.009	NA	DBD, β-sandwich, S4 sheet	relative buried (14.1)	intermediate (1% cells die at 32℃)	structural	5-1	5-2
+p.M160L	p.Met160Leu	0.027	NA	NA	NA	DBD, β-sandwich, S4 sheet	relative buried (14.1)	strong (36% cells die at 32℃)	structural	5-1	5-2
+p.M160V	p.Met160Val	0.033	NA	NA	Conflicting interpretations of pathogenicity	DBD, β-sandwich, S4 sheet	relative buried (14.1)	weak (-27% cells die at 32℃)	structural	5-1	5-2
+p.A161T	p.Ala161Thr	0.281	0.224	0.064	NA	DBD, β-sandwich, S4 sheet	relative buried (8.8)	strong (26% cells die at 32℃)	structural	6-1	6-2
+p.A161D	p.Ala161Asp	0.077	NA	0.027	Uncertain significance	DBD, β-sandwich, S4 sheet	relative buried (8.8)	intermediate (6% cells die at 32℃)	structural	6-1	6-2
+p.A161G	p.Ala161Gly	0.020	NA	NA	NA	DBD, β-sandwich, S4 sheet	relative buried (8.8)	strong (74% cells die at 32℃)	structural	6-1	6-2
+p.A161V	p.Ala161Val	0.050	NA	0.018	NA	DBD, β-sandwich, S4 sheet	relative buried (8.8)	strong (20% cells die at 32℃)	structural	6-1	6-2
+p.I162N	p.Ile162Asn	0.017	0.022	0.009	NA	DBD, β-sandwich, S4 sheet	relative buried (0.2)	intermediate (3% cells die at 32℃)	structural	6-1	6-2
+p.I162T	p.Ile162Thr	0.010	NA	NA	NA	DBD, β-sandwich, S4 sheet	relative buried (0.2)	strong (64% cells die at 32℃)	structural	6-1	6-2
+p.I162S	p.Ile162Ser	0.030	NA	NA	Uncertain significance	DBD, β-sandwich, S4 sheet	relative buried (0.2)	strong (65% cells die at 32℃)	structural	6-1	6-2
+p.I162M	p.Ile162Met	0.033	NA	NA	NA	DBD, β-sandwich, S4 sheet	relative buried (0.2)	intermediate (4% cells die at 32℃)	structural	6-1	6-2
+p.I162V	p.Ile162Val	0.030	NA	NA	NA	DBD, β-sandwich, S4 sheet	relative buried (0.2)	intermediate (3% cells die at 32℃)	structural	6-1	6-2
+p.I162F	p.Ile162Prohe	0.060	0.045	0.009	NA	DBD, β-sandwich, S4 sheet	relative buried (0.2)	strong (60% cells die at 32℃)	structural	6-1	6-2
+p.Y163N	p.Tyr163Asn	0.084	NA	0.027	Uncertain significance	DBD, L2 loop, S4 sheet	relative buried (1)	weak (-18% cells die at 32℃)	structural	6-1	6-2
+p.Y163H	p.Tyr163His	0.097	NA	0.055	NA	DBD, L2 loop, S4 sheet	relative buried (1)	strong (33% cells die at 32℃)	structural	6-1	6-2
+p.Y163D	p.Tyr163Asp	0.017	NA	0.009	Likely pathogenic	DBD, L2 loop, S4 sheet	relative buried (1)	strong (27% cells die at 32℃)	structural	6-1	6-2
+p.Y163S	p.Tyr163Ser	0.017	NA	NA	NA	DBD, L2 loop, S4 sheet	relative buried (1)	strong (26% cells die at 32℃)	structural	6-1	6-2
+p.Y163C	p.Tyr163Cys	0.565	0.135	0.237	Pathogenic	DBD, L2 loop, S4 sheet	relative buried (1)	intermediate (17% cells die at 32℃)	structural	6-1	6-2
+p.K164N	p.Lys164Asn	0.033	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (46.8)	strong (43% cells die at 32℃)	likely structural	6-1	6-2
+p.K164M	p.Lys164Met	0.017	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (46.8)	intermediate (17% cells die at 32℃)	likely structural	6-1	6-2
+p.K164Q	p.Lys164Glyln	0.017	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (46.8)	strong (34% cells die at 32℃)	likely structural	6-1	6-2
+p.K164E	p.Lys164Glylu	0.084	NA	0.037	Uncertain significance	DBD, L2 loop, long loop	relative exposed (46.8)	strong (28% cells die at 32℃)	likely structural	6-1	6-2
+p.Q165P	p.Glyln165Pro	0.010	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (38.1)	weak (-3% cells die at 32℃)	likely structural	6-1	6-2
+p.Q165R	p.Glyln165Arg	0.020	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (38.1)	intermediate (13% cells die at 32℃)	likely structural	6-1	6-2
+p.Q165L	p.Glyln165Leu	0.013	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (38.1)	weak (-68% cells die at 32℃)	likely structural	6-1	6-2
+p.S166T	p.Ser166Thr	0.043	NA	NA	NA	DBD, L2 loop, H1 helix	relative exposed (76.9)	weak (-25% cells die at 32℃)	likely non structural	6-1	6-2
+p.S166P	p.Ser166Pro	0.020	NA	NA	NA	DBD, L2 loop, H1 helix	relative exposed (76.9)	weak (-104% cells die at 32℃)	likely non structural	6-1	6-2
+p.S166A	p.Ser166Ala	0.010	NA	NA	NA	DBD, L2 loop, H1 helix	relative exposed (76.9)	weak (-60% cells die at 32℃)	likely non structural	6-1	6-2
+p.S166L	p.Ser166Leu	0.040	NA	NA	Uncertain significance	DBD, L2 loop, H1 helix	relative exposed (76.9)	weak (-270% cells die at 32℃)	likely non structural	6-1	6-2
+p.Q167H	p.Glyln167His	0.040	NA	NA	NA	DBD, L2 loop, H1 helix	relative exposed (67.1)	intermediate (17% cells die at 32℃)	likely non structural	6-1	6-2
+p.Q167R	p.Glyln167Arg	0.033	NA	NA	NA	DBD, L2 loop, H1 helix	relative exposed (67.1)	weak (-3% cells die at 32℃)	likely non structural	6-1	6-2
+p.Q167L	p.Glyln167Leu	0.013	NA	NA	NA	DBD, L2 loop, H1 helix	relative exposed (67.1)	intermediate (9% cells die at 32℃)	likely non structural	6-1	6-2
+p.H168P	p.His168Pro	0.047	NA	0.009	NA	DBD, L2 loop, H1 helix	relative buried (28.3)	strong (57% cells die at 32℃)	structural	6-1	6-2
+p.H168R	p.His168Arg	0.080	0.022	0.018	Likely pathogenic	DBD, L2 loop, H1 helix	relative buried (28.3)	strong (50% cells die at 32℃)	structural	6-1	6-2
+p.H168L	p.His168Leu	0.030	0.157	0.018	NA	DBD, L2 loop, H1 helix	relative buried (28.3)	strong (61% cells die at 32℃)	structural	6-1	6-2
+p.H168Y	p.His168Tyr	0.054	NA	NA	NA	DBD, L2 loop, H1 helix	relative buried (28.3)	intermediate (5% cells die at 32℃)	structural	6-1	6-2
+p.M169T	p.Met169Thr	0.017	NA	0.009	NA	DBD, L2 loop, long loop	relative buried (21.2)	weak (-128% cells die at 32℃)	structural	6-1	6-2
+p.M169I	p.Met169Ile	0.054	NA	0.018	NA	DBD, L2 loop, long loop	relative buried (21.2)	weak (-82% cells die at 32℃)	structural	6-1	6-2
+p.M169V	p.Met169Val	0.027	NA	NA	NA	DBD, L2 loop, long loop	relative buried (21.2)	weak (-12% cells die at 32℃)	structural	6-1	6-2
+p.T170M	p.Thr170Met	0.043	0.022	NA	Uncertain significance	DBD, L2 loop, long loop	relative exposed (65.9)	weak (-50% cells die at 32℃)	likely non structural	6-1	6-2
+p.T170A	p.Thr170Ala	0.023	NA	NA	Uncertain significance	DBD, L2 loop, long loop	relative exposed (65.9)	weak (-69% cells die at 32℃)	likely non structural	6-1	6-2
+p.T170S	p.Thr170Ser	0.010	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (65.9)	weak (-57% cells die at 32℃)	likely non structural	6-1	6-2
+p.E171K	p.Glylu171Lys	0.033	NA	0.027	Uncertain significance	DBD, L2 loop, long loop	relative exposed (45.3)	weak (-48% cells die at 32℃)	likely structural	7-1	7-2
+p.E171Q	p.Glylu171Glyln	0.013	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (45.3)	weak (-63% cells die at 32℃)	likely structural	7-1	7-2
+p.E171D	p.Glylu171Asp	0.010	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (45.3)	weak (-70% cells die at 32℃)	likely structural	7-1	7-2
+p.E171G	p.Glylu171Gly	0.033	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (45.3)	strong (65% cells die at 32℃)	likely structural	7-1	7-2
+p.V172I	p.Val172Ile	0.043	0.022	NA	NA	DBD, L2 loop, long loop	relative buried (24.5)	weak (-111% cells die at 32℃)	structural	7-1	7-2
+p.V172D	p.Val172Asp	0.040	NA	0.018	NA	DBD, L2 loop, long loop	relative buried (24.5)	intermediate (17% cells die at 32℃)	structural	7-1	7-2
+p.V172A	p.Val172Ala	0.040	NA	NA	Uncertain significance	DBD, L2 loop, long loop	relative buried (24.5)	weak (-12% cells die at 32℃)	structural	7-1	7-2
+p.V172G	p.Val172Gly	0.017	NA	0.018	Uncertain significance	DBD, L2 loop, long loop	relative buried (24.5)	strong (73% cells die at 32℃)	structural	7-1	7-2
+p.V172F	p.Val172Prohe	0.067	0.045	0.027	Likely pathogenic	DBD, L2 loop, long loop	relative buried (24.5)	strong (64% cells die at 32℃)	structural	7-1	7-2
+p.V173M	p.Val173Met	0.261	0.224	0.119	Pathogenic/Likely pathogenic	DBD, L2 loop, long loop	relative buried (6.1)	weak (-9% cells die at 32℃)	structural	7-1	7-2
+p.V173L	p.Val173Leu	0.311	NA	0.119	Likely pathogenic	DBD, L2 loop, long loop	relative buried (6.1)	weak (-37% cells die at 32℃)	structural	7-1	7-2
+p.V173E	p.Val173Glylu	0.013	NA	NA	Likely pathogenic	DBD, L2 loop, long loop	relative buried (6.1)	strong (28% cells die at 32℃)	structural	7-1	7-2
+p.V173A	p.Val173Ala	0.064	0.045	0.009	NA	DBD, L2 loop, long loop	relative buried (6.1)	strong (71% cells die at 32℃)	structural	7-1	7-2
+p.V173G	p.Val173Gly	0.054	0.022	0.018	NA	DBD, L2 loop, long loop	relative buried (6.1)	weak (0% cells die at 32℃)	structural	7-1	7-2
+p.R174K	p.Arg174Lys	0.030	NA	NA	Uncertain significance	DBD, L2 loop, long loop	relative exposed (40.8)	weak (-89% cells die at 32℃)	likely structural	7-1	7-2
+p.R174S	p.Arg174Ser	0.033	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (40.8)	strong (27% cells die at 32℃)	likely structural	7-1	7-2
+p.R174G	p.Arg174Gly	0.013	0.135	NA	Uncertain significance	DBD, L2 loop, long loop	relative exposed (40.8)	strong (36% cells die at 32℃)	likely structural	7-1	7-2
+p.R174W	p.Arg174Trp	0.054	NA	0.018	NA	DBD, L2 loop, long loop	relative exposed (40.8)	strong (21% cells die at 32℃)	likely structural	7-1	7-2
+p.R175S	p.Arg175Ser	0.033	NA	NA	NA	DBD, L2 loop, long loop	relative buried (6.5)	intermediate (10% cells die at 32℃)	structural	7-1	7-2
+p.R175H	p.Arg175His	4.085	4.018	1.369	Pathogenic	DBD, L2 loop, long loop	relative buried (6.5)	intermediate (8% cells die at 32℃)	structural	7-1	7-2
+p.R175P	p.Arg175Pro	0.027	NA	NA	NA	DBD, L2 loop, long loop	relative buried (6.5)	strong (47% cells die at 32℃)	structural	7-1	7-2
+p.R175L	p.Arg175Leu	0.100	0.112	0.009	Likely pathogenic	DBD, L2 loop, long loop	relative buried (6.5)	strong (69% cells die at 32℃)	structural	7-1	7-2
+p.R175G	p.Arg175Gly	0.080	0.269	0.082	Pathogenic/Likely pathogenic	DBD, L2 loop, long loop	relative buried (6.5)	strong (45% cells die at 32℃)	structural	7-1	7-2
+p.R175C	p.Arg175Cys	0.097	0.112	0.064	Uncertain significance	DBD, L2 loop, long loop	relative buried (6.5)	intermediate (14% cells die at 32℃)	structural	7-1	7-2
+p.C176S	p.Cys176Ser	0.120	NA	0.018	Uncertain significance	DBD, L2 loop, long loop	relative buried (4.1)	strong (25% cells die at 32℃)	structural	7-1	7-2
+p.C176R	p.Cys176Arg	0.050	NA	0.009	NA	DBD, L2 loop, long loop	relative buried (4.1)	strong (43% cells die at 32℃)	structural	7-1	7-2
+p.C176G	p.Cys176Gly	0.023	0.022	0.009	NA	DBD, L2 loop, long loop	relative buried (4.1)	intermediate (8% cells die at 32℃)	structural	7-1	7-2
+p.C176Y	p.Cys176Tyr	0.345	0.022	0.173	Conflicting interpretations of pathogenicity	DBD, L2 loop, long loop	relative buried (4.1)	intermediate (6% cells die at 32℃)	structural	7-1	7-2
+p.C176W	p.Cys176Trp	0.070	NA	0.018	Uncertain significance	DBD, L2 loop, long loop	relative buried (4.1)	weak (-17% cells die at 32℃)	structural	7-1	7-2
+p.C176F	p.Cys176Prohe	0.689	NA	0.228	NA	DBD, L2 loop, long loop	relative buried (4.1)	intermediate (16% cells die at 32℃)	structural	7-1	7-2
+p.P177T	p.Pro177Thr	0.010	NA	0.009	Uncertain significance	DBD, L2 loop, long loop	relative exposed (64.1)	strong (28% cells die at 32℃)	likely non structural	7-1	7-2
+p.P177H	p.Pro177His	0.020	NA	0.009	NA	DBD, L2 loop, long loop	relative exposed (64.1)	intermediate (2% cells die at 32℃)	likely non structural	7-1	7-2
+p.P177R	p.Pro177Arg	0.064	0.202	0.037	Conflicting interpretations of pathogenicity	DBD, L2 loop, long loop	relative exposed (64.1)	weak (0% cells die at 32℃)	likely non structural	7-1	7-2
+p.P177L	p.Pro177Leu	0.127	NA	0.018	Uncertain significance	DBD, L2 loop, long loop	relative exposed (64.1)	strong (36% cells die at 32℃)	likely non structural	7-1	7-2
+p.P177S	p.Pro177Ser	0.064	NA	0.009	NA	DBD, L2 loop, long loop	relative exposed (64.1)	strong (24% cells die at 32℃)	likely non structural	7-1	7-2
+p.P177F	p.Pro177Prohe	0.010	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (64.1)	intermediate (14% cells die at 32℃)	likely non structural	7-1	7-2
+p.H178N	p.His178Asn	0.023	NA	NA	Uncertain significance	DBD, L2 loop, long loop	relative exposed (60.5)	weak (-3% cells die at 32℃)	likely non structural	7-1	7-2
+p.H178Q	p.His178Glyln	0.020	0.022	0.018	NA	DBD, L2 loop, long loop	relative exposed (60.5)	weak (0% cells die at 32℃)	likely non structural	7-1	7-2
+p.H178P	p.His178Pro	0.040	NA	NA	Likely pathogenic	DBD, L2 loop, long loop	relative exposed (60.5)	intermediate (14% cells die at 32℃)	likely non structural	7-1	7-2
+p.H178R	p.His178Arg	0.013	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (60.5)	strong (21% cells die at 32℃)	likely non structural	7-1	7-2
+p.H178D	p.His178Asp	0.030	0.090	0.009	Likely pathogenic	DBD, L2 loop, long loop	relative exposed (60.5)	weak (-30% cells die at 32℃)	likely non structural	7-1	7-2
+p.H178Y	p.His178Tyr	0.047	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (60.5)	weak (-10% cells die at 32℃)	likely non structural	7-1	7-2
+p.H179N	p.His179Asn	0.084	NA	0.037	Likely pathogenic	DBD, L2 loop, long loop	relative buried (27.5)	intermediate (12% cells die at 32℃)	structural	7-1	7-2
+p.H179Q	p.His179Glyln	0.100	0.090	0.018	NA	DBD, L2 loop, long loop	relative buried (27.5)	weak (-44% cells die at 32℃)	structural	7-1	7-2
+p.H179P	p.His179Pro	0.020	NA	0.009	NA	DBD, L2 loop, long loop	relative buried (27.5)	strong (33% cells die at 32℃)	structural	7-1	7-2
+p.H179R	p.His179Arg	0.585	0.045	0.356	Uncertain significance	DBD, L2 loop, long loop	relative buried (27.5)	intermediate (9% cells die at 32℃)	structural	7-1	7-2
+p.H179L	p.His179Leu	0.157	NA	0.027	NA	DBD, L2 loop, long loop	relative buried (27.5)	weak (0% cells die at 32℃)	structural	7-1	7-2
+p.H179D	p.His179Asp	0.080	0.022	0.046	NA	DBD, L2 loop, long loop	relative buried (27.5)	weak (-1% cells die at 32℃)	structural	7-1	7-2
+p.H179Y	p.His179Tyr	0.448	0.471	0.137	Pathogenic/Likely pathogenic	DBD, L2 loop, long loop	relative buried (27.5)	strong (31% cells die at 32℃)	structural	7-1	7-2
+p.E180K	p.Glylu180Lys	0.043	0.157	0.018	Likely pathogenic	DBD, L2 loop, long loop	relative exposed (30.9)	strong (22% cells die at 32℃)	likely structural	7-1	7-2
+p.E180D	p.Glylu180Asp	0.010	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (30.9)	intermediate (6% cells die at 32℃)	likely structural	7-1	7-2
+p.E180G	p.Glylu180Gly	0.013	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (30.9)	intermediate (6% cells die at 32℃)	likely structural	7-1	7-2
+p.R181H	p.Arg181His	0.110	0.471	0.037	Pathogenic/Likely pathogenic	DBD, L2 loop, long loop	relative exposed (82.3)	intermediate (3% cells die at 32℃)	likely non structural	8-1	8-2
+p.R181P	p.Arg181Pro	0.080	0.022	0.009	NA	DBD, L2 loop, long loop	relative exposed (82.3)	weak (-21% cells die at 32℃)	likely non structural	8-1	8-2
+p.R181L	p.Arg181Leu	0.023	0.045	NA	risk factor	DBD, L2 loop, long loop	relative exposed (82.3)	weak (-153% cells die at 32℃)	likely non structural	8-1	8-2
+p.R181G	p.Arg181Gly	0.010	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (82.3)	strong (27% cells die at 32℃)	likely non structural	8-1	8-2
+p.R181C	p.Arg181Cys	0.107	1.459	0.018	Conflicting interpretations of pathogenicity	DBD, L2 loop, long loop	relative exposed (82.3)	intermediate (8% cells die at 32℃)	likely non structural	8-1	8-2
+p.C182S	p.Cys182Ser	0.030	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (54.8)	weak (-16% cells die at 32℃)	likely structural	8-1	8-2
+p.C182R	p.Cys182Arg	0.017	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (54.8)	intermediate (9% cells die at 32℃)	likely structural	8-1	8-2
+p.C182Y	p.Cys182Tyr	0.013	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (54.8)	intermediate (11% cells die at 32℃)	likely structural	8-1	8-2
+p.S183P	p.Ser183Pro	0.013	NA	NA	NA	DBD, L2 loop, long loop	relative buried (27.7)	intermediate (7% cells die at 32℃)	structural	8-1	8-2
+p.S183L	p.Ser183Leu	0.017	NA	NA	Uncertain significance	DBD, L2 loop, long loop	relative buried (27.7)	weak (-47% cells die at 32℃)	structural	8-1	8-2
+p.D184N	p.Asp184Asn	0.107	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (63.3)	weak (-41% cells die at 32℃)	likely non structural	8-1	8-2
+p.D184H	p.Asp184His	0.017	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (63.3)	weak (-370% cells die at 32℃)	likely non structural	8-1	8-2
+p.D184G	p.Asp184Gly	0.010	NA	NA	Uncertain significance	DBD, L2 loop, long loop	relative exposed (63.3)	weak (-5% cells die at 32℃)	likely non structural	8-1	8-2
+p.D184Y	p.Asp184Tyr	0.023	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (63.3)	intermediate (2% cells die at 32℃)	likely non structural	8-1	8-2
+p.S185I	p.Ser185Ile	0.010	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (52.7)	weak (-65% cells die at 32℃)	likely structural	8-1	8-2
+p.S185R	p.Ser185Arg	0.033	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (52.7)	weak (-195% cells die at 32℃)	likely structural	8-1	8-2
+p.D186N	p.Asp186Asn	0.017	NA	NA	Uncertain significance	DBD, L2 loop, long loop	relative exposed (55.5)	weak (-16% cells die at 32℃)	likely structural	8-1	8-2
+p.D186H	p.Asp186His	0.013	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (55.5)	weak (-120% cells die at 32℃)	likely structural	8-1	8-2
+p.D186G	p.Asp186Gly	0.010	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (55.5)	weak (-90% cells die at 32℃)	likely structural	8-1	8-2
+p.G187S	p.Gly187Ser	0.060	NA	0.018	NA	DBD, L2 loop, long loop	relative exposed (95.2)	intermediate (12% cells die at 32℃)	likely non structural	8-1	8-2
+p.G187R	p.Gly187Arg	0.013	0.067	NA	NA	DBD, L2 loop, long loop	relative exposed (95.2)	weak (-92% cells die at 32℃)	likely non structural	8-1	8-2
+p.G187D	p.Gly187Asp	0.027	NA	NA	Uncertain significance	DBD, L2 loop, long loop	relative exposed (95.2)	intermediate (9% cells die at 32℃)	likely non structural	8-1	8-2
+p.G187V	p.Gly187Val	0.013	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (95.2)	weak (-47% cells die at 32℃)	likely non structural	8-1	8-2
+p.G187C	p.Gly187Cys	0.020	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (95.2)	strong (25% cells die at 32℃)	likely non structural	8-1	8-2
+p.L188V	p.Leu188Val	0.013	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (42.3)	weak (-266% cells die at 32℃)	likely structural	8-1	8-2
+p.A189T	p.Ala189Thr	0.017	NA	NA	NA	DBD, L2 loop, long loop	relative buried (3.6)	weak (-12% cells die at 32℃)	structural	8-1	8-2
+p.A189P	p.Ala189Pro	0.017	NA	NA	NA	DBD, L2 loop, long loop	relative buried (3.6)	strong (47% cells die at 32℃)	structural	8-1	8-2
+p.A189V	p.Ala189Val	0.057	0.112	NA	Uncertain significance	DBD, L2 loop, long loop	relative buried (3.6)	weak (-7% cells die at 32℃)	structural	8-1	8-2
+p.P190T	p.Pro190Thr	0.020	NA	NA	Uncertain significance	DBD, L2 loop, long loop	relative buried (23)	strong (68% cells die at 32℃)	structural	8-1	8-2
+p.P190R	p.Pro190Arg	0.020	0.202	0.009	Uncertain significance	DBD, L2 loop, long loop	relative buried (23)	strong (54% cells die at 32℃)	structural	8-1	8-2
+p.P190L	p.Pro190Leu	0.174	0.180	0.064	Uncertain significance	DBD, L2 loop, long loop	relative buried (23)	strong (64% cells die at 32℃)	structural	8-1	8-2
+p.P190A	p.Pro190Ala	0.010	NA	NA	NA	DBD, L2 loop, long loop	relative buried (23)	strong (58% cells die at 32℃)	structural	8-1	8-2
+p.P190S	p.Pro190Ser	0.047	NA	NA	NA	DBD, L2 loop, long loop	relative buried (23)	strong (63% cells die at 32℃)	structural	8-1	8-2
+p.P191T	p.Pro191Thr	0.013	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (43.9)	weak (-81% cells die at 32℃)	likely structural	NA	NA
+p.P191R	p.Pro191Arg	0.010	NA	NA	Uncertain significance	DBD, L2 loop, long loop	relative exposed (43.9)	weak (-80% cells die at 32℃)	likely structural	NA	NA
+p.P191L	p.Pro191Leu	0.023	NA	0.009	NA	DBD, L2 loop, long loop	relative exposed (43.9)	weak (-8% cells die at 32℃)	likely structural	NA	NA
+p.P191S	p.Pro191Ser	0.017	NA	NA	NA	DBD, L2 loop, long loop	relative exposed (43.9)	weak (-86% cells die at 32℃)	likely structural	NA	NA
+p.Q192H	p.Glyln192His	0.027	NA	NA	NA	DBD, L2 loop, long loop	relative buried (21.1)	weak (-97% cells die at 32℃)	structural	NA	NA
+p.Q192R	p.Glyln192Arg	0.037	NA	0.009	Uncertain significance	DBD, L2 loop, long loop	relative buried (21.1)	weak (-14% cells die at 32℃)	structural	NA	NA
+p.Q192L	p.Glyln192Leu	0.010	NA	NA	NA	DBD, L2 loop, long loop	relative buried (21.1)	weak (-93% cells die at 32℃)	structural	NA	NA
+p.H193N	p.His193Asn	0.013	NA	0.027	NA	DBD, L2 loop, long loop	relative buried (1.9)	strong (50% cells die at 32℃)	structural	NA	NA
+p.H193Q	p.His193Glyln	0.013	NA	NA	NA	DBD, L2 loop, long loop	relative buried (1.9)	strong (67% cells die at 32℃)	structural	NA	NA
+p.H193P	p.His193Pro	0.064	0.157	0.064	NA	DBD, L2 loop, long loop	relative buried (1.9)	weak (-11% cells die at 32℃)	structural	NA	NA
+p.H193R	p.His193Arg	0.338	0.337	0.265	Conflicting interpretations of pathogenicity	DBD, L2 loop, long loop	relative buried (1.9)	intermediate (16% cells die at 32℃)	structural	NA	NA
+p.H193L	p.His193Leu	0.221	NA	0.100	Likely pathogenic	DBD, L2 loop, long loop	relative buried (1.9)	intermediate (11% cells die at 32℃)	structural	NA	NA
+p.H193D	p.His193Asp	0.050	0.045	0.009	Likely pathogenic	DBD, L2 loop, long loop	relative buried (1.9)	intermediate (3% cells die at 32℃)	structural	NA	NA
+p.H193Y	p.His193Tyr	0.144	0.112	0.119	Likely pathogenic	DBD, L2 loop, long loop	relative buried (1.9)	strong (34% cells die at 32℃)	structural	NA	NA
+p.L194I	p.Leu194Ile	0.020	NA	NA	NA	DBD, L2 loop, long loop	relative buried (3.1)	weak (-82% cells die at 32℃)	structural	NA	NA
+p.L194H	p.Leu194His	0.020	NA	0.027	Uncertain significance	DBD, L2 loop, long loop	relative buried (3.1)	weak (0% cells die at 32℃)	structural	NA	NA
+p.L194P	p.Leu194Pro	0.050	NA	0.018	Uncertain significance	DBD, L2 loop, long loop	relative buried (3.1)	weak (-1% cells die at 32℃)	structural	NA	NA
+p.L194R	p.Leu194Arg	0.231	NA	0.146	Uncertain significance	DBD, L2 loop, long loop	relative buried (3.1)	intermediate (4% cells die at 32℃)	structural	NA	NA
+p.L194V	p.Leu194Val	0.010	NA	NA	NA	DBD, L2 loop, long loop	relative buried (3.1)	weak (-21% cells die at 32℃)	structural	NA	NA
+p.L194F	p.Leu194Prohe	0.097	0.067	0.018	Likely pathogenic	DBD, L2 loop, long loop	relative buried (3.1)	strong (22% cells die at 32℃)	structural	NA	NA
+p.I195N	p.Ile195Asn	0.070	0.067	0.037	NA	DBD, L2 loop, S5 sheet	relative buried (5.3)	weak (-1% cells die at 32℃)	structural	NA	NA
+p.I195T	p.Ile195Thr	0.361	0.314	0.201	Pathogenic	DBD, L2 loop, S5 sheet	relative buried (5.3)	intermediate (18% cells die at 32℃)	structural	NA	NA
+p.I195S	p.Ile195Ser	0.023	NA	0.027	NA	DBD, L2 loop, S5 sheet	relative buried (5.3)	intermediate (12% cells die at 32℃)	structural	NA	NA
+p.I195F	p.Ile195Prohe	0.114	NA	0.073	NA	DBD, L2 loop, S5 sheet	relative buried (5.3)	strong (21% cells die at 32℃)	structural	NA	NA
+p.R196Q	p.Arg196Glyln	0.033	0.090	NA	Uncertain significance	DBD, β-sandwich, S5 sheet	relative buried (5.4)	weak (-15% cells die at 32℃)	structural	NA	NA
+p.R196P	p.Arg196Pro	0.067	0.090	0.027	Likely pathogenic	DBD, β-sandwich, S5 sheet	relative buried (5.4)	intermediate (19% cells die at 32℃)	structural	NA	NA
+p.R196G	p.Arg196Gly	0.010	NA	NA	Uncertain significance	DBD, β-sandwich, S5 sheet	relative buried (5.4)	strong (69% cells die at 32℃)	structural	NA	NA
+p.V197M	p.Val197Met	0.037	0.112	0.009	Uncertain significance	DBD, β-sandwich, S5 sheet	relative buried (3.9)	strong (55% cells die at 32℃)	structural	NA	NA
+p.V197L	p.Val197Leu	0.017	0.022	0.018	Uncertain significance	DBD, β-sandwich, S5 sheet	relative buried (3.9)	strong (71% cells die at 32℃)	structural	NA	NA
+p.V197E	p.Val197Glylu	0.027	0.112	NA	NA	DBD, β-sandwich, S5 sheet	relative buried (3.9)	weak (-29% cells die at 32℃)	structural	NA	NA
+p.V197A	p.Val197Ala	0.003	NA	NA	NA	DBD, β-sandwich, S5 sheet	relative buried (3.9)	weak (-18% cells die at 32℃)	structural	NA	NA
+p.V197G	p.Val197Gly	0.074	NA	0.027	NA	DBD, β-sandwich, S5 sheet	relative buried (3.9)	strong (46% cells die at 32℃)	structural	NA	NA
+p.E198K	p.Glylu198Lys	0.057	NA	NA	NA	DBD, β-sandwich, S5 sheet	relative exposed (40.5)	intermediate (5% cells die at 32℃)	likely structural	NA	NA
+p.E198G	p.Glylu198Gly	0.017	NA	NA	NA	DBD, β-sandwich, S5 sheet	relative exposed (40.5)	weak (-6% cells die at 32℃)	likely structural	NA	NA
+p.G199R	p.Gly199Arg	0.043	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (104.5)	intermediate (1% cells die at 32℃)	likely non structural	NA	NA
+p.G199E	p.Gly199Glylu	0.050	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (104.5)	intermediate (11% cells die at 32℃)	likely non structural	NA	NA
+p.G199V	p.Gly199Val	0.033	0.067	0.046	Likely pathogenic	DBD, β-sandwich, short loop	relative exposed (104.5)	strong (54% cells die at 32℃)	likely non structural	NA	NA
+p.N200S	p.Asn200Ser	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (32.2)	weak (-64% cells die at 32℃)	likely structural	NA	NA
+p.L201F	p.Leu201Prohe	0.033	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (92.2)	weak (-249% cells die at 32℃)	likely non structural	NA	NA
+p.R202S	p.Arg202Ser	0.030	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (70.6)	weak (-3% cells die at 32℃)	likely non structural	NA	NA
+p.R202H	p.Arg202His	0.040	NA	NA	Conflicting interpretations of pathogenicity	DBD, β-sandwich, short loop	relative exposed (70.6)	intermediate (4% cells die at 32℃)	likely non structural	NA	NA
+p.R202P	p.Arg202Pro	0.017	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (70.6)	weak (-36% cells die at 32℃)	likely non structural	NA	NA
+p.R202L	p.Arg202Leu	0.017	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (70.6)	weak (-135% cells die at 32℃)	likely non structural	NA	NA
+p.R202G	p.Arg202Gly	0.010	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (70.6)	weak (-304% cells die at 32℃)	likely non structural	NA	NA
+p.R202C	p.Arg202Cys	0.033	0.135	NA	Conflicting interpretations of pathogenicity	DBD, β-sandwich, short loop	relative exposed (70.6)	strong (20% cells die at 32℃)	likely non structural	NA	NA
+p.V203M	p.Val203Met	0.013	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative buried (7.8)	strong (42% cells die at 32℃)	structural	NA	NA
+p.V203L	p.Val203Leu	0.037	NA	0.009	Uncertain significance	DBD, β-sandwich, short loop	relative buried (7.8)	strong (81% cells die at 32℃)	structural	NA	NA
+p.V203E	p.Val203Glylu	0.033	NA	NA	NA	DBD, β-sandwich, short loop	relative buried (7.8)	strong (67% cells die at 32℃)	structural	NA	NA
+p.V203A	p.Val203Ala	0.020	NA	NA	NA	DBD, β-sandwich, short loop	relative buried (7.8)	intermediate (3% cells die at 32℃)	structural	NA	NA
+p.E204K	p.Glylu204Lys	0.020	NA	NA	NA	DBD, β-sandwich, S6 sheet	relative exposed (43.5)	weak (-4% cells die at 32℃)	likely structural	NA	NA
+p.E204A	p.Glylu204Ala	0.013	NA	NA	NA	DBD, β-sandwich, S6 sheet	relative exposed (43.5)	weak (-99% cells die at 32℃)	likely structural	NA	NA
+p.Y205N	p.Tyr205Asn	0.013	NA	0.027	Uncertain significance	DBD, β-sandwich, S6 sheet	relative buried (16.2)	weak (-8% cells die at 32℃)	structural	NA	NA
+p.Y205H	p.Tyr205His	0.043	NA	0.027	Likely pathogenic	DBD, β-sandwich, S6 sheet	relative buried (16.2)	strong (38% cells die at 32℃)	structural	NA	NA
+p.Y205D	p.Tyr205Asp	0.064	0.045	0.009	Uncertain significance	DBD, β-sandwich, S6 sheet	relative buried (16.2)	intermediate (10% cells die at 32℃)	structural	NA	NA
+p.Y205S	p.Tyr205Ser	0.067	NA	0.037	NA	DBD, β-sandwich, S6 sheet	relative buried (16.2)	weak (-30% cells die at 32℃)	structural	NA	NA
+p.Y205C	p.Tyr205Cys	0.411	0.067	0.183	NA	DBD, β-sandwich, S6 sheet	relative buried (16.2)	weak (-4% cells die at 32℃)	structural	NA	NA
+p.Y205F	p.Tyr205Prohe	0.033	NA	0.009	NA	DBD, β-sandwich, S6 sheet	relative buried (16.2)	strong (67% cells die at 32℃)	structural	NA	NA
+p.D207N	p.Asp207Asn	0.020	NA	NA	NA	DBD, β-sandwich, S6 sheet	relative exposed (35.4)	intermediate (20% cells die at 32℃)	likely structural	NA	NA
+p.D207G	p.Asp207Gly	0.010	0.022	NA	NA	DBD, β-sandwich, S6 sheet	relative exposed (35.4)	strong (37% cells die at 32℃)	likely structural	NA	NA
+p.D208N	p.Asp208Asn	0.027	NA	0.009	NA	DBD, β-sandwich, short loop	relative exposed (36.6)	strong (25% cells die at 32℃)	likely structural	NA	NA
+p.D208E	p.Asp208Glylu	0.017	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (36.6)	weak (-22% cells die at 32℃)	likely structural	NA	NA
+p.D208G	p.Asp208Gly	0.020	NA	0.018	NA	DBD, β-sandwich, short loop	relative exposed (36.6)	strong (53% cells die at 32℃)	likely structural	NA	NA
+p.D208V	p.Asp208Val	0.064	NA	0.009	NA	DBD, β-sandwich, short loop	relative exposed (36.6)	intermediate (14% cells die at 32℃)	likely structural	NA	NA
+p.R209K	p.Arg209Lys	0.033	NA	0.009	NA	DBD, β-sandwich, short loop	relative exposed (88.2)	weak (-117% cells die at 32℃)	likely non structural	NA	NA
+p.R209T	p.Arg209Thr	0.020	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (88.2)	weak (-162% cells die at 32℃)	likely non structural	NA	NA
+p.N210S	p.Asn210Ser	0.023	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (87.1)	strong (26% cells die at 32℃)	likely non structural	NA	NA
+p.N210H	p.Asn210His	0.013	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (87.1)	weak (-136% cells die at 32℃)	likely non structural	NA	NA
+p.N210D	p.Asn210Asp	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (87.1)	weak (-9% cells die at 32℃)	likely non structural	NA	NA
+p.T211N	p.Thr211Asn	0.013	NA	NA	NA	DBD, β-sandwich, short loop	relative buried (24.7)	weak (-78% cells die at 32℃)	structural	NA	NA
+p.T211I	p.Thr211Ile	0.070	NA	0.037	NA	DBD, β-sandwich, short loop	relative buried (24.7)	strong (70% cells die at 32℃)	structural	NA	NA
+p.T211A	p.Thr211Ala	0.023	NA	0.009	Uncertain significance	DBD, β-sandwich, short loop	relative buried (24.7)	strong (66% cells die at 32℃)	structural	NA	NA
+p.F212I	p.Prohe212Ile	0.010	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (69)	strong (66% cells die at 32℃)	likely non structural	NA	NA
+p.F212L	p.Prohe212Leu	0.023	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (69)	weak (-58% cells die at 32℃)	likely non structural	NA	NA
+p.F212Y	p.Prohe212Tyr	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (69)	weak (-156% cells die at 32℃)	likely non structural	NA	NA
+p.F212S	p.Prohe212Ser	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (69)	weak (-59% cells die at 32℃)	likely non structural	NA	NA
+p.R213Q	p.Arg213Glyln	0.137	1.773	0.082	Pathogenic	DBD, β-sandwich, short loop	relative buried (3.6)	intermediate (7% cells die at 32℃)	structural	NA	NA
+p.R213P	p.Arg213Pro	0.027	0.247	0.018	Pathogenic/Likely pathogenic	DBD, β-sandwich, short loop	relative buried (3.6)	strong (65% cells die at 32℃)	structural	NA	NA
+p.R213L	p.Arg213Leu	0.137	0.022	0.046	NA	DBD, β-sandwich, short loop	relative buried (3.6)	strong (51% cells die at 32℃)	structural	NA	NA
+p.R213G	p.Arg213Gly	0.017	NA	0.009	NA	DBD, β-sandwich, short loop	relative buried (3.6)	strong (51% cells die at 32℃)	structural	NA	NA
+p.R213W	p.Arg213Trp	NA	NA	NA	NA	DBD, β-sandwich, short loop	relative buried (3.6)	strong (43% cells die at 32℃)	structural	NA	NA
+p.H214Q	p.His214Glyln	0.020	0.022	NA	Conflicting interpretations of pathogenicity	DBD, β-sandwich, S7 sheet	relative buried (9.6)	weak (-57% cells die at 32℃)	structural	NA	NA
+p.H214R	p.His214Arg	0.284	0.067	0.155	Conflicting interpretations of pathogenicity	DBD, β-sandwich, S7 sheet	relative buried (9.6)	strong (69% cells die at 32℃)	structural	NA	NA
+p.H214D	p.His214Asp	0.013	NA	NA	NA	DBD, β-sandwich, S7 sheet	relative buried (9.6)	strong (64% cells die at 32℃)	structural	NA	NA
+p.H214Y	p.His214Tyr	0.037	NA	NA	NA	DBD, β-sandwich, S7 sheet	relative buried (9.6)	strong (68% cells die at 32℃)	structural	NA	NA
+p.S215N	p.Ser215Asn	0.067	NA	0.027	Likely pathogenic	DBD, β-sandwich, S7 sheet	relative buried (2.4)	strong (71% cells die at 32℃)	structural	NA	NA
+p.S215T	p.Ser215Thr	0.013	NA	NA	Uncertain significance	DBD, β-sandwich, S7 sheet	relative buried (2.4)	strong (74% cells die at 32℃)	structural	NA	NA
+p.S215R	p.Ser215Arg	0.104	0.022	0.037	Uncertain significance	DBD, β-sandwich, S7 sheet	relative buried (2.4)	intermediate (8% cells die at 32℃)	structural	NA	NA
+p.S215I	p.Ser215Ile	0.090	NA	0.055	NA	DBD, β-sandwich, S7 sheet	relative buried (2.4)	strong (56% cells die at 32℃)	structural	NA	NA
+p.S215G	p.Ser215Gly	0.047	0.022	0.037	Likely pathogenic	DBD, β-sandwich, S7 sheet	relative buried (2.4)	strong (56% cells die at 32℃)	structural	NA	NA
+p.S215C	p.Ser215Cys	0.030	NA	NA	NA	DBD, β-sandwich, S7 sheet	relative buried (2.4)	strong (58% cells die at 32℃)	structural	NA	NA
+p.V216M	p.Val216Met	0.278	0.112	0.128	Conflicting interpretations of pathogenicity	DBD, β-sandwich, S7 sheet	relative buried (1.3)	weak (-10% cells die at 32℃)	structural	NA	NA
+p.V216L	p.Val216Leu	0.054	NA	0.037	NA	DBD, β-sandwich, S7 sheet	relative buried (1.3)	strong (54% cells die at 32℃)	structural	NA	NA
+p.V216E	p.Val216Glylu	0.023	NA	0.018	NA	DBD, β-sandwich, S7 sheet	relative buried (1.3)	intermediate (4% cells die at 32℃)	structural	NA	NA
+p.V216A	p.Val216Ala	0.013	NA	NA	NA	DBD, β-sandwich, S7 sheet	relative buried (1.3)	weak (-40% cells die at 32℃)	structural	NA	NA
+p.V216G	p.Val216Gly	0.017	NA	0.009	NA	DBD, β-sandwich, S7 sheet	relative buried (1.3)	intermediate (13% cells die at 32℃)	structural	NA	NA
+p.V217M	p.Val217Met	0.013	NA	NA	Uncertain significance	DBD, β-sandwich, S7 sheet	relative buried (1.5)	weak (-85% cells die at 32℃)	structural	NA	NA
+p.V217L	p.Val217Leu	0.017	NA	NA	NA	DBD, β-sandwich, S7 sheet	relative buried (1.5)	weak (-185% cells die at 32℃)	structural	NA	NA
+p.V217E	p.Val217Glylu	0.017	NA	NA	NA	DBD, β-sandwich, S7 sheet	relative buried (1.5)	strong (61% cells die at 32℃)	structural	NA	NA
+p.V217A	p.Val217Ala	0.020	NA	NA	NA	DBD, β-sandwich, S7 sheet	relative buried (1.5)	weak (-27% cells die at 32℃)	structural	NA	NA
+p.V217G	p.Val217Gly	0.020	NA	NA	NA	DBD, β-sandwich, S7 sheet	relative buried (1.5)	strong (40% cells die at 32℃)	structural	NA	NA
+p.V218M	p.Val218Met	0.057	0.022	NA	Pathogenic	DBD, β-sandwich, S7 sheet	relative buried (1.7)	strong (59% cells die at 32℃)	structural	NA	NA
+p.V218L	p.Val218Leu	0.013	NA	NA	NA	DBD, β-sandwich, S7 sheet	relative buried (1.7)	strong (48% cells die at 32℃)	structural	NA	NA
+p.V218E	p.Val218Glylu	0.037	NA	0.009	NA	DBD, β-sandwich, S7 sheet	relative buried (1.7)	intermediate (3% cells die at 32℃)	structural	NA	NA
+p.V218A	p.Val218Ala	0.027	NA	NA	NA	DBD, β-sandwich, S7 sheet	relative buried (1.7)	intermediate (19% cells die at 32℃)	structural	NA	NA
+p.V218G	p.Val218Gly	0.043	NA	0.027	Uncertain significance	DBD, β-sandwich, S7 sheet	relative buried (1.7)	intermediate (8% cells die at 32℃)	structural	NA	NA
+p.P219L	p.Pro219Leu	0.030	NA	NA	NA	DBD, β-sandwich, S7 sheet	relative buried (20.5)	strong (39% cells die at 32℃)	structural	NA	NA
+p.P219S	p.Pro219Ser	0.027	0.045	NA	Conflicting interpretations of pathogenicity	DBD, β-sandwich, S7 sheet	relative buried (20.5)	strong (54% cells die at 32℃)	structural	NA	NA
+p.Y220N	p.Tyr220Asn	0.060	NA	NA	Likely pathogenic	DBD, β-sandwich, short loop	relative buried (8)	intermediate (11% cells die at 32℃)	structural	NA	NA
+p.Y220H	p.Tyr220His	0.067	NA	0.037	Uncertain significance	DBD, β-sandwich, short loop	relative buried (8)	strong (39% cells die at 32℃)	structural	NA	NA
+p.Y220D	p.Tyr220Asp	0.017	NA	0.018	Likely pathogenic	DBD, β-sandwich, short loop	relative buried (8)	weak (-8% cells die at 32℃)	structural	NA	NA
+p.Y220S	p.Tyr220Ser	0.057	0.135	0.037	Pathogenic	DBD, β-sandwich, short loop	relative buried (8)	intermediate (8% cells die at 32℃)	structural	NA	NA
+p.Y220C	p.Tyr220Cys	1.345	1.639	0.593	Pathogenic	DBD, β-sandwich, short loop	relative buried (8)	strong (25% cells die at 32℃)	structural	NA	NA
+p.E221K	p.Glylu221Lys	0.023	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (68.3)	weak (-24% cells die at 32℃)	likely non structural	NA	NA
+p.E221D	p.Glylu221Asp	0.020	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (68.3)	weak (-7% cells die at 32℃)	likely non structural	NA	NA
+p.E221A	p.Glylu221Ala	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (68.3)	strong (52% cells die at 32℃)	likely non structural	NA	NA
+p.E221G	p.Glylu221Gly	0.017	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (68.3)	strong (41% cells die at 32℃)	likely non structural	NA	NA
+p.P222T	p.Pro222Thr	0.013	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (54.7)	weak (-24% cells die at 32℃)	likely structural	NA	NA
+p.P222Q	p.Pro222Glyln	0.013	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (54.7)	weak (-28% cells die at 32℃)	likely structural	NA	NA
+p.P222L	p.Pro222Leu	0.033	0.045	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (54.7)	weak (-51% cells die at 32℃)	likely structural	NA	NA
+p.P222S	p.Pro222Ser	0.017	0.022	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (54.7)	weak (-2% cells die at 32℃)	likely structural	NA	NA
+p.P223H	p.Pro223His	0.017	NA	NA	NA	DBD, β-sandwich, short loop	relative buried (28.1)	strong (64% cells die at 32℃)	structural	NA	NA
+p.P223L	p.Pro223Leu	0.020	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative buried (28.1)	strong (51% cells die at 32℃)	structural	NA	NA
+p.P223S	p.Pro223Ser	0.013	NA	NA	NA	DBD, β-sandwich, short loop	relative buried (28.1)	strong (38% cells die at 32℃)	structural	NA	NA
+p.E224K	p.Glylu224Lys	0.027	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (82.1)	weak (-6% cells die at 32℃)	likely non structural	NA	NA
+p.E224D	p.Glylu224Asp	0.067	0.067	0.046	NA	DBD, β-sandwich, short loop	relative exposed (82.1)	weak (-44% cells die at 32℃)	likely non structural	NA	NA
+p.E224G	p.Glylu224Gly	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (82.1)	weak (-16% cells die at 32℃)	likely non structural	NA	NA
+p.V225I	p.Val225Ile	0.017	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (103.8)	intermediate (1% cells die at 32℃)	likely non structural	NA	NA
+p.V225A	p.Val225Ala	0.013	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (103.8)	weak (-2% cells die at 32℃)	likely non structural	NA	NA
+p.G226S	p.Gly226Ser	0.023	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (104.9)	weak (-1% cells die at 32℃)	likely non structural	NA	NA
+p.G226D	p.Gly226Asp	0.017	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (104.9)	weak (-5% cells die at 32℃)	likely non structural	NA	NA
+p.G226A	p.Gly226Ala	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (104.9)	weak (-418% cells die at 32℃)	likely non structural	NA	NA
+p.G226V	p.Gly226Val	0.013	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (104.9)	weak (-139% cells die at 32℃)	likely non structural	NA	NA
+p.S227C	p.Ser227Cys	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (49.4)	weak (-36% cells die at 32℃)	likely structural	NA	NA
+p.S227F	p.Ser227Prohe	0.043	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (49.4)	weak (-18% cells die at 32℃)	likely structural	NA	NA
+p.D228N	p.Asp228Asn	0.027	NA	0.009	NA	DBD, β-sandwich, short loop	relative exposed (77.3)	weak (-21% cells die at 32℃)	likely non structural	NA	NA
+p.D228E	p.Asp228Glylu	0.020	NA	0.009	NA	DBD, β-sandwich, short loop	relative exposed (77.3)	weak (-169% cells die at 32℃)	likely non structural	NA	NA
+p.D228A	p.Asp228Ala	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (77.3)	weak (-62% cells die at 32℃)	likely non structural	NA	NA
+p.D228G	p.Asp228Gly	0.020	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (77.3)	weak (-73% cells die at 32℃)	likely non structural	NA	NA
+p.D228Y	p.Asp228Tyr	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (77.3)	weak (-66% cells die at 32℃)	likely non structural	NA	NA
+p.C229S	p.Cys229Ser	0.017	NA	NA	NA	DBD, β-sandwich, short loop	relative buried (21.6)	intermediate (2% cells die at 32℃)	structural	NA	NA
+p.C229R	p.Cys229Arg	0.010	0.157	NA	Uncertain significance	DBD, β-sandwich, short loop	relative buried (21.6)	strong (26% cells die at 32℃)	structural	NA	NA
+p.C229Y	p.Cys229Tyr	0.010	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative buried (21.6)	weak (-4% cells die at 32℃)	structural	NA	NA
+p.T230N	p.Thr230Asn	0.010	NA	NA	NA	DBD, β-sandwich, S8 sheet	relative buried (11.7)	strong (71% cells die at 32℃)	structural	NA	NA
+p.T230I	p.Thr230Ile	0.047	NA	NA	NA	DBD, β-sandwich, S8 sheet	relative buried (11.7)	weak (-15% cells die at 32℃)	structural	NA	NA
+p.T230A	p.Thr230Ala	0.013	NA	NA	NA	DBD, β-sandwich, S8 sheet	relative buried (11.7)	weak (-4% cells die at 32℃)	structural	NA	NA
+p.T231I	p.Thr231Ile	0.017	NA	NA	Uncertain significance	DBD, β-sandwich, S8 sheet	relative exposed (40.6)	weak (-38% cells die at 32℃)	likely structural	NA	NA
+p.T231A	p.Thr231Ala	0.017	NA	NA	NA	DBD, β-sandwich, S8 sheet	relative exposed (40.6)	strong (28% cells die at 32℃)	likely structural	NA	NA
+p.T231S	p.Thr231Ser	0.013	NA	NA	NA	DBD, β-sandwich, S8 sheet	relative exposed (40.6)	strong (35% cells die at 32℃)	likely structural	NA	NA
+p.I232N	p.Ile232Asn	0.054	NA	0.018	NA	DBD, β-sandwich, S8 sheet	relative buried (6.4)	strong (40% cells die at 32℃)	structural	NA	NA
+p.I232T	p.Ile232Thr	0.054	0.067	0.027	Likely pathogenic	DBD, β-sandwich, S8 sheet	relative buried (6.4)	strong (60% cells die at 32℃)	structural	NA	NA
+p.I232S	p.Ile232Ser	0.027	NA	0.027	NA	DBD, β-sandwich, S8 sheet	relative buried (6.4)	intermediate (18% cells die at 32℃)	structural	NA	NA
+p.I232V	p.Ile232Val	0.023	NA	NA	NA	DBD, β-sandwich, S8 sheet	relative buried (6.4)	weak (-48% cells die at 32℃)	structural	NA	NA
+p.I232F	p.Ile232Prohe	0.037	NA	0.009	NA	DBD, β-sandwich, S8 sheet	relative buried (6.4)	strong (71% cells die at 32℃)	structural	NA	NA
+p.H233Q	p.His233Glyln	0.013	NA	NA	NA	DBD, β-sandwich, S8 sheet	relative exposed (40)	weak (-4% cells die at 32℃)	likely structural	NA	NA
+p.H233D	p.His233Asp	0.010	0.067	NA	NA	DBD, β-sandwich, S8 sheet	relative exposed (40)	intermediate (7% cells die at 32℃)	likely structural	NA	NA
+p.H233Y	p.His233Tyr	0.023	NA	NA	NA	DBD, β-sandwich, S8 sheet	relative exposed (40)	weak (-82% cells die at 32℃)	likely structural	NA	NA
+p.Y234N	p.Tyr234Asn	0.054	NA	0.009	Likely pathogenic	DBD, β-sandwich, S8 sheet	relative buried (1.1)	weak (-1% cells die at 32℃)	structural	NA	NA
+p.Y234H	p.Tyr234His	0.110	0.112	0.018	Conflicting interpretations of pathogenicity	DBD, β-sandwich, S8 sheet	relative buried (1.1)	strong (40% cells die at 32℃)	structural	NA	NA
+p.Y234D	p.Tyr234Asp	0.020	NA	NA	Conflicting interpretations of pathogenicity	DBD, β-sandwich, S8 sheet	relative buried (1.1)	strong (22% cells die at 32℃)	structural	NA	NA
+p.Y234S	p.Tyr234Ser	0.027	NA	0.009	NA	DBD, β-sandwich, S8 sheet	relative buried (1.1)	weak (-9% cells die at 32℃)	structural	NA	NA
+p.Y234C	p.Tyr234Cys	0.492	0.202	0.192	Pathogenic/Likely pathogenic	DBD, β-sandwich, S8 sheet	relative buried (1.1)	strong (50% cells die at 32℃)	structural	NA	NA
+p.N235T	p.Asn235Thr	0.013	NA	NA	NA	DBD, β-sandwich, S8 sheet	relative buried (11)	weak (-2% cells die at 32℃)	structural	NA	NA
+p.N235S	p.Asn235Ser	0.074	0.875	NA	Conflicting interpretations of pathogenicity	DBD, β-sandwich, S8 sheet	relative buried (11)	weak (-48% cells die at 32℃)	structural	NA	NA
+p.N235I	p.Asn235Ile	0.020	NA	NA	NA	DBD, β-sandwich, S8 sheet	relative buried (11)	weak (-23% cells die at 32℃)	structural	NA	NA
+p.N235D	p.Asn235Asp	0.040	0.022	NA	NA	DBD, β-sandwich, S8 sheet	relative buried (11)	strong (77% cells die at 32℃)	structural	NA	NA
+p.N235Y	p.Asn235Tyr	0.017	NA	NA	Uncertain significance	DBD, β-sandwich, S8 sheet	relative buried (11)	intermediate (1% cells die at 32℃)	structural	NA	NA
+p.Y236N	p.Tyr236Asn	0.070	NA	NA	Uncertain significance	DBD, L3 loop, S8 sheet	relative buried (0)	strong (22% cells die at 32℃)	structural	NA	NA
+p.Y236H	p.Tyr236His	0.060	NA	0.009	Conflicting interpretations of pathogenicity	DBD, L3 loop, S8 sheet	relative buried (0)	intermediate (11% cells die at 32℃)	structural	NA	NA
+p.Y236D	p.Tyr236Asp	0.033	NA	0.009	Pathogenic	DBD, L3 loop, S8 sheet	relative buried (0)	intermediate (17% cells die at 32℃)	structural	NA	NA
+p.Y236S	p.Tyr236Ser	0.010	NA	NA	Uncertain significance	DBD, L3 loop, S8 sheet	relative buried (0)	strong (27% cells die at 32℃)	structural	NA	NA
+p.Y236C	p.Tyr236Cys	0.298	0.135	0.146	NA	DBD, L3 loop, S8 sheet	relative buried (0)	strong (20% cells die at 32℃)	structural	NA	NA
+p.M237K	p.Met237Lys	0.040	NA	0.027	NA	DBD, L3 loop, long loop	relative buried (7.7)	strong (51% cells die at 32℃)	structural	NA	NA
+p.M237T	p.Met237Thr	0.017	NA	NA	Uncertain significance	DBD, L3 loop, long loop	relative buried (7.7)	weak (-10% cells die at 32℃)	structural	NA	NA
+p.M237R	p.Met237Arg	0.020	NA	NA	Uncertain significance	DBD, L3 loop, long loop	relative buried (7.7)	strong (24% cells die at 32℃)	structural	NA	NA
+p.M237I	p.Met237Ile	0.666	0.180	0.228	NA	DBD, L3 loop, long loop	relative buried (7.7)	strong (34% cells die at 32℃)	structural	NA	NA
+p.M237L	p.Met237Leu	0.017	NA	0.009	NA	DBD, L3 loop, long loop	relative buried (7.7)	strong (54% cells die at 32℃)	structural	NA	NA
+p.M237V	p.Met237Val	0.043	0.022	0.027	Uncertain significance	DBD, L3 loop, long loop	relative buried (7.7)	strong (57% cells die at 32℃)	structural	NA	NA
+p.C238S	p.Cys238Ser	0.107	0.180	0.018	Pathogenic	DBD, L3 loop, long loop	relative buried (0.5)	intermediate (4% cells die at 32℃)	structural	NA	NA
+p.C238R	p.Cys238Arg	0.080	NA	0.018	Pathogenic	DBD, L3 loop, long loop	relative buried (0.5)	strong (35% cells die at 32℃)	structural	NA	NA
+p.C238G	p.Cys238Gly	0.040	0.224	0.009	NA	DBD, L3 loop, long loop	relative buried (0.5)	weak (-13% cells die at 32℃)	structural	NA	NA
+p.C238Y	p.Cys238Tyr	0.308	0.337	0.137	Pathogenic/Likely pathogenic	DBD, L3 loop, long loop	relative buried (0.5)	strong (29% cells die at 32℃)	structural	NA	NA
+p.C238W	p.Cys238Trp	0.023	NA	0.009	NA	DBD, L3 loop, long loop	relative buried (0.5)	strong (38% cells die at 32℃)	structural	NA	NA
+p.C238F	p.Cys238Prohe	0.157	NA	0.137	Pathogenic	DBD, L3 loop, long loop	relative buried (0.5)	intermediate (5% cells die at 32℃)	structural	NA	NA
+p.N239K	p.Asn239Lys	0.033	NA	NA	Conflicting interpretations of pathogenicity	DBD, L3 loop, long loop	relative exposed (30.6)	intermediate (5% cells die at 32℃)	likely structural	NA	NA
+p.N239T	p.Asn239Thr	0.037	NA	NA	Uncertain significance	DBD, L3 loop, long loop	relative exposed (30.6)	intermediate (6% cells die at 32℃)	likely structural	NA	NA
+p.N239S	p.Asn239Ser	0.117	NA	0.046	Likely pathogenic	DBD, L3 loop, long loop	relative exposed (30.6)	weak (-12% cells die at 32℃)	likely structural	NA	NA
+p.N239D	p.Asn239Asp	0.174	NA	0.073	Conflicting interpretations of pathogenicity	DBD, L3 loop, long loop	relative exposed (30.6)	intermediate (13% cells die at 32℃)	likely structural	NA	NA
+p.N239Y	p.Asn239Tyr	0.033	NA	NA	NA	DBD, L3 loop, long loop	relative exposed (30.6)	weak (-181% cells die at 32℃)	likely structural	NA	NA
+p.S240N	p.Ser240Asn	0.013	NA	NA	NA	DBD, L3 loop, long loop	relative buried (8.7)	weak (-70% cells die at 32℃)	structural	NA	NA
+p.S240T	p.Ser240Thr	0.020	NA	NA	NA	DBD, L3 loop, long loop	relative buried (8.7)	weak (-106% cells die at 32℃)	structural	NA	NA
+p.S240R	p.Ser240Arg	0.060	NA	0.009	NA	DBD, L3 loop, long loop	relative buried (8.7)	strong (74% cells die at 32℃)	structural	NA	NA
+p.S240I	p.Ser240Ile	0.027	NA	NA	NA	DBD, L3 loop, long loop	relative buried (8.7)	weak (-189% cells die at 32℃)	structural	NA	NA
+p.S240G	p.Ser240Gly	0.070	0.022	0.018	NA	DBD, L3 loop, long loop	relative buried (8.7)	strong (36% cells die at 32℃)	structural	NA	NA
+p.S240C	p.Ser240Cys	0.017	0.022	NA	NA	DBD, L3 loop, long loop	relative buried (8.7)	strong (60% cells die at 32℃)	structural	NA	NA
+p.S241T	p.Ser241Thr	0.030	0.247	NA	NA	DBD, L3 loop, long loop	relative exposed (40.1)	weak (-31% cells die at 32℃)	likely structural	NA	NA
+p.S241P	p.Ser241Pro	0.043	NA	0.018	NA	DBD, L3 loop, long loop	relative exposed (40.1)	weak (-15% cells die at 32℃)	likely structural	NA	NA
+p.S241A	p.Ser241Ala	0.047	NA	0.009	NA	DBD, L3 loop, long loop	relative exposed (40.1)	weak (-28% cells die at 32℃)	likely structural	NA	NA
+p.S241Y	p.Ser241Tyr	0.077	0.135	0.073	NA	DBD, L3 loop, long loop	relative exposed (40.1)	strong (22% cells die at 32℃)	likely structural	NA	NA
+p.S241C	p.Ser241Cys	0.117	NA	0.064	Likely pathogenic	DBD, L3 loop, long loop	relative exposed (40.1)	weak (-5% cells die at 32℃)	likely structural	NA	NA
+p.S241F	p.Ser241Prohe	0.401	0.180	0.219	Likely pathogenic	DBD, L3 loop, long loop	relative exposed (40.1)	intermediate (1% cells die at 32℃)	likely structural	NA	NA
+p.C242S	p.Cys242Ser	0.120	NA	0.037	Uncertain significance	DBD, L3 loop, long loop	relative buried (10.1)	intermediate (12% cells die at 32℃)	structural	NA	NA
+p.C242R	p.Cys242Arg	0.047	0.202	0.009	Likely pathogenic	DBD, L3 loop, long loop	relative buried (10.1)	weak (-17% cells die at 32℃)	structural	NA	NA
+p.C242G	p.Cys242Gly	0.027	NA	0.018	Uncertain significance	DBD, L3 loop, long loop	relative buried (10.1)	weak (-7% cells die at 32℃)	structural	NA	NA
+p.C242Y	p.Cys242Tyr	0.197	0.359	0.046	Pathogenic	DBD, L3 loop, long loop	relative buried (10.1)	intermediate (6% cells die at 32℃)	structural	NA	NA
+p.C242W	p.Cys242Trp	0.054	NA	NA	NA	DBD, L3 loop, long loop	relative buried (10.1)	weak (-29% cells die at 32℃)	structural	NA	NA
+p.C242F	p.Cys242Prohe	0.308	0.067	0.100	NA	DBD, L3 loop, long loop	relative buried (10.1)	intermediate (8% cells die at 32℃)	structural	NA	NA
+p.M243K	p.Met243Lys	0.017	NA	NA	NA	DBD, L3 loop, long loop	relative exposed (61.2)	weak (-119% cells die at 32℃)	likely non structural	NA	NA
+p.M243T	p.Met243Thr	0.033	NA	NA	Conflicting interpretations of pathogenicity	DBD, L3 loop, long loop	relative exposed (61.2)	weak (-12% cells die at 32℃)	likely non structural	NA	NA
+p.M243I	p.Met243Ile	0.050	NA	0.009	NA	DBD, L3 loop, long loop	relative exposed (61.2)	weak (-111% cells die at 32℃)	likely non structural	NA	NA
+p.M243L	p.Met243Leu	0.040	NA	NA	NA	DBD, L3 loop, long loop	relative exposed (61.2)	weak (-18% cells die at 32℃)	likely non structural	NA	NA
+p.M243V	p.Met243Val	0.010	NA	NA	Uncertain significance	DBD, L3 loop, long loop	relative exposed (61.2)	weak (-188% cells die at 32℃)	likely non structural	NA	NA
+p.G244S	p.Gly244Ser	0.238	0.471	0.082	Pathogenic/Likely pathogenic	DBD, L3 loop, long loop	relative exposed (69.1)	intermediate (6% cells die at 32℃)	likely non structural	NA	NA
+p.G244R	p.Gly244Arg	0.023	NA	0.009	NA	DBD, L3 loop, long loop	relative exposed (69.1)	weak (-11% cells die at 32℃)	likely non structural	NA	NA
+p.G244D	p.Gly244Asp	0.227	0.247	0.073	Pathogenic/Likely pathogenic	DBD, L3 loop, long loop	relative exposed (69.1)	intermediate (8% cells die at 32℃)	likely non structural	NA	NA
+p.G244A	p.Gly244Ala	0.037	NA	NA	Uncertain significance	DBD, L3 loop, long loop	relative exposed (69.1)	strong (49% cells die at 32℃)	likely non structural	NA	NA
+p.G244V	p.Gly244Val	0.080	0.067	0.018	NA	DBD, L3 loop, long loop	relative exposed (69.1)	intermediate (5% cells die at 32℃)	likely non structural	NA	NA
+p.G244C	p.Gly244Cys	0.194	NA	0.055	Uncertain significance	DBD, L3 loop, long loop	relative exposed (69.1)	weak (-4% cells die at 32℃)	likely non structural	NA	NA
+p.G245S	p.Gly245Ser	1.536	3.412	0.383	Pathogenic	DBD, L3 loop, long loop	relative buried (7.5)	weak (-48% cells die at 32℃)	structural	NA	NA
+p.G245R	p.Gly245Arg	0.064	NA	0.027	Uncertain significance	DBD, L3 loop, long loop	relative buried (7.5)	intermediate (15% cells die at 32℃)	structural	NA	NA
+p.G245L	p.Gly245Leu	0.033	NA	NA	NA	DBD, L3 loop, long loop	relative buried (7.5)	weak (-13% cells die at 32℃)	structural	NA	NA
+p.G245D	p.Gly245Asp	0.545	0.426	0.173	Pathogenic	DBD, L3 loop, long loop	relative buried (7.5)	intermediate (18% cells die at 32℃)	structural	NA	NA
+p.G245A	p.Gly245Ala	0.050	NA	NA	Likely pathogenic	DBD, L3 loop, long loop	relative buried (7.5)	intermediate (3% cells die at 32℃)	structural	NA	NA
+p.G245V	p.Gly245Val	0.291	0.067	0.155	Likely pathogenic	DBD, L3 loop, long loop	relative buried (7.5)	strong (30% cells die at 32℃)	structural	NA	NA
+p.G245C	p.Gly245Cys	0.308	0.180	0.091	Pathogenic	DBD, L3 loop, long loop	relative buried (7.5)	intermediate (19% cells die at 32℃)	structural	NA	NA
+p.M246K	p.Met246Lys	0.037	NA	NA	Likely pathogenic	DBD, L3 loop, long loop	relative buried (0.5)	weak (-19% cells die at 32℃)	structural	NA	NA
+p.M246T	p.Met246Thr	0.047	0.022	0.009	Likely pathogenic	DBD, L3 loop, long loop	relative buried (0.5)	weak (-6% cells die at 32℃)	structural	NA	NA
+p.M246R	p.Met246Arg	0.050	NA	0.018	Pathogenic	DBD, L3 loop, long loop	relative buried (0.5)	weak (-52% cells die at 32℃)	structural	NA	NA
+p.M246I	p.Met246Ile	0.161	NA	0.055	NA	DBD, L3 loop, long loop	relative buried (0.5)	intermediate (9% cells die at 32℃)	structural	NA	NA
+p.M246L	p.Met246Leu	0.030	0.067	NA	Uncertain significance	DBD, L3 loop, long loop	relative buried (0.5)	weak (-23% cells die at 32℃)	structural	NA	NA
+p.M246V	p.Met246Val	0.204	0.584	0.037	Pathogenic/Likely pathogenic	DBD, L3 loop, long loop	relative buried (0.5)	strong (26% cells die at 32℃)	structural	NA	NA
+p.N247K	p.Asn247Lys	0.010	NA	NA	NA	DBD, L3 loop, long loop	relative exposed (47.3)	weak (-87% cells die at 32℃)	likely structural	NA	NA
+p.N247T	p.Asn247Thr	0.030	NA	NA	NA	DBD, L3 loop, long loop	relative exposed (47.3)	strong (41% cells die at 32℃)	likely structural	NA	NA
+p.N247S	p.Asn247Ser	0.030	NA	NA	Uncertain significance	DBD, L3 loop, long loop	relative exposed (47.3)	intermediate (17% cells die at 32℃)	likely structural	NA	NA
+p.N247I	p.Asn247Ile	0.030	NA	0.018	Uncertain significance	DBD, L3 loop, long loop	relative exposed (47.3)	strong (25% cells die at 32℃)	likely structural	NA	NA
+p.N247D	p.Asn247Asp	0.027	NA	NA	NA	DBD, L3 loop, long loop	relative exposed (47.3)	intermediate (6% cells die at 32℃)	likely structural	NA	NA
+p.N247Y	p.Asn247Tyr	0.010	NA	NA	NA	DBD, L3 loop, long loop	relative exposed (47.3)	strong (59% cells die at 32℃)	likely structural	NA	NA
+p.R248Q	p.Arg248Glyln	3.195	2.963	1.105	Pathogenic/Likely pathogenic	DBD, L3 loop, long loop	relative exposed (70.9)	strong (31% cells die at 32℃)	contacting	NA	NA
+p.R248P	p.Arg248Pro	0.064	NA	0.027	Likely pathogenic	DBD, L3 loop, long loop	relative exposed (70.9)	intermediate (18% cells die at 32℃)	contacting	NA	NA
+p.R248L	p.Arg248Leu	0.438	0.067	0.091	Likely pathogenic	DBD, L3 loop, long loop	relative exposed (70.9)	strong (33% cells die at 32℃)	contacting	NA	NA
+p.R248G	p.Arg248Gly	0.090	NA	0.009	NA	DBD, L3 loop, long loop	relative exposed (70.9)	weak (-1% cells die at 32℃)	contacting	NA	NA
+p.R248W	p.Arg248Trp	2.576	3.345	0.813	Pathogenic	DBD, L3 loop, long loop	relative exposed (70.9)	weak (-1% cells die at 32℃)	contacting	NA	NA
+p.R249K	p.Arg249Lys	0.114	0.045	NA	Uncertain significance	DBD, L3 loop, long loop	relative buried (14.2)	strong (31% cells die at 32℃)	structural	NA	NA
+p.R249T	p.Arg249Thr	0.110	0.022	0.009	NA	DBD, L3 loop, long loop	relative buried (14.2)	intermediate (3% cells die at 32℃)	structural	NA	NA
+p.R249S	p.Arg249Ser	1.482	NA	0.237	Uncertain significance	DBD, L3 loop, long loop	relative buried (14.2)	intermediate (2% cells die at 32℃)	structural	NA	NA
+p.R249M	p.Arg249Met	0.238	NA	0.055	NA	DBD, L3 loop, long loop	relative buried (14.2)	weak (-6% cells die at 32℃)	structural	NA	NA
+p.R249G	p.Arg249Gly	0.191	NA	0.082	Uncertain significance	DBD, L3 loop, long loop	relative buried (14.2)	weak (-24% cells die at 32℃)	structural	NA	NA
+p.R249W	p.Arg249Trp	0.167	NA	0.027	Uncertain significance	DBD, L3 loop, long loop	relative buried (14.2)	intermediate (17% cells die at 32℃)	structural	NA	NA
+p.P250T	p.Pro250Thr	0.030	NA	NA	NA	DBD, L3 loop, long loop	relative exposed (32.5)	weak (-29% cells die at 32℃)	likely structural	NA	NA
+p.P250L	p.Pro250Leu	0.187	0.022	0.110	Uncertain significance	DBD, L3 loop, long loop	relative exposed (32.5)	strong (32% cells die at 32℃)	likely structural	NA	NA
+p.P250A	p.Pro250Ala	0.037	NA	NA	NA	DBD, L3 loop, long loop	relative exposed (32.5)	weak (-110% cells die at 32℃)	likely structural	NA	NA
+p.P250S	p.Pro250Ser	0.067	NA	NA	NA	DBD, L3 loop, long loop	relative exposed (32.5)	intermediate (0% cells die at 32℃)	likely structural	NA	NA
+p.P250F	p.Pro250Prohe	0.017	NA	NA	NA	DBD, L3 loop, long loop	relative exposed (32.5)	intermediate (4% cells die at 32℃)	likely structural	NA	NA
+p.I251N	p.Ile251Asn	0.070	NA	0.009	Uncertain significance	DBD, L3 loop, S9 sheet	relative buried (0.1)	intermediate (13% cells die at 32℃)	structural	NA	NA
+p.I251T	p.Ile251Thr	0.020	0.022	NA	Uncertain significance	DBD, L3 loop, S9 sheet	relative buried (0.1)	strong (45% cells die at 32℃)	structural	NA	NA
+p.I251S	p.Ile251Ser	0.087	NA	0.018	Likely pathogenic	DBD, L3 loop, S9 sheet	relative buried (0.1)	strong (42% cells die at 32℃)	structural	NA	NA
+p.I251L	p.Ile251Leu	0.023	0.202	NA	Pathogenic/Likely pathogenic	DBD, L3 loop, S9 sheet	relative buried (0.1)	intermediate (8% cells die at 32℃)	structural	NA	NA
+p.I251V	p.Ile251Val	0.030	NA	NA	NA	DBD, L3 loop, S9 sheet	relative buried (0.1)	weak (-67% cells die at 32℃)	structural	NA	NA
+p.I251F	p.Ile251Prohe	0.030	NA	0.009	NA	DBD, L3 loop, S9 sheet	relative buried (0.1)	strong (21% cells die at 32℃)	structural	NA	NA
+p.L252P	p.Leu252Pro	0.030	NA	0.009	Pathogenic	DBD, β-sandwich, S9 sheet	relative buried (7.8)	intermediate (12% cells die at 32℃)	structural	NA	NA
+p.L252F	p.Leu252Prohe	0.054	NA	NA	NA	DBD, β-sandwich, S9 sheet	relative buried (7.8)	strong (34% cells die at 32℃)	structural	NA	NA
+p.T253N	p.Thr253Asn	0.010	NA	0.009	Uncertain significance	DBD, β-sandwich, S9 sheet	relative buried (0)	strong (68% cells die at 32℃)	structural	NA	NA
+p.T253I	p.Thr253Ile	0.033	NA	0.009	NA	DBD, β-sandwich, S9 sheet	relative buried (0)	strong (43% cells die at 32℃)	structural	NA	NA
+p.T253P	p.Thr253Pro	0.023	NA	NA	NA	DBD, β-sandwich, S9 sheet	relative buried (0)	intermediate (9% cells die at 32℃)	structural	NA	NA
+p.T253A	p.Thr253Ala	0.020	NA	0.018	NA	DBD, β-sandwich, S9 sheet	relative buried (0)	strong (59% cells die at 32℃)	structural	NA	NA
+p.T253S	p.Thr253Ser	0.023	NA	NA	NA	DBD, β-sandwich, S9 sheet	relative buried (0)	strong (52% cells die at 32℃)	structural	NA	NA
+p.I254N	p.Ile254Asn	0.043	0.067	NA	NA	DBD, β-sandwich, S9 sheet	relative buried (5)	strong (54% cells die at 32℃)	structural	NA	NA
+p.I254T	p.Ile254Thr	0.037	0.202	NA	NA	DBD, β-sandwich, S9 sheet	relative buried (5)	strong (82% cells die at 32℃)	structural	NA	NA
+p.I254S	p.Ile254Ser	0.030	NA	0.027	NA	DBD, β-sandwich, S9 sheet	relative buried (5)	strong (61% cells die at 32℃)	structural	NA	NA
+p.I254D	p.Ile254Asp	0.010	NA	NA	NA	DBD, β-sandwich, S9 sheet	relative buried (5)	intermediate (8% cells die at 32℃)	structural	NA	NA
+p.I254V	p.Ile254Val	0.020	0.067	NA	Uncertain significance	DBD, β-sandwich, S9 sheet	relative buried (5)	weak (-5% cells die at 32℃)	structural	NA	NA
+p.I254F	p.Ile254Prohe	0.023	NA	NA	NA	DBD, β-sandwich, S9 sheet	relative buried (5)	strong (79% cells die at 32℃)	structural	NA	NA
+p.I255N	p.Ile255Asn	0.040	NA	0.009	Uncertain significance	DBD, β-sandwich, S9 sheet	relative buried (0)	weak (-10% cells die at 32℃)	structural	NA	NA
+p.I255T	p.Ile255Thr	0.057	NA	0.009	Uncertain significance	DBD, β-sandwich, S9 sheet	relative buried (0)	strong (34% cells die at 32℃)	structural	NA	NA
+p.I255S	p.Ile255Ser	0.033	NA	0.018	NA	DBD, β-sandwich, S9 sheet	relative buried (0)	weak (-56% cells die at 32℃)	structural	NA	NA
+p.I255M	p.Ile255Met	0.010	NA	NA	NA	DBD, β-sandwich, S9 sheet	relative buried (0)	weak (-37% cells die at 32℃)	structural	NA	NA
+p.I255V	p.Ile255Val	0.017	NA	NA	NA	DBD, β-sandwich, S9 sheet	relative buried (0)	weak (-64% cells die at 32℃)	structural	NA	NA
+p.I255F	p.Ile255Prohe	0.141	NA	0.027	NA	DBD, β-sandwich, S9 sheet	relative buried (0)	strong (71% cells die at 32℃)	structural	NA	NA
+p.T256K	p.Thr256Lys	0.017	NA	NA	NA	DBD, β-sandwich, S9 sheet	relative buried (13)	strong (76% cells die at 32℃)	structural	NA	NA
+p.T256I	p.Thr256Ile	0.017	0.045	0.018	NA	DBD, β-sandwich, S9 sheet	relative buried (13)	strong (77% cells die at 32℃)	structural	NA	NA
+p.T256P	p.Thr256Pro	0.013	0.090	NA	Uncertain significance	DBD, β-sandwich, S9 sheet	relative buried (13)	intermediate (12% cells die at 32℃)	structural	NA	NA
+p.T256A	p.Thr256Ala	0.037	NA	NA	Conflicting interpretations of pathogenicity	DBD, β-sandwich, S9 sheet	relative buried (13)	strong (40% cells die at 32℃)	structural	NA	NA
+p.L257Q	p.Leu257Glyln	0.070	0.135	0.027	Uncertain significance	DBD, β-sandwich, S9 sheet	relative buried (0.2)	intermediate (3% cells die at 32℃)	structural	NA	NA
+p.L257P	p.Leu257Pro	0.054	NA	0.009	Uncertain significance	DBD, β-sandwich, S9 sheet	relative buried (0.2)	weak (-8% cells die at 32℃)	structural	NA	NA
+p.L257R	p.Leu257Arg	0.013	NA	0.009	Likely pathogenic	DBD, β-sandwich, S9 sheet	relative buried (0.2)	intermediate (18% cells die at 32℃)	structural	NA	NA
+p.L257V	p.Leu257Val	0.023	NA	NA	NA	DBD, β-sandwich, S9 sheet	relative buried (0.2)	strong (75% cells die at 32℃)	structural	NA	NA
+p.E258K	p.Glylu258Lys	0.231	0.180	0.037	Pathogenic	DBD, β-sandwich, S9 sheet	relative buried (6.8)	intermediate (18% cells die at 32℃)	structural	NA	NA
+p.E258Q	p.Glylu258Glyln	0.057	NA	0.018	NA	DBD, β-sandwich, S9 sheet	relative buried (6.8)	strong (73% cells die at 32℃)	structural	NA	NA
+p.E258D	p.Glylu258Asp	0.040	NA	0.027	NA	DBD, β-sandwich, S9 sheet	relative buried (6.8)	strong (39% cells die at 32℃)	structural	NA	NA
+p.E258A	p.Glylu258Ala	0.020	0.045	0.009	Uncertain significance	DBD, β-sandwich, S9 sheet	relative buried (6.8)	strong (36% cells die at 32℃)	structural	NA	NA
+p.E258G	p.Glylu258Gly	0.070	NA	0.009	Uncertain significance	DBD, β-sandwich, S9 sheet	relative buried (6.8)	weak (-9% cells die at 32℃)	structural	NA	NA
+p.E258V	p.Glylu258Val	0.017	NA	NA	NA	DBD, β-sandwich, S9 sheet	relative buried (6.8)	strong (61% cells die at 32℃)	structural	NA	NA
+p.D259N	p.Asp259Asn	0.067	NA	0.009	NA	DBD, β-sandwich, short loop	relative buried (12.9)	intermediate (8% cells die at 32℃)	structural	NA	NA
+p.D259H	p.Asp259His	0.017	NA	NA	NA	DBD, β-sandwich, short loop	relative buried (12.9)	strong (55% cells die at 32℃)	structural	NA	NA
+p.D259E	p.Asp259Glylu	0.017	NA	NA	NA	DBD, β-sandwich, short loop	relative buried (12.9)	strong (48% cells die at 32℃)	structural	NA	NA
+p.D259G	p.Asp259Gly	0.023	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative buried (12.9)	weak (-44% cells die at 32℃)	structural	NA	NA
+p.D259V	p.Asp259Val	0.070	NA	0.046	Uncertain significance	DBD, β-sandwich, short loop	relative buried (12.9)	intermediate (12% cells die at 32℃)	structural	NA	NA
+p.D259Y	p.Asp259Tyr	0.124	NA	0.046	NA	DBD, β-sandwich, short loop	relative buried (12.9)	weak (-20% cells die at 32℃)	structural	NA	NA
+p.S260P	p.Ser260Pro	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (71.8)	weak (-122% cells die at 32℃)	likely non structural	NA	NA
+p.S260A	p.Ser260Ala	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (71.8)	weak (-82% cells die at 32℃)	likely non structural	NA	NA
+p.S260Y	p.Ser260Tyr	0.010	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (71.8)	weak (-106% cells die at 32℃)	likely non structural	NA	NA
+p.S260C	p.Ser260Cys	0.013	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (71.8)	weak (-137% cells die at 32℃)	likely non structural	NA	NA
+p.S260F	p.Ser260Prohe	0.020	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (71.8)	intermediate (14% cells die at 32℃)	likely non structural	NA	NA
+p.S261I	p.Ser261Ile	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (69.6)	weak (-27% cells die at 32℃)	likely non structural	NA	NA
+p.S261R	p.Ser261Arg	0.023	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (69.6)	weak (-55% cells die at 32℃)	likely non structural	NA	NA
+p.S261G	p.Ser261Gly	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (69.6)	weak (-38% cells die at 32℃)	likely non structural	NA	NA
+p.G262S	p.Gly262Ser	0.023	0.045	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (46.9)	intermediate (7% cells die at 32℃)	likely structural	NA	NA
+p.G262D	p.Gly262Asp	0.020	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (46.9)	strong (37% cells die at 32℃)	likely structural	NA	NA
+p.G262V	p.Gly262Val	0.057	NA	0.073	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (46.9)	intermediate (4% cells die at 32℃)	likely structural	NA	NA
+p.N263I	p.Asn263Ile	0.010	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (66.1)	weak (-76% cells die at 32℃)	likely non structural	NA	NA
+p.N263H	p.Asn263His	0.010	NA	NA	Uncertain significance	DBD, β-sandwich, short loop	relative exposed (66.1)	intermediate (18% cells die at 32℃)	likely non structural	NA	NA
+p.N263D	p.Asn263Asp	0.013	NA	NA	Conflicting interpretations of pathogenicity	DBD, β-sandwich, short loop	relative exposed (66.1)	weak (-48% cells die at 32℃)	likely non structural	NA	NA
+p.L264I	p.Leu264Ile	0.013	NA	NA	NA	DBD, β-sandwich, S10 sheet	relative exposed (42.7)	intermediate (2% cells die at 32℃)	likely structural	NA	NA
+p.L264R	p.Leu264Arg	0.023	NA	NA	NA	DBD, β-sandwich, S10 sheet	relative exposed (42.7)	strong (55% cells die at 32℃)	likely structural	NA	NA
+p.L265M	p.Leu265Met	0.017	NA	NA	NA	DBD, β-sandwich, S10 sheet	relative buried (16.2)	weak (-19% cells die at 32℃)	structural	NA	NA
+p.L265Q	p.Leu265Glyln	0.013	NA	NA	NA	DBD, β-sandwich, S10 sheet	relative buried (16.2)	strong (67% cells die at 32℃)	structural	NA	NA
+p.L265P	p.Leu265Pro	0.080	0.112	0.046	Conflicting interpretations of pathogenicity	DBD, β-sandwich, S10 sheet	relative buried (16.2)	weak (-32% cells die at 32℃)	structural	NA	NA
+p.L265R	p.Leu265Arg	0.017	NA	0.027	NA	DBD, β-sandwich, S10 sheet	relative buried (16.2)	strong (41% cells die at 32℃)	structural	NA	NA
+p.G266R	p.Gly266Arg	0.264	NA	0.110	NA	DBD, β-sandwich, S10 sheet	relative buried (0.1)	intermediate (17% cells die at 32℃)	structural	NA	NA
+p.G266E	p.Gly266Glylu	0.308	0.067	0.091	NA	DBD, β-sandwich, S10 sheet	relative buried (0.1)	strong (34% cells die at 32℃)	structural	NA	NA
+p.G266V	p.Gly266Val	0.207	NA	0.137	Uncertain significance	DBD, β-sandwich, S10 sheet	relative buried (0.1)	weak (-42% cells die at 32℃)	structural	NA	NA
+p.R267Q	p.Arg267Glyln	0.057	0.584	0.018	Uncertain significance	DBD, β-sandwich, S10 sheet	relative buried (12.9)	intermediate (6% cells die at 32℃)	structural	NA	NA
+p.R267P	p.Arg267Pro	0.070	0.022	0.046	Likely pathogenic	DBD, β-sandwich, S10 sheet	relative buried (12.9)	weak (-14% cells die at 32℃)	structural	NA	NA
+p.R267G	p.Arg267Gly	0.010	NA	0.018	NA	DBD, β-sandwich, S10 sheet	relative buried (12.9)	strong (65% cells die at 32℃)	structural	NA	NA
+p.R267W	p.Arg267Trp	0.110	0.516	0.055	Conflicting interpretations of pathogenicity	DBD, β-sandwich, S10 sheet	relative buried (12.9)	strong (36% cells die at 32℃)	structural	NA	NA
+p.N268S	p.Asn268Ser	0.030	NA	NA	NA	DBD, β-sandwich, S10 sheet	relative buried (15.8)	weak (-134% cells die at 32℃)	structural	NA	NA
+p.N268H	p.Asn268His	0.010	NA	NA	NA	DBD, β-sandwich, S10 sheet	relative buried (15.8)	intermediate (7% cells die at 32℃)	structural	NA	NA
+p.S269N	p.Ser269Asn	0.040	NA	NA	NA	DBD, β-sandwich, S10 sheet	relative buried (23.7)	weak (-12% cells die at 32℃)	structural	NA	NA
+p.S269R	p.Ser269Arg	0.010	NA	NA	NA	DBD, β-sandwich, S10 sheet	relative buried (23.7)	strong (62% cells die at 32℃)	structural	NA	NA
+p.S269G	p.Ser269Gly	0.010	NA	NA	NA	DBD, β-sandwich, S10 sheet	relative buried (23.7)	strong (42% cells die at 32℃)	structural	NA	NA
+p.S269C	p.Ser269Cys	0.017	NA	NA	NA	DBD, β-sandwich, S10 sheet	relative buried (23.7)	weak (-88% cells die at 32℃)	structural	NA	NA
+p.F270I	p.Prohe270Ile	0.047	NA	0.009	NA	DBD, β-sandwich, S10 sheet	relative buried (0.7)	strong (54% cells die at 32℃)	structural	NA	NA
+p.F270L	p.Prohe270Leu	0.110	0.112	0.018	NA	DBD, β-sandwich, S10 sheet	relative buried (0.7)	strong (58% cells die at 32℃)	structural	NA	NA
+p.F270V	p.Prohe270Val	0.030	NA	0.018	NA	DBD, β-sandwich, S10 sheet	relative buried (0.7)	strong (65% cells die at 32℃)	structural	NA	NA
+p.F270Y	p.Prohe270Tyr	0.023	NA	NA	NA	DBD, β-sandwich, S10 sheet	relative buried (0.7)	weak (-81% cells die at 32℃)	structural	NA	NA
+p.F270S	p.Prohe270Ser	0.064	NA	0.046	Likely pathogenic	DBD, β-sandwich, S10 sheet	relative buried (0.7)	weak (-4% cells die at 32℃)	structural	NA	NA
+p.F270C	p.Prohe270Cys	0.090	NA	0.018	NA	DBD, β-sandwich, S10 sheet	relative buried (0.7)	intermediate (13% cells die at 32℃)	structural	NA	NA
+p.E271K	p.Glylu271Lys	0.127	NA	0.128	Uncertain significance	DBD, loop-sheet-helix motif, S10 sheet	relative buried (11.2)	strong (46% cells die at 32℃)	structural	NA	NA
+p.E271Q	p.Glylu271Glyln	0.020	NA	0.018	NA	DBD, loop-sheet-helix motif, S10 sheet	relative buried (11.2)	strong (28% cells die at 32℃)	structural	NA	NA
+p.E271D	p.Glylu271Asp	0.020	NA	NA	NA	DBD, loop-sheet-helix motif, S10 sheet	relative buried (11.2)	weak (-38% cells die at 32℃)	structural	NA	NA
+p.E271G	p.Glylu271Gly	0.017	NA	NA	NA	DBD, loop-sheet-helix motif, S10 sheet	relative buried (11.2)	weak (-31% cells die at 32℃)	structural	NA	NA
+p.E271V	p.Glylu271Val	0.030	0.067	0.027	NA	DBD, loop-sheet-helix motif, S10 sheet	relative buried (11.2)	strong (70% cells die at 32℃)	structural	NA	NA
+p.V272L	p.Val272Leu	0.174	0.157	0.027	Likely pathogenic	DBD, loop-sheet-helix motif, S10 sheet	relative buried (1.1)	strong (65% cells die at 32℃)	structural	NA	NA
+p.V272E	p.Val272Glylu	0.040	NA	NA	NA	DBD, loop-sheet-helix motif, S10 sheet	relative buried (1.1)	weak (-30% cells die at 32℃)	structural	NA	NA
+p.V272A	p.Val272Ala	0.030	0.090	0.009	NA	DBD, loop-sheet-helix motif, S10 sheet	relative buried (1.1)	strong (64% cells die at 32℃)	structural	NA	NA
+p.V272G	p.Val272Gly	0.023	NA	0.037	Uncertain significance	DBD, loop-sheet-helix motif, S10 sheet	relative buried (1.1)	strong (47% cells die at 32℃)	structural	NA	NA
+p.R273S	p.Arg273Ser	0.070	0.157	0.064	Pathogenic	DBD, loop-sheet-helix motif, S10 sheet	relative exposed (33.6)	weak (-35% cells die at 32℃)	likely structural	NA	NA
+p.R273H	p.Arg273His	2.887	3.120	0.922	Pathogenic/Likely pathogenic	DBD, loop-sheet-helix motif, S10 sheet	relative exposed (33.6)	weak (-1% cells die at 32℃)	likely structural	NA	NA
+p.R273P	p.Arg273Pro	0.127	NA	0.046	Pathogenic/Likely pathogenic	DBD, loop-sheet-helix motif, S10 sheet	relative exposed (33.6)	intermediate (15% cells die at 32℃)	likely structural	NA	NA
+p.R273L	p.Arg273Leu	0.519	0.067	0.247	Pathogenic	DBD, loop-sheet-helix motif, S10 sheet	relative exposed (33.6)	weak (-11% cells die at 32℃)	likely structural	NA	NA
+p.R273G	p.Arg273Gly	0.064	0.180	0.018	NA	DBD, loop-sheet-helix motif, S10 sheet	relative exposed (33.6)	weak (-21% cells die at 32℃)	likely structural	NA	NA
+p.R273C	p.Arg273Cys	2.402	1.930	1.141	Conflicting interpretations of pathogenicity	DBD, loop-sheet-helix motif, S10 sheet	relative exposed (33.6)	intermediate (17% cells die at 32℃)	likely structural	NA	NA
+p.V274I	p.Val274Ile	0.027	NA	NA	NA	DBD, loop-sheet-helix motif, S10 sheet	relative buried (1)	weak (-96% cells die at 32℃)	structural	NA	NA
+p.V274L	p.Val274Leu	0.054	NA	0.009	NA	DBD, loop-sheet-helix motif, S10 sheet	relative buried (1)	intermediate (15% cells die at 32℃)	structural	NA	NA
+p.V274D	p.Val274Asp	0.033	NA	0.027	NA	DBD, loop-sheet-helix motif, S10 sheet	relative buried (1)	weak (-4% cells die at 32℃)	structural	NA	NA
+p.V274A	p.Val274Ala	0.070	0.157	NA	NA	DBD, loop-sheet-helix motif, S10 sheet	relative buried (1)	strong (61% cells die at 32℃)	structural	NA	NA
+p.V274G	p.Val274Gly	0.033	NA	0.037	Likely pathogenic	DBD, loop-sheet-helix motif, S10 sheet	relative buried (1)	strong (26% cells die at 32℃)	structural	NA	NA
+p.V274F	p.Val274Prohe	0.114	NA	0.064	NA	DBD, loop-sheet-helix motif, S10 sheet	relative buried (1)	weak (-17% cells die at 32℃)	structural	NA	NA
+p.C275S	p.Cys275Ser	0.010	NA	0.018	NA	DBD, β-sandwich, short loop	relative buried (7.9)	intermediate (14% cells die at 32℃)	structural	NA	NA
+p.C275R	p.Cys275Arg	0.054	0.022	0.018	NA	DBD, β-sandwich, short loop	relative buried (7.9)	strong (24% cells die at 32℃)	structural	NA	NA
+p.C275G	p.Cys275Gly	0.027	NA	0.009	NA	DBD, β-sandwich, short loop	relative buried (7.9)	weak (-6% cells die at 32℃)	structural	NA	NA
+p.C275Y	p.Cys275Tyr	0.288	0.718	0.164	Pathogenic/Likely pathogenic	DBD, β-sandwich, short loop	relative buried (7.9)	weak (-51% cells die at 32℃)	structural	NA	NA
+p.C275W	p.Cys275Trp	0.033	NA	0.009	Likely pathogenic	DBD, β-sandwich, short loop	relative buried (7.9)	weak (-8% cells die at 32℃)	structural	NA	NA
+p.C275F	p.Cys275Prohe	0.181	0.404	0.100	NA	DBD, β-sandwich, short loop	relative buried (7.9)	weak (-27% cells die at 32℃)	structural	NA	NA
+p.A276T	p.Ala276Thr	0.043	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (62.6)	weak (-29% cells die at 32℃)	likely non structural	NA	NA
+p.A276P	p.Ala276Pro	0.064	NA	0.018	Pathogenic	DBD, β-sandwich, short loop	relative exposed (62.6)	weak (-15% cells die at 32℃)	likely non structural	NA	NA
+p.A276D	p.Ala276Asp	0.047	NA	0.027	Likely pathogenic	DBD, β-sandwich, short loop	relative exposed (62.6)	intermediate (0% cells die at 32℃)	likely non structural	NA	NA
+p.A276G	p.Ala276Gly	0.023	NA	0.018	Pathogenic	DBD, β-sandwich, short loop	relative exposed (62.6)	intermediate (8% cells die at 32℃)	likely non structural	NA	NA
+p.A276V	p.Ala276Val	0.043	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (62.6)	intermediate (17% cells die at 32℃)	likely non structural	NA	NA
+p.A276S	p.Ala276Ser	0.070	NA	NA	NA	DBD, β-sandwich, short loop	relative exposed (62.6)	weak (-86% cells die at 32℃)	likely non structural	NA	NA
+p.C277G	p.Cys277Gly	0.027	NA	0.009	NA	DBD, β-sandwich, short loop	relative buried (14.1)	strong (22% cells die at 32℃)	contacting	NA	NA
+p.C277Y	p.Cys277Tyr	0.094	0.022	0.009	Conflicting interpretations of pathogenicity	DBD, β-sandwich, short loop	relative buried (14.1)	weak (-12% cells die at 32℃)	contacting	NA	NA
+p.C277W	p.Cys277Trp	0.020	NA	0.009	NA	DBD, β-sandwich, short loop	relative buried (14.1)	weak (-73% cells die at 32℃)	contacting	NA	NA
+p.C277F	p.Cys277Prohe	0.181	NA	0.046	Uncertain significance	DBD, β-sandwich, short loop	relative buried (14.1)	weak (-21% cells die at 32℃)	contacting	NA	NA
+p.P278T	p.Pro278Thr	0.114	0.022	0.046	Likely pathogenic, drug response	DBD, loop-sheet-helix motif, H2 helix	relative buried (0)	strong (64% cells die at 32℃)	structural	NA	NA
+p.P278H	p.Pro278His	0.050	NA	0.046	Uncertain significance	DBD, loop-sheet-helix motif, H2 helix	relative buried (0)	intermediate (12% cells die at 32℃)	structural	NA	NA
+p.P278R	p.Pro278Arg	0.147	NA	0.055	Uncertain significance	DBD, loop-sheet-helix motif, H2 helix	relative buried (0)	weak (-41% cells die at 32℃)	structural	NA	NA
+p.P278L	p.Pro278Leu	0.288	0.224	0.064	Pathogenic	DBD, loop-sheet-helix motif, H2 helix	relative buried (0)	weak (-11% cells die at 32℃)	structural	NA	NA
+p.P278A	p.Pro278Ala	0.100	0.112	0.091	Uncertain significance	DBD, loop-sheet-helix motif, H2 helix	relative buried (0)	strong (50% cells die at 32℃)	structural	NA	NA
+p.P278S	p.Pro278Ser	0.314	0.202	0.128	Conflicting interpretations of pathogenicity	DBD, loop-sheet-helix motif, H2 helix	relative buried (0)	strong (20% cells die at 32℃)	structural	NA	NA
+p.P278F	p.Pro278Prohe	0.043	NA	NA	NA	DBD, H2 helix	relative buried (0)	strong (47% cells die at 32℃)	structural	NA	NA
+p.G279R	p.Gly279Arg	0.033	0.022	0.009	NA	DBD, H2 helix	relative buried (0)	weak (-62% cells die at 32℃)	structural	NA	NA
+p.G279E	p.Gly279Glylu	0.181	NA	0.064	Conflicting interpretations of pathogenicity	DBD, H2 helix	relative buried (0)	weak (-10% cells die at 32℃)	structural	NA	NA
+p.G279V	p.Gly279Val	0.020	NA	NA	NA	DBD, H2 helix	relative buried (0)	weak (-8% cells die at 32℃)	structural	NA	NA
+p.G279W	p.Gly279Trp	0.017	NA	NA	NA	DBD, H2 helix	relative buried (0)	weak (-67% cells die at 32℃)	structural	NA	NA
+p.R280K	p.Arg280Lys	0.258	0.067	0.146	Conflicting interpretations of pathogenicity	DBD, H2 helix	relative exposed (47.8)	intermediate (10% cells die at 32℃)	likely structural	NA	NA
+p.R280T	p.Arg280Thr	0.361	0.022	0.173	Uncertain significance	DBD, H2 helix	relative exposed (47.8)	weak (-25% cells die at 32℃)	likely structural	NA	NA
+p.R280S	p.Arg280Ser	0.100	0.022	0.027	NA	DBD, H2 helix	relative exposed (47.8)	intermediate (3% cells die at 32℃)	likely structural	NA	NA
+p.R280I	p.Arg280Ile	0.087	NA	0.046	NA	DBD, H2 helix	relative exposed (47.8)	weak (-5% cells die at 32℃)	likely structural	NA	NA
+p.R280G	p.Arg280Gly	0.154	NA	0.055	Likely pathogenic	DBD, H2 helix	relative exposed (47.8)	strong (36% cells die at 32℃)	likely structural	NA	NA
+p.D281N	p.Asp281Asn	0.124	0.112	0.027	NA	DBD, H2 helix	relative buried (12)	weak (-13% cells die at 32℃)	structural	NA	NA
+p.D281H	p.Asp281His	0.144	NA	0.037	NA	DBD, H2 helix	relative buried (12)	weak (-24% cells die at 32℃)	structural	NA	NA
+p.D281E	p.Asp281Glylu	0.184	0.135	0.055	Uncertain significance	DBD, H2 helix	relative buried (12)	weak (-7% cells die at 32℃)	structural	NA	NA
+p.D281A	p.Asp281Ala	0.020	0.022	0.018	NA	DBD, H2 helix	relative buried (12)	weak (-16% cells die at 32℃)	structural	NA	NA
+p.D281G	p.Asp281Gly	0.060	0.022	NA	Pathogenic	DBD, H2 helix	relative buried (12)	weak (-20% cells die at 32℃)	structural	NA	NA
+p.D281V	p.Asp281Val	0.017	0.045	0.037	Pathogenic/Likely pathogenic	DBD, H2 helix	relative buried (12)	weak (-19% cells die at 32℃)	structural	NA	NA
+p.D281Y	p.Asp281Tyr	0.037	0.045	0.073	NA	DBD, H2 helix	relative buried (12)	weak (-53% cells die at 32℃)	structural	NA	NA
+p.R282Q	p.Arg282Glyln	0.100	0.135	0.009	Conflicting interpretations of pathogenicity	DBD, H2 helix	relative buried (13.6)	intermediate (5% cells die at 32℃)	structural	NA	NA
+p.R282P	p.Arg282Pro	0.074	0.045	NA	Likely pathogenic	DBD, H2 helix	relative buried (13.6)	weak (-31% cells die at 32℃)	structural	NA	NA
+p.R282L	p.Arg282Leu	0.030	NA	NA	Conflicting interpretations of pathogenicity	DBD, H2 helix	relative buried (13.6)	weak (-12% cells die at 32℃)	structural	NA	NA
+p.R282G	p.Arg282Gly	0.167	0.112	0.027	Pathogenic	DBD, H2 helix	relative buried (13.6)	intermediate (15% cells die at 32℃)	structural	NA	NA
+p.R282W	p.Arg282Trp	2.064	2.222	0.776	Pathogenic	DBD, H2 helix	relative buried (13.6)	strong (54% cells die at 32℃)	structural	NA	NA
+p.R283H	p.Arg283His	0.060	0.045	0.009	Conflicting interpretations of pathogenicity	DBD, H2 helix	relative exposed (45.7)	strong (22% cells die at 32℃)	likely structural	NA	NA
+p.R283P	p.Arg283Pro	0.120	NA	0.073	Uncertain significance	DBD, H2 helix	relative exposed (45.7)	strong (47% cells die at 32℃)	likely structural	NA	NA
+p.R283L	p.Arg283Leu	0.027	NA	NA	NA	DBD, H2 helix	relative exposed (45.7)	weak (-164% cells die at 32℃)	likely structural	NA	NA
+p.R283G	p.Arg283Gly	0.017	NA	NA	NA	DBD, H2 helix	relative exposed (45.7)	intermediate (5% cells die at 32℃)	likely structural	NA	NA
+p.R283C	p.Arg283Cys	0.097	0.606	NA	Uncertain significance	DBD, H2 helix	relative exposed (45.7)	weak (-14% cells die at 32℃)	likely structural	NA	NA
+p.T284P	p.Thr284Pro	0.040	NA	NA	NA	DBD, H2 helix	relative exposed (42.4)	intermediate (14% cells die at 32℃)	likely structural	NA	NA
+p.T284A	p.Thr284Ala	0.010	NA	NA	NA	DBD, H2 helix	relative exposed (42.4)	weak (-61% cells die at 32℃)	likely structural	NA	NA
+p.E285K	p.Glylu285Lys	0.622	0.314	0.219	Pathogenic/Likely pathogenic, drug response	DBD, H2 helix	relative buried (26.6)	strong (51% cells die at 32℃)	structural	NA	NA
+p.E285Q	p.Glylu285Glyln	0.027	0.045	0.009	NA	DBD, H2 helix	relative buried (26.6)	weak (-95% cells die at 32℃)	structural	NA	NA
+p.E285D	p.Glylu285Asp	0.007	NA	NA	NA	DBD, H2 helix	relative buried (26.6)	weak (-20% cells die at 32℃)	structural	NA	NA
+p.E285A	p.Glylu285Ala	0.003	NA	NA	NA	DBD, H2 helix	relative buried (26.6)	weak (-139% cells die at 32℃)	structural	NA	NA
+p.E285G	p.Glylu285Gly	0.017	NA	NA	NA	DBD, H2 helix	relative buried (26.6)	strong (76% cells die at 32℃)	structural	NA	NA
+p.E285V	p.Glylu285Val	0.070	0.045	0.037	Pathogenic	DBD, H2 helix	relative buried (26.6)	strong (64% cells die at 32℃)	structural	NA	NA
+p.E286K	p.Glylu286Lys	0.331	0.157	0.146	Pathogenic/Likely pathogenic	DBD, H2 helix	relative exposed (32.1)	weak (-3% cells die at 32℃)	likely structural	NA	NA
+p.E286Q	p.Glylu286Glyln	0.054	NA	0.037	NA	DBD, H2 helix	relative exposed (32.1)	strong (62% cells die at 32℃)	likely structural	NA	NA
+p.E286D	p.Glylu286Asp	0.013	NA	NA	NA	DBD, H2 helix	relative exposed (32.1)	strong (72% cells die at 32℃)	likely structural	NA	NA
+p.E286A	p.Glylu286Ala	0.007	0.157	0.009	Likely pathogenic	DBD, H2 helix	relative exposed (32.1)	strong (33% cells die at 32℃)	likely structural	NA	NA
+p.E286G	p.Glylu286Gly	0.074	NA	0.055	Uncertain significance	DBD, H2 helix	relative exposed (32.1)	weak (-5% cells die at 32℃)	likely structural	NA	NA
+p.E286V	p.Glylu286Val	0.023	NA	0.009	NA	DBD, H2 helix	relative exposed (32.1)	strong (41% cells die at 32℃)	likely structural	NA	NA
+p.E287K	p.Glylu287Lys	0.057	0.022	NA	Uncertain significance	DBD	relative exposed (67.8)	weak (-59% cells die at 32℃)	likely non structural	NA	NA
+p.E287D	p.Glylu287Asp	0.020	NA	0.027	NA	DBD	relative exposed (67.8)	weak (-36% cells die at 32℃)	likely non structural	NA	NA
+p.E287G	p.Glylu287Gly	0.010	NA	NA	NA	DBD	relative exposed (67.8)	weak (-4% cells die at 32℃)	likely non structural	NA	NA
+p.N288S	p.Asn288Ser	0.027	NA	NA	NA	DBD	relative exposed (67.2)	weak (-78% cells die at 32℃)	likely non structural	NA	NA
+p.N288Y	p.Asn288Tyr	0.020	NA	NA	NA	DBD	relative exposed (67.2)	weak (-58% cells die at 32℃)	likely non structural	NA	NA
+p.L289P	p.Leu289Pro	0.010	NA	NA	NA	DBD	relative exposed (110.4)	strong (23% cells die at 32℃)	likely non structural	NA	NA
+p.L289V	p.Leu289Val	0.010	NA	NA	Uncertain significance	DBD	relative exposed (110.4)	weak (-680% cells die at 32℃)	likely non structural	NA	NA
+p.L289F	p.Leu289Prohe	0.043	NA	0.009	NA	DBD	relative exposed (110.4)	weak (0% cells die at 32℃)	likely non structural	NA	NA
+p.R290H	p.Arg290His	0.114	0.763	NA	Uncertain significance	DBD	NA	weak (-9% cells die at 32℃)	likely non structural	NA	NA
+p.R290L	p.Arg290Leu	0.027	0.180	NA	NA	DBD	NA	weak (-46% cells die at 32℃)	likely non structural	NA	NA
+p.R290C	p.Arg290Cys	0.043	0.045	0.009	Uncertain significance	DBD	NA	weak (0% cells die at 32℃)	likely non structural	NA	NA
+p.K291N	p.Lys291Asn	0.020	NA	NA	NA	DBD	NA	weak (-86% cells die at 32℃)	likely non structural	NA	NA
+p.K291T	p.Lys291Thr	0.010	NA	NA	NA	DBD	NA	weak (-80% cells die at 32℃)	likely non structural	NA	NA
+p.K291R	p.Lys291Arg	0.020	0.045	NA	NA	DBD	NA	weak (-31% cells die at 32℃)	likely non structural	NA	NA
+p.K291M	p.Lys291Met	0.010	NA	NA	NA	DBD	NA	weak (-73% cells die at 32℃)	likely non structural	NA	NA
+p.K291E	p.Lys291Glylu	0.010	NA	NA	Uncertain significance	DBD	NA	weak (-47% cells die at 32℃)	likely non structural	NA	NA
+p.K292N	p.Lys292Asn	0.013	NA	NA	NA	DBD	NA	strong (41% cells die at 32℃)	likely non structural	NA	NA
+p.K292T	p.Lys292Thr	0.017	NA	NA	NA	DBD	NA	intermediate (9% cells die at 32℃)	likely non structural	NA	NA
+p.K292R	p.Lys292Arg	0.030	0.022	NA	Uncertain significance	DBD	NA	weak (-16% cells die at 32℃)	likely non structural	NA	NA
+p.K292E	p.Lys292Glylu	0.010	NA	NA	NA	DBD	NA	weak (-100% cells die at 32℃)	likely non structural	NA	NA
+p.G293R	p.Gly293Arg	0.027	NA	NA	NA	C-terminal	NA	weak (-73% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.G293W	p.Gly293Trp	0.020	0.157	NA	Uncertain significance	C-terminal	NA	weak (-143% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.E294K	p.Glylu294Lys	0.020	NA	NA	NA	C-terminal	NA	weak (-39% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.E294G	p.Glylu294Gly	0.013	NA	NA	NA	C-terminal	NA	intermediate (1% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.P295L	p.Pro295Leu	0.033	NA	NA	Uncertain significance	C-terminal	NA	weak (-39% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.P295S	p.Pro295Ser	0.023	NA	NA	Likely benign	C-terminal	NA	weak (-27% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.H296L	p.His296Leu	0.027	NA	NA	NA	C-terminal	NA	weak (-155% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.H296D	p.His296Asp	0.020	NA	NA	NA	C-terminal	NA	weak (-5% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.H296Y	p.His296Tyr	0.037	NA	NA	Uncertain significance	C-terminal	NA	strong (32% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.H297Y	p.His297Tyr	0.030	NA	NA	NA	C-terminal	NA	weak (-21% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.E298K	p.Glylu298Lys	0.033	0.045	NA	Conflicting interpretations of pathogenicity	C-terminal	NA	intermediate (1% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.E298Q	p.Glylu298Glyln	0.033	NA	NA	NA	C-terminal	NA	weak (-131% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.E298V	p.Glylu298Val	0.013	NA	NA	NA	C-terminal	NA	weak (-12% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.P300L	p.Pro300Leu	0.033	NA	NA	NA	C-terminal	NA	weak (-15% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.P300S	p.Pro300Ser	0.013	NA	NA	NA	C-terminal	NA	intermediate (10% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.P301L	p.Pro301Leu	0.017	NA	NA	Uncertain significance	C-terminal	NA	weak (-41% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.P301S	p.Pro301Ser	0.030	NA	NA	NA	C-terminal	NA	weak (-21% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.G302E	p.Gly302Glylu	0.027	NA	NA	Uncertain significance	C-terminal	NA	intermediate (13% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.S303N	p.Ser303Asn	0.027	NA	NA	Uncertain significance	C-terminal	NA	intermediate (19% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.S303T	p.Ser303Thr	0.013	NA	NA	NA	C-terminal	NA	weak (-77% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.T304I	p.Thr304Ile	0.017	NA	NA	NA	C-terminal	NA	strong (37% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.T304A	p.Thr304Ala	0.033	0.067	NA	Uncertain significance	C-terminal	NA	weak (-36% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.K305N	p.Lys305Asn	0.037	NA	NA	NA	C-terminal	NA	weak (-80% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.K305R	p.Lys305Arg	0.007	NA	NA	NA	C-terminal	NA	weak (-28% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.P309S	p.Pro309Ser	0.020	0.135	NA	Uncertain significance	C-terminal	NA	strong (24% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.T312S	p.Thr312Ser	0.027	0.022	NA	NA	C-terminal	NA	weak (-134% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.P316L	p.Pro316Leu	0.013	NA	NA	Uncertain significance	C-terminal	NA	weak (-20% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.Q317K	p.Glyln317Lys	0.013	0.022	NA	Uncertain significance	C-terminal	NA	strong (27% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.K319E	p.Lys319Glylu	0.013	NA	NA	NA	C-terminal	NA	intermediate (3% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.K320N	p.Lys320Asn	0.020	NA	NA	NA	C-terminal	NA	weak (-34% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.P322L	p.Pro322Leu	0.013	NA	NA	NA	C-terminal	NA	weak (-38% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.L330H	p.Leu330His	0.013	NA	NA	NA	C-terminal	NA	strong (22% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.Q331H	p.Glyln331His	0.013	NA	0.055	NA	C-terminal	NA	weak (-101% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.G334V	p.Gly334Val	0.013	NA	0.046	NA	C-terminal	NA	weak (-23% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.R337H	p.Arg337His	0.013	6.846	0.027	Pathogenic	C-terminal	NA	weak (-3% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.R337L	p.Arg337Leu	0.037	0.045	0.082	Likely pathogenic	C-terminal	NA	weak (-25% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.R337C	p.Arg337Cys	0.067	0.898	0.137	Pathogenic	C-terminal	NA	intermediate (6% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
+p.A347T	p.Ala347Thr	0.013	0.022	NA	NA	C-terminal	NA	strong (29% cells die at 32℃)	N- & C- terminal not inclued	NA	NA
