@@ -6,3 +6,16 @@
 body {
   padding-top: 56px;
 }
+
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 100;
+  line-height: 1.2;
+}
+
+.jumbotron {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin: 0 0 10px 0;
+}
+
