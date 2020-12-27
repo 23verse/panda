@@ -57,15 +57,15 @@ my_colors <- c('darkred','grey50')
 names(my_colors) <- c('Current4','Kato4')
 
 ls_df <- split(x=df4, f=df4$Variant)
-ls_gp <- lapply(1:length(ls_df), function(i){
+ls_gp4 <- lapply(1:length(ls_df), function(i){
 	df_res <- ls_df[[i]]
-	gp <- df_res %>% ggplot(aes(study,value)) + geom_col(aes(fill=study), alpha=0.8) + theme_classic() + ylab("Transcriptional activity") + xlab('Study') + guides(fill='none') + scale_y_continuous(trans=scales::sqrt_trans(), breaks=c(1,10,50,100,150,200,250), limits=c(0,350)) + scale_x_discrete(labels=c("Current","Kato et al.")) + geom_hline(yintercept=c(100,250), color=my_colors, linetype='dashed') + scale_fill_manual(values=my_colors) + labs(title=names(ls_df)[i], subtitle='WT level indicated by colored lines')
+	gp <- df_res %>% ggplot(aes(study,value)) + geom_col(aes(fill=study), alpha=0.8) + theme_classic() + ylab("Transcriptional activity") + xlab('Study') + guides(fill='none') + scale_y_continuous(trans=scales::sqrt_trans(), breaks=c(1,10,50,100,150,200,250), limits=c(0,350)) + scale_x_discrete(labels=c("Current","Kato et al.")) + geom_hline(yintercept=c(100,250), color=my_colors, linetype='dashed') + scale_fill_manual(values=my_colors) + labs(title=names(ls_df)[i], subtitle='TRANSCRIPTIONAL ACTIVITY')
 })
-names(ls_gp) <- names(ls_df)
+names(ls_gp4) <- names(ls_df)
 
-for(i in 1:length(ls_gp)){
-	filename <- str_c('S4/S4_',names(ls_gp)[i],'.png')
-	ggsave(filename, ls_gp[[i]], device='png', width=3, height=3, dpi=144)
+for(i in 1:length(ls_gp4)){
+	filename <- str_c('S4/S4_',names(ls_gp4)[i],'.png')
+	ggsave(filename, ls_gp4[[i]], device='png', width=3, height=3, dpi=144)
 }
 
 #####################
@@ -77,15 +77,25 @@ my_colors <- c('darkred','grey50')
 names(my_colors) <- c('Current5','Kotler5')
 
 ls_df <- split(x=df4, f=df4$Variant)
-ls_gp <- lapply(1:length(ls_df), function(i){
+ls_gp5 <- lapply(1:length(ls_df), function(i){
 	df_res <- ls_df[[i]]
-	gp <- df_res %>% ggplot(aes(study,value)) + geom_col(aes(fill=study), alpha=0.8) + theme_classic() + ylab("Fitness score (Z)") + xlab('Study') + guides(fill='none') + scale_y_continuous(breaks=c(-2,-1,0,1,2), limits=c(-2,2.5)) + scale_x_discrete(labels=c("Current","Kotler et al.")) + geom_hline(yintercept=c(0.47,0.86), color=my_colors, linetype='dashed') + scale_fill_manual(values=my_colors) + labs(title=names(ls_df)[i], subtitle='WT level indicated by colored lines')
+	gp <- df_res %>% ggplot(aes(study,value)) + geom_col(aes(fill=study), alpha=0.8) + theme_classic() + ylab("Fitness score (Z)") + xlab('Study') + guides(fill='none') + scale_y_continuous(breaks=c(-2,-1,0,1,2), limits=c(-2,2.5)) + scale_x_discrete(labels=c("Current","Kotler et al.")) + geom_hline(yintercept=c(0.47,0.86), color=my_colors, linetype='dashed') + scale_fill_manual(values=my_colors) + labs(subtitle='CELL INHIBITORY ACTIVITY', caption='WT level indicated by colored lines')
 })
-names(ls_gp) <- names(ls_df)
+names(ls_gp5) <- names(ls_df)
 
-for(i in 1:length(ls_gp)){
-	filename <- str_c('S5/S5_',names(ls_gp)[i],'.png')
-	ggsave(filename, ls_gp[[i]], device='png', width=3, height=3, dpi=144)
+for(i in 1:length(ls_gp5)){
+	filename <- str_c('S5/S5_',names(ls_gp5)[i],'.png')
+	ggsave(filename, ls_gp5[[i]], device='png', width=3, height=3, dpi=144)
+}
+
+#####################
+## 4,5: activity
+#####################
+library(patchwork)
+for(i in 1:length(ls_gp5)){
+	gp <- ls_gp4[[i]] / ls_gp5[[i]]
+	filename <- str_c('activity/',names(ls_gp5)[i],'.png')
+	ggsave(filename, gp, device='png', width=3, height=5, dpi=144)
 }
 
 ##########################################
