@@ -43,7 +43,7 @@ df <- read_delim('panda.txt', delim='\t')
 df <- df %>% mutate(IARCsomatic=ifelse(is.na(IARCsomatic), '-', str_c(IARCsomatic,'%'))) %>% mutate(IARCgermline=ifelse(is.na(IARCgermline), '-', str_c(IARCgermline,'%'))) %>% mutate(TCGA=ifelse(is.na(TCGA), '-', str_c(TCGA,'%'))) %>% mutate(ClinicalSignificance=ifelse(is.na(ClinicalSignificance), '-', ClinicalSignificance)) %>% mutate(SolventAccessibility=ifelse(is.na(SolventAccessibility), '-', SolventAccessibility)) %>% mutate(Structure1=ifelse(is.na(Structure1), '-', Structure1)) %>% mutate(Structure2=ifelse(is.na(Structure2), '-', Structure2))
 
 # save to the json file
-df_output <- df %>% select(Variant)
+df_output <- df %>% select(Variant,Name,IARCsomatic,IARCgermline,TCGA,ClinicalSignificance,Location,SolventAccessibility,TemperatureSensitive,MutationType,Structure1,Structure2)
 res_f <- jsonlite::toJSON(df, pretty=T, digits=10)
 res_f <- paste("{","\"data\":",res_f,"}", sep="\n")
 base::write(res_f, file='panda.json')
@@ -59,14 +59,43 @@ names(my_colors) <- c('Current4','Kato4')
 ls_df <- split(x=df4, f=df4$Variant)
 ls_gp <- lapply(1:length(ls_df), function(i){
 	df_res <- ls_df[[i]]
-	gp <- df_res %>% ggplot(aes(study,value)) + geom_col(aes(fill=study)) + theme_classic() + ylab("Transcriptional activity") + xlab('Study') + guides(fill='none') + scale_y_continuous(trans=scales::sqrt_trans(), breaks=c(1,10,50,100,150,200,250), limits=c(0,350)) + scale_x_discrete(labels=c("Current","Kato et.al")) + geom_hline(yintercept=c(100,250), color=my_colors, linetype='dashed') + scale_fill_manual(values=my_colors) + labs(title=names(ls_df)[i], subtitle='WT level indicated by colored lines')
+	gp <- df_res %>% ggplot(aes(study,value)) + geom_col(aes(fill=study), alpha=0.8) + theme_classic() + ylab("Transcriptional activity") + xlab('Study') + guides(fill='none') + scale_y_continuous(trans=scales::sqrt_trans(), breaks=c(1,10,50,100,150,200,250), limits=c(0,350)) + scale_x_discrete(labels=c("Current","Kato et al.")) + geom_hline(yintercept=c(100,250), color=my_colors, linetype='dashed') + scale_fill_manual(values=my_colors) + labs(title=names(ls_df)[i], subtitle='WT level indicated by colored lines')
 })
 names(ls_gp) <- names(ls_df)
 
 for(i in 1:length(ls_gp)){
 	filename <- str_c('S4/S4_',names(ls_gp)[i],'.png')
-	ggsave(filename, ls_gp[[i]], device='png', width=4, height=4, dpi=144)
+	ggsave(filename, ls_gp[[i]], device='png', width=3, height=3, dpi=144)
 }
+
+#####################
+## 5: cell inhibitory activity
+#####################
+df4 <- df %>% select(Variant,Kotler5,Current5) %>% pivot_longer(-Variant, names_to='study', values_to='value')
+df4 <- df4 %>% mutate(study=factor(study, levels=c('Current5','Kotler5')))
+my_colors <- c('darkred','grey50')
+names(my_colors) <- c('Current5','Kotler5')
+
+ls_df <- split(x=df4, f=df4$Variant)
+ls_gp <- lapply(1:length(ls_df), function(i){
+	df_res <- ls_df[[i]]
+	gp <- df_res %>% ggplot(aes(study,value)) + geom_col(aes(fill=study), alpha=0.8) + theme_classic() + ylab("Fitness score (Z)") + xlab('Study') + guides(fill='none') + scale_y_continuous(breaks=c(-2,-1,0,1,2), limits=c(-2,2.5)) + scale_x_discrete(labels=c("Current","Kotler et al.")) + geom_hline(yintercept=c(0.47,0.86), color=my_colors, linetype='dashed') + scale_fill_manual(values=my_colors) + labs(title=names(ls_df)[i], subtitle='WT level indicated by colored lines')
+})
+names(ls_gp) <- names(ls_df)
+
+for(i in 1:length(ls_gp)){
+	filename <- str_c('S5/S5_',names(ls_gp)[i],'.png')
+	ggsave(filename, ls_gp[[i]], device='png', width=3, height=3, dpi=144)
+}
+
+##########################################
+## 6,7,8
+##########################################
+
+
+
+
+
 
 
 ## load

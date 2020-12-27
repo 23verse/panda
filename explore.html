@@ -52,7 +52,7 @@
 			/*border: 1px solid rgba(250,175,186,0.1);*/
 		}
 		tbody > tr > td:nth-last-child(1) {
-			text-align: left;
+			text-align: center;
 			border: 1px solid rgba(204,204,204,1);
 			/*border: 1px solid rgba(250,175,186,0.1);*/
 		}
@@ -167,6 +167,18 @@
 								}
 							}
 						},
+						{
+							mData:"Variant",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/S4/S4_"+data+".png', 'Zoom', '600', '600')\"><img src='panda_data/S4/S4_"+data+".png' height='50px'></a>";
+							}
+						},
+						{
+							mData:"Variant",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/S5/S5_"+data+".png', 'Zoom', '600', '600')\"><img src='panda_data/S5/S5_"+data+".png' height='50px'></a>";
+							}
+						},
 					],
 				});
 			
@@ -226,6 +238,7 @@
 							<th colspan="3" class="my_style">FREQUENCY IN CANCER</th>
 							<th rowspan="2" class="my_style">CLINICAL SIGNIFICANCE</th>
 							<th colspan="6" class="my_style">STRUCTURE</th>
+							<th colspan="2" class="my_style">ACTIVITY</th>
 						</tr>
 						
 						<tr>
@@ -240,7 +253,8 @@
 							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">Mutation type</span></div></th>
 							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">View (0°)</span></div></th>
 							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">View (90°)</span></div></th>
-							
+							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">Trans.</span></div></th>
+							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">Cell inhibitory</span></div></th>
 							
 						</tr>
 					</thead>
