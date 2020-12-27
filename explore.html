@@ -107,7 +107,7 @@
 					"scrollX": 		  true,
 					"processing": 	  true,
 					"info": 		true,
-					"lengthMenu": [[3,10,50,100,-1], [3,10,50,100,"All"]],
+					"lengthMenu": [[4,10,50,100,-1], [4,10,50,100,"All"]],
 					"dom": '<"top"f>rt<"bottom"lp><"clear">',
 					
 					"aoColumns": [
@@ -125,9 +125,6 @@
 						},
 						{
 							mData:"TCGA",
-						},
-						{
-							mData:"ClinicalSignificance",
 						},
 						{
 							mData:"Location",
@@ -162,8 +159,19 @@
 						{
 							mData:"Variant",
 							mRender: function ( data, type, full ) {
-								return "<a href=\"javascript:newWin('panda_data/activity/"+data+".png', 'Zoom', '350', '600')\"><img src='panda_data/activity/"+data+".png' height='100px'></a>";
+								//return "<a href=\"javascript:newWin('panda_data/activity/"+data+".png', 'Zoom', '350', '600')\"><img src='panda_data/activity/"+data+".png' height='100px'></a>";
+								return "<a href=\"javascript:newWin('panda_data/activity/"+data+".png', 'Zoom', '300', '500')\">detail</a>";
 							}
+						},
+						{
+							mData:"Variant",
+							mRender: function ( data, type, full ) {
+								//return "<a href=\"javascript:newWin('panda_data/rescue/"+data+".png', 'Zoom', '350', '600')\"><img src='panda_data/rescue/"+data+".png' height='100px'></a>";
+								return "<a href=\"javascript:newWin('panda_data/rescue/"+data+".png', 'Zoom', '800', '488')\">"+full.mtype+"</a>";
+							}
+						},
+						{
+							mData:"ClinicalSignificance",
 						},
 					],
 				});
@@ -203,7 +211,7 @@
 	<!-- Projects Row -->
 		<div class="row">
 			<div class="col-md-12 display-5 text-left">
-				<img src="img/panda.icon.png" height="70px">&nbsp;Explore p53 mutations studied in PANDA
+				<img src="img/panda.icon.png" height="80px">&nbsp;&nbsp;Explore p53 mutations studied in PANDA
 				<hr>
 			</div>
 		</div>
@@ -222,9 +230,10 @@
 						<tr>
 							<th colspan="2" class="my_style">MUTATIOIN</th>
 							<th colspan="3" class="my_style">FREQUENCY IN CANCER</th>
-							<th rowspan="2" class="my_style">CLINICAL SIGNIFICANCE</th>
 							<th colspan="5" class="my_style">STRUCTURE</th>
 							<th rowspan="2" class="my_style">ACTIVITY</th>
+							<th rowspan="2" class="my_style">RESCUE BY ATO</th>
+							<th rowspan="2" class="my_style">CLINICAL SIGNIFICANCE</th>
 						</tr>
 						
 						<tr>
@@ -251,7 +260,7 @@
   <!-- Footer -->
   <footer class="py-3 bg-light">
     <div class="container">
-      <p class="text-center text-black">Published in <a href="https://doi.org/10.1016/j.ccell.2020.11.013">Cancer Cell</a> | Work from <a href="mailto:min.lu@shsmu.edu.cn">Lu lab</a></p>
+      <p class="text-center text-black">Published in <a href="https://doi.org/10.1016/j.ccell.2020.11.013">Cancer Cell</a> | Work from <a href="mailto:min.lu@shsmu.edu.cn">Lu lab</a> | Shanghai Institute of Hematology | Ruijin Hospital</p>
       <p class="text-center text-black">Copyright &copy; 2021 | Provided without warranty or guaranteed support | No responsibility assumed by the authors for its use, misuse, or functionality</p>
     </div>
     <!-- /.container -->

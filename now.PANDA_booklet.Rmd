@@ -40,7 +40,7 @@ R
 library(tidyverse)
 
 df <- read_delim('panda.txt', delim='\t')
-df <- df %>% mutate(IARCsomatic=ifelse(is.na(IARCsomatic), '-', str_c(IARCsomatic,'%'))) %>% mutate(IARCgermline=ifelse(is.na(IARCgermline), '-', str_c(IARCgermline,'%'))) %>% mutate(TCGA=ifelse(is.na(TCGA), '-', str_c(TCGA,'%'))) %>% mutate(ClinicalSignificance=ifelse(is.na(ClinicalSignificance), '-', ClinicalSignificance)) %>% mutate(SolventAccessibility=ifelse(is.na(SolventAccessibility), '-', SolventAccessibility)) %>% mutate(Structure1=ifelse(is.na(Structure1), '-', Structure1)) %>% mutate(Structure2=ifelse(is.na(Structure2), '-', Structure2))
+df <- df %>% mutate(IARCsomatic=ifelse(is.na(IARCsomatic), '-', str_c(IARCsomatic,'%'))) %>% mutate(IARCgermline=ifelse(is.na(IARCgermline), '-', str_c(IARCgermline,'%'))) %>% mutate(TCGA=ifelse(is.na(TCGA), '-', str_c(TCGA,'%'))) %>% mutate(ClinicalSignificance=ifelse(is.na(ClinicalSignificance), '-', ClinicalSignificance)) %>% mutate(SolventAccessibility=ifelse(is.na(SolventAccessibility), '-', SolventAccessibility)) %>% mutate(Structure1=ifelse(is.na(Structure1), '-', Structure1)) %>% mutate(Structure2=ifelse(is.na(Structure2), '-', Structure2)) %>% mutate(mtype=str_replace(Summary,".*\\(type","type")) %>% mutate(mtype=str_replace(mtype,"\\)",""))
 
 # save to the json file
 df_output <- df %>% select(Variant,Name,IARCsomatic,IARCgermline,TCGA,ClinicalSignificance,Location,SolventAccessibility,TemperatureSensitive,MutationType,Structure1,Structure2)
@@ -102,7 +102,74 @@ for(i in 1:length(ls_gp5)){
 ## 6,7,8
 ##########################################
 
+########
+## 6
+########
+df_mean <- df %>% select(Variant,Mean6,MeanATO6,Conclusion6) %>% pivot_longer(c(-Variant,-Conclusion6), names_to='treatment', values_to='value')
+df_sd <- df %>% select(Variant,SD6,SDATO6) %>% pivot_longer(-Variant, names_to='treatment', values_to='sd')
+df4 <- cbind(df_mean, df_sd %>% select(sd))
+df4 <- df4 %>% mutate(treatment=factor(treatment, levels=c('Mean6','MeanATO6')))
+my_colors <- c('darkgreen','grey50')
+names(my_colors) <- c('Rescuable','No rescuable')
+ls_df <- split(x=df4, f=df4$Variant)
+ls_gp6 <- lapply(1:length(ls_df), function(i){
+	df_res <- ls_df[[i]]
+	gp <- df_res %>% ggplot(aes(treatment,value)) + geom_col(aes(fill=Conclusion6), alpha=0.8) + geom_errorbar(aes(ymin=value-sd, ymax=value+sd),width=.5) + theme_classic() + ylab("Trans. activity (fold change)") + xlab('') + scale_x_discrete(labels=c("-ATO","+ATO")) + scale_fill_manual(values=my_colors) + labs(title=names(ls_df)[i], subtitle='TRANSCRIPTIONAL ACTIVITY') + theme(legend.position='bottom', legend.title=element_blank())
+})
+names(ls_gp6) <- names(ls_df)
 
+########
+## 7
+########
+df_mean <- df %>% select(Variant,Mean7,MeanATO7,Conclusion7) %>% pivot_longer(c(-Variant,-Conclusion7), names_to='treatment', values_to='value')
+df_sd <- df %>% select(Variant,SD7,SDATO7) %>% pivot_longer(-Variant, names_to='treatment', values_to='sd')
+df4 <- cbind(df_mean, df_sd %>% select(sd))
+df4 <- df4 %>% mutate(treatment=factor(treatment, levels=c('Mean7','MeanATO7')))
+my_colors <- c('darkgreen','grey50')
+names(my_colors) <- c('Rescuable','No rescuable')
+ls_df <- split(x=df4, f=df4$Variant)
+ls_gp7 <- lapply(1:length(ls_df), function(i){
+	df_res <- ls_df[[i]]
+	gp <- df_res %>% ggplot(aes(treatment,value)) + geom_col(aes(fill=Conclusion7), alpha=0.8) + geom_errorbar(aes(ymin=value-sd, ymax=value+sd),width=.5) + theme_classic() + ylab("Inhibition rate in cell (%)") + xlab('') + scale_x_discrete(labels=c("-ATO","+ATO")) + scale_fill_manual(values=my_colors) + labs(subtitle='CELL INHIBITORY ACTIVITY') + theme(legend.position='bottom', legend.title=element_blank())
+})
+names(ls_gp7) <- names(ls_df)
+
+########
+## 8
+########
+df_mean <- df %>% select(Variant,Mean8,MeanATO8,Conclusion8) %>% pivot_longer(c(-Variant,-Conclusion8), names_to='treatment', values_to='value')
+df_sd <- df %>% select(Variant,SD8,SDATO8) %>% pivot_longer(-Variant, names_to='treatment', values_to='sd')
+df4 <- cbind(df_mean, df_sd %>% select(sd))
+df4 <- df4 %>% mutate(treatment=factor(treatment, levels=c('Mean8','MeanATO8')))
+my_colors <- c('darkgreen','grey50')
+names(my_colors) <- c('Rescuable','No rescuable')
+ls_df <- split(x=df4, f=df4$Variant)
+ls_gp8 <- lapply(1:length(ls_df), function(i){
+	df_res <- ls_df[[i]]
+	gp <- df_res %>% ggplot(aes(treatment,value)) + geom_col(aes(fill=Conclusion8), alpha=0.8) + geom_errorbar(aes(ymin=value-sd, ymax=value+sd),width=.5) + theme_classic() + ylab("Inhibition rate in mouse (%)") + xlab('') + scale_x_discrete(labels=c("-ATO","+ATO")) + scale_fill_manual(values=my_colors) + labs(subtitle='TUMOR INHIBITORY ACTIVITY') + theme(legend.position='bottom', legend.title=element_blank())
+})
+names(ls_gp8) <- names(ls_df)
+
+########
+## 9
+########
+df4 <- df %>% select(Variant,Summary)
+ls_df <- split(x=df4, f=df4$Variant)
+ls_gp9 <- lapply(1:length(ls_df), function(i){
+	df_res <- ls_df[[i]] %>% mutate(Summary=str_replace(Summary,"\\(type","\n\\(type"))
+	wrap_elements(grid::textGrob(df_res$Summary)) + labs(subtitle='SUMMARY', caption="significantly rescued in 3 spectrums (type 1),\nin 1 or 2 spectrums (type 2), no rescue (type 3)")
+})
+names(ls_gp9) <- names(ls_df)
+
+#####################
+## 6,7,8,9: Rescue by ATO
+#####################
+library(patchwork)
+for(i in 1:length(ls_gp6)){
+	gp <- ls_gp6[[i]] + ls_gp7[[i]] + ls_gp8[[i]] + ls_gp9[[i]] + plot_layout(guides='collect') & theme(legend.position='right')
+	filename <- str_c('rescue/',names(ls_gp6)[i],'.png')
+	ggsave(filename, gp, device='png', dpi=144)
+}
 
 
 
