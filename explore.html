@@ -97,6 +97,9 @@
 				$('#menu1_table').DataTable({
 					"ajax": "panda_data/panda.json",
 
+					//deferred rendering for additional speed of initialisation
+					"deferRender": true,
+
 					// Scroll - horizontal and vertical
 					// "scrollY":        "300px",
 					// "scrollCollapse": true,
