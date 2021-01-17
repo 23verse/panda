@@ -40,7 +40,7 @@
 			/*background-color: rgba(204,204,204,0.5);*/
 			background-color: rgba(139,0,0,0.1);
 			/*border: 1px solid rgba(204,204,204,0.5);*/
-			border: 1px solid rgba(0,0,0,1);
+			border: 2px solid rgba(0,0,0,1);
 		}
 		
 		tbody > tr > td {
@@ -50,7 +50,7 @@
 			/*border: 1px solid rgba(250,175,186,0.2);*/
 		}
 		tbody > tr > td:first-child {
-			text-align: left;
+			text-align: center;
 			border: 1px solid rgba(204,204,204,1);
 			/*border: 1px solid rgba(250,175,186,0.1);*/
 		}
@@ -140,15 +140,45 @@
 					"scrollX": 		  true,
 					"processing": 	  true,
 					"info": 		true,
-					"lengthMenu": [[5,10,50,100,-1], [5,10,50,100,"All"]],
-					"dom": '<"top"f>rt<"bottom"lp><"clear">',
+					"lengthMenu": [[4,10,50,100,-1], [4,10,50,100,"All"]],
+					"dom": '<"top"lf>rt<"bottom"ip><"clear">',
+					
+					"pagingType": "full_numbers",
 					
 					"aoColumns": [
 						{
 							mData:"Short",
+							mRender: function ( data, type, full ) {
+								return data+"<p>("+full.Full+")";
+							}
 						},
 						{
-							mData:"Full",
+							mData:"RES1",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/rescue/trans/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
+							}
+						},
+						{
+							mData:"RES2",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/rescue/cell/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
+							}
+						},
+						{
+							mData:"RES3",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/rescue/tumor/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
+							}
+						},
+						{
+							mData:"RES4",
+						},
+						{
+							mData:"RES4",
+							bSortable: false,
+							mRender: function ( data, type, full ) {
+								return "&nbsp;";
+							}
 						},
 						{
 							mData:"IARC",
@@ -190,26 +220,12 @@
 								return "<a href=\"javascript:newWin('panda_data/activity/inhib/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
 							}
 						},
+					],
+					// Sort columns
+					"columnDefs": [
 						{
-							mData:"RES1",
-							mRender: function ( data, type, full ) {
-								return "<a href=\"javascript:newWin('panda_data/rescue/trans/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
-							}
-						},
-						{
-							mData:"RES2",
-							mRender: function ( data, type, full ) {
-								return "<a href=\"javascript:newWin('panda_data/rescue/cell/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
-							}
-						},
-						{
-							mData:"RES3",
-							mRender: function ( data, type, full ) {
-								return "<a href=\"javascript:newWin('panda_data/rescue/tumor/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
-							}
-						},
-						{
-							mData:"RES4",
+							"targets": [1,2,3,6,7,8,9,10,12],
+							"sortable": false,
 						},
 					],
 				});
@@ -269,36 +285,37 @@
 					<thead>
 						
 						<tr>
-							<th colspan="2" class="my_style" style="background-color:#d9d9d9;">突变
+							<th colspan="1" class="my_style" style="background-color:#d9d9d9;">突变
 </th>
+							<th colspan="4" class="my_style" style="background-color:#f8cbad;">可否被ATO拯救?&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span>
+							<th rowspan="2" class="my_style" style="background-color:#fff;"></th>
 							<th colspan="2" class="my_style" style="background-color:#e2efda;">癌症中突变频率</th>
 							<th colspan="5" class="my_style" style="background-color:#ddebf7;">三级结构信息</th>
 							<th colspan="2" class="my_style" style="background-color:#fce4d6;">ATO处理前突变体活性&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span>
-							<th colspan="4" class="my_style" style="background-color:#f8cbad;">可否被ATO拯救?&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span>
+
 </th>
 						</tr>
-						
-						
-						
+			
 						<tr>
-							<th><div>简写</div></th>
-							<th><div>全称</div></th>
+							<th style="background-color:#d9d9d9;"><div>简写<p>(全称)</div></th>
 							
-							<th><div>IARC (排名)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Bouaoun, L., et al., Hum Mutat, 2016. 37(9): p. 865-76"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
-							<th><div>TCGA (排名)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Hoadley, K.A., et al., Cell, 2018. 173(2): p. 291-304.e6"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+							<th style="background-color:#f8cbad;"><div>转录活性</div></th>
+							<th style="background-color:#f8cbad;"><div>细胞增殖抑制活性</div></th>
+							<th style="background-color:#f8cbad;"><div>肿瘤生长抑制活性</div></th>
+							<th style="background-color:#f8cbad;"><div>总结</div></th>
+							
+							<th style="background-color:#e2efda;"><div>IARC&nbsp;(排名)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Bouaoun, L., et al., Hum Mutat, 2016. 37(9): p. 865-76"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+							<th style="background-color:#e2efda;"><div>TCGA&nbsp;(排名)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Hoadley, K.A., et al., Cell, 2018. 173(2): p. 291-304.e6"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
 
-							<th><div>定位</div></th>
-							<th><div>暴露程度 (得分)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Martin, A.C., et al., Hum Mutat, 2002. 19(2): p. 149-64"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
-							<th><div>突变类型</div></th>
-							<th><div>温度敏感性 (%细胞在32℃下死亡)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
-							<th><div>三维视图</div></th>
+							<th style="background-color:#ddebf7;"><div>定位</div></th>
+							<th style="background-color:#ddebf7;"><div>暴露程度(得分)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Martin, A.C., et al., Hum Mutat, 2002. 19(2): p. 149-64"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+							<th style="background-color:#ddebf7;"><div>突变类型</div></th>
+							<th style="background-color:#ddebf7;"><div>温度敏感性(%细胞在32℃下死亡)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+							<th style="background-color:#ddebf7;"><div>三维视图</div></th>
 							
-							<th><div>转录活性 (% 野生型)</div></th>
-							<th><div>细胞增殖抑制活性 (fitness score)</div></th>
-							<th><div>转录活性</div></th>
-							<th><div>细胞增殖抑制活性</div></th>
-							<th><div>肿瘤生长抑制活性</div></th>
-							<th><div>总结</div></th>
+							<th style="background-color:#fce4d6;"><div>转录活性(% 野生型)</div></th>
+							<th style="background-color:#fce4d6;"><div>细胞增殖抑制活性(fitness score)</div></th>
+							
 						</tr>
 					</thead>
 					

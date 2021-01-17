@@ -34,13 +34,13 @@
 		}
 		
 		thead > tr > th.my_style {
-			font-size: 13px;
+			font-size: 12px;
 			color: rgba(0,0,0,0.8);
 			text-align: center;
 			/*background-color: rgba(204,204,204,0.5);*/
 			background-color: rgba(139,0,0,0.1);
 			/*border: 1px solid rgba(204,204,204,0.5);*/
-			border: 1px solid rgba(0,0,0,1);
+			border: 2px solid rgba(0,0,0,1);
 		}
 		
 		tbody > tr > td {
@@ -50,7 +50,7 @@
 			/*border: 1px solid rgba(250,175,186,0.2);*/
 		}
 		tbody > tr > td:first-child {
-			text-align: left;
+			text-align: center;
 			border: 1px solid rgba(204,204,204,1);
 			/*border: 1px solid rgba(250,175,186,0.1);*/
 		}
@@ -140,15 +140,45 @@
 					"scrollX": 		  true,
 					"processing": 	  true,
 					"info": 		true,
-					"lengthMenu": [[5,10,50,100,-1], [5,10,50,100,"All"]],
-					"dom": '<"top"f>rt<"bottom"lp><"clear">',
+					"lengthMenu": [[4,10,50,100,-1], [4,10,50,100,"All"]],
+					"dom": '<"top"lf>rt<"bottom"ip><"clear">',
+					
+					"pagingType": "full_numbers",
 					
 					"aoColumns": [
 						{
 							mData:"Short",
+							mRender: function ( data, type, full ) {
+								return data+"<p>("+full.Full+")";
+							}
 						},
 						{
-							mData:"Full",
+							mData:"RES1",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/rescue/trans/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
+							}
+						},
+						{
+							mData:"RES2",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/rescue/cell/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
+							}
+						},
+						{
+							mData:"RES3",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/rescue/tumor/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
+							}
+						},
+						{
+							mData:"RES4",
+						},
+						{
+							mData:"RES4",
+							bSortable: false,
+							mRender: function ( data, type, full ) {
+								return "&nbsp;";
+							}
 						},
 						{
 							mData:"IARC",
@@ -190,26 +220,12 @@
 								return "<a href=\"javascript:newWin('panda_data/activity/inhib/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
 							}
 						},
+					],
+					// Sort columns
+					"columnDefs": [
 						{
-							mData:"RES1",
-							mRender: function ( data, type, full ) {
-								return "<a href=\"javascript:newWin('panda_data/rescue/trans/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
-							}
-						},
-						{
-							mData:"RES2",
-							mRender: function ( data, type, full ) {
-								return "<a href=\"javascript:newWin('panda_data/rescue/cell/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
-							}
-						},
-						{
-							mData:"RES3",
-							mRender: function ( data, type, full ) {
-								return "<a href=\"javascript:newWin('panda_data/rescue/tumor/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
-							}
-						},
-						{
-							mData:"RES4",
+							"targets": [1,2,3,6,7,8,9,10,12],
+							"sortable": false,
 						},
 					],
 				});
@@ -269,35 +285,38 @@
 					<thead>
 						
 						<tr>
-							<th colspan="2" class="my_style" style="background-color:#d9d9d9;">MUTATION</th>
+							<th colspan="1" class="my_style" style="background-color:#d9d9d9;">MUTATION</th>
+							<th colspan="4" class="my_style" style="background-color:#f8cbad;">RESCUABLE BY ATO?&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span>
+</th>
+							<th rowspan="2" class="my_style" style="background-color:#fff;"></th>
 							<th colspan="2" class="my_style" style="background-color:#e2efda;">FREQUENCY IN CANCER</th>
 							<th colspan="5" class="my_style" style="background-color:#ddebf7;">STRUCTURAL INFORMATION</th>
 							<th colspan="2" class="my_style" style="background-color:#fce4d6;">ACTIVITIES WITHOUT ATO&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span>
-							<th colspan="4" class="my_style" style="background-color:#f8cbad;">RESCUABLE BY ATO?&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span>
-</th>
+
 						</tr>
 						
 						
-						
 						<tr>
-							<th><div>Short</div></th>
-							<th><div>Full</div></th>
+							<th style="background-color:#d9d9d9;"><div>Short<p>(Full)</div></th>
 							
-							<th><div>IARC (ranking)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Bouaoun, L., et al., Hum Mutat, 2016. 37(9): p. 865-76"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
-							<th><div>TCGA (ranking)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Hoadley, K.A., et al., Cell, 2018. 173(2): p. 291-304.e6"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+							<th style="background-color:#f8cbad;"><div>Transcriptional activity</div></th>
+							<th style="background-color:#f8cbad;"><div>Cell inhibitory activity</div></th>
+							<th style="background-color:#f8cbad;"><div>Tumor inhibitory activity</div></th>
+							<th style="background-color:#f8cbad;"><div>Summary</div></th>
+							
+							<th style="background-color:#e2efda;"><div>IARC (ranking)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Bouaoun, L., et al., Hum Mutat, 2016. 37(9): p. 865-76"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+							<th style="background-color:#e2efda;"><div>TCGA (ranking)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Hoadley, K.A., et al., Cell, 2018. 173(2): p. 291-304.e6"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
 
-							<th><div>Location</div></th>
-							<th><div>Accessibility (score)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Martin, A.C., et al., Hum Mutat, 2002. 19(2): p. 149-64"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
-							<th><div>Mutation type</div></th>
-							<th><div>Temperature sensitivity (% cell died at 32℃)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
-							<th><div>3D View</div></th>
+							<th style="background-color:#ddebf7;"><div>Location</div></th>
+							<th style="background-color:#ddebf7;"><div>Accessibility (score)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Martin, A.C., et al., Hum Mutat, 2002. 19(2): p. 149-64"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+							<th style="background-color:#ddebf7;"><div>Mutation type</div></th>
+							<th style="background-color:#ddebf7;"><div>Temperature sensitivity (% cell died at 32℃)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+							<th style="background-color:#ddebf7;"><div>3D View</div></th>
 							
-							<th><div>Transcriptional activity (% wild-type)</div></th>
-							<th><div>Cell inhibitory activity (fitness score)</div></th>
-							<th><div>Transcriptional activity</div></th>
-							<th><div>Cell inhibitory activity</div></th>
-							<th><div>Tumor inhibitory activity</div></th>
-							<th><div>Summary</div></th>
+							<th style="background-color:#fce4d6;"><div>Transcriptional activity (% wild-type)</div></th>
+							<th style="background-color:#fce4d6;"><div>Cell inhibitory activity (fitness score)</div></th>
+							
+
 						</tr>
 					</thead>
 					
