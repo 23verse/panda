@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="PANDA - Webserver">
+  <meta name="author" content="">
+  <link rel="icon" href="img/panda.icon.png">
+
+  <title>PANDA</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/customised-panda.css" rel="stylesheet">
+
+  <!-- CSS for DataTables -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.23/datatables.min.css"/>
+  
+  <!-- CSS for Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <style>
+		thead > tr > th {
+			font-size: 10px;
+			color: rgba(0,0,0,0.6);
+			text-align: center;
+			border: 2px solid rgba(0,0,0,0.6);
+			/*border: 1px solid rgba(250,175,186,0.3);*/
+			background-color: transparent;
+		}
+		
+		thead > tr > th.my_style {
+			font-size: 13px;
+			color: rgba(0,0,0,0.8);
+			text-align: center;
+			/*background-color: rgba(204,204,204,0.5);*/
+			background-color: rgba(139,0,0,0.1);
+			/*border: 1px solid rgba(204,204,204,0.5);*/
+			border: 1px solid rgba(0,0,0,1);
+		}
+		
+		tbody > tr > td {
+			font-size: 10px;
+			text-align: center;
+			border: 1px solid #ccc;
+			/*border: 1px solid rgba(250,175,186,0.2);*/
+		}
+		tbody > tr > td:first-child {
+			text-align: left;
+			border: 1px solid rgba(204,204,204,1);
+			/*border: 1px solid rgba(250,175,186,0.1);*/
+		}
+		tbody > tr > td:nth-last-child(1) {
+			text-align: center;
+			border: 1px solid rgba(204,204,204,1);
+			/*border: 1px solid rgba(250,175,186,0.1);*/
+		}
+		
+		tbody > tr > td:hover {
+			-moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.8);
+			-webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.8);
+			box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.8);
+		}
+
+		tfoot > tr > th {
+			font-size: 11px;
+			color: rgba(0,0,0,0.8);
+			text-align: center;
+			border: 1px solid rgba(204,204,204,0.2);
+			/*border: 1px solid rgba(250,175,186,0.5);*/
+			background-color: transparent;
+		}
+		
+		/* Change bootstrap tooltip color */
+		.my-tooltip + .tooltip > .tooltip-inner {
+			background-color: rgba(231,76,60, 0.9); 
+			color: #FFFFFF; 
+			font-size: 14px;
+			border: 1px solid transparent;
+			box-shadow: 5px 5px 2px #ccc;
+			max-width: 350px;
+		}
+		/* Tooltip on top */
+		.my-tooltip + .tooltip.top > .tooltip-arrow {
+			border-top: 5px solid rgba(231,76,60, 0.9);
+		}
+		/* Tooltip on bottom */
+		.my-tooltip + .tooltip.bottom > .tooltip-arrow {
+			border-bottom: 5px solid rgba(231,76,60, 0.9);
+		}
+		/* Tooltip on left */
+		.my-tooltip + .tooltip.left > .tooltip-arrow {
+			border-left: 5px solid rgba(231,76,60, 0.9);
+		}
+		/* Tooltip on right */
+		.my-tooltip + .tooltip.right > .tooltip-arrow {
+			border-right: 5px solid rgba(231,76,60, 0.9);
+		}
+	</style>
+
+	<!-- JS for newWin -->
+	<script type="text/javascript">
+		// new windows			
+		function newWin(url, name, width, height) { 
+			var left = (screen.width/2)-(width/2);
+			var top = (screen.height/2)-(height/2);
+			window.open(url,name,'scrollbars=yes,resizable=yes,fullscreen=yes, width=' + width + ', height='+height+', top='+top+', left='+left);
+		}
+	</script>
+
+	<script type="text/javascript">
+  		$("[data-toggle='tooltip']").tooltip();
+  		$('.tooltip-show').tooltip('show');
+  	</script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- JS for DataTables -->
+  <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.23/datatables.min.js"></script>
+  
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+				$('#menu1_table').DataTable({
+					"ajax": "panda_data/panda.json",
+
+					//deferred rendering for additional speed of initialisation
+					"deferRender": true,
+
+					// Scroll - horizontal and vertical
+					// "scrollY":        "300px",
+					// "scrollCollapse": true,
+					// "paging":         false,
+					"scrollX": 		  true,
+					"processing": 	  true,
+					"info": 		true,
+					"lengthMenu": [[5,10,50,100,-1], [5,10,50,100,"All"]],
+					"dom": '<"top"f>rt<"bottom"lp><"clear">',
+					
+					"aoColumns": [
+						{
+							mData:"Short",
+						},
+						{
+							mData:"Full",
+						},
+						{
+							mData:"IARC",
+						},
+						{
+							mData:"TCGA",
+						},
+						{
+							mData:"Location",
+						},
+						{
+							mData:"Accessibility",
+						},
+						{
+							mData:"MutationType",
+						},
+						{
+							mData:"TemperatureSensitivity",
+						},
+						{
+							mData:"View1",
+							mRender: function ( data, type, full ) {
+								if(data=='-'){
+									return '-';
+								}else{
+									return "<a href=\"javascript:newWin('panda_data/structure/"+data+".png', 'Zoom', '800', '600')\">0°</a><br><a href=\"javascript:newWin('panda_data/structure/"+full.View2+".png', 'Zoom', '800', '600')\">180°</a>";
+								}
+							}
+						},
+						{
+							mData:"ACT1",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/activity/trans/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
+							}
+						},
+						{
+							mData:"ACT2",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/activity/inhib/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
+							}
+						},
+						{
+							mData:"RES1",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/rescue/trans/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
+							}
+						},
+						{
+							mData:"RES2",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/rescue/cell/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
+							}
+						},
+						{
+							mData:"RES3",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/rescue/tumor/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
+							}
+						},
+						{
+							mData:"RES4",
+						},
+					],
+				});
+			
+		});
+	</script>
+  
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="indexC.html">PANDA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="indexC.html">首页
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="exploreC.html">查询</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="explore.html">English</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Page Content -->
+  <div class="container">
+
+	<!-- Projects Row -->
+		<div class="row">
+			<div class="col-md-12 display-5 text-left" style="font-size:28px;font-weight:400">
+				<img src="img/panda.icon.png" height="80px">&nbsp;&nbsp;PANDA癌症研究计划: 801个最常见的p53突变体
+				<hr>
+			</div>
+		</div>
+	<!-- /.row -->
+
+	
+	<!--
+	<a href="javascript:newWin('panda_data/structure/1-1.png', 'Booklet', '909', '1169')"><img src='panda_data/structure/1-1.png' height='50px'></a>
+	-->
+	
+	<div class = "panel-body">
+		
+		<table id="menu1_table" class="compact wrap" cellpadding="5px" cellspacing="0" width="100%">
+					<thead>
+						
+						<tr>
+							<th colspan="2" class="my_style" style="background-color:#d9d9d9;">突变
+</th>
+							<th colspan="2" class="my_style" style="background-color:#e2efda;">癌症中突变频率</th>
+							<th colspan="5" class="my_style" style="background-color:#ddebf7;">三级结构信息</th>
+							<th colspan="2" class="my_style" style="background-color:#fce4d6;">ATO处理前突变体活性&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span>
+							<th colspan="4" class="my_style" style="background-color:#f8cbad;">可否被ATO拯救?&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span>
+</th>
+						</tr>
+						
+						
+						
+						<tr>
+							<th><div>简写</div></th>
+							<th><div>全称</div></th>
+							
+							<th><div>IARC (排名)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Bouaoun, L., et al., Hum Mutat, 2016. 37(9): p. 865-76"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+							<th><div>TCGA (排名)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Hoadley, K.A., et al., Cell, 2018. 173(2): p. 291-304.e6"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+
+							<th><div>定位</div></th>
+							<th><div>暴露程度 (得分)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Martin, A.C., et al., Hum Mutat, 2002. 19(2): p. 149-64"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+							<th><div>突变类型</div></th>
+							<th><div>温度敏感性 (%细胞在32℃下死亡)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+							<th><div>三维视图</div></th>
+							
+							<th><div>转录活性 (% 野生型)</div></th>
+							<th><div>细胞增殖抑制活性 (fitness score)</div></th>
+							<th><div>转录活性</div></th>
+							<th><div>细胞增殖抑制活性</div></th>
+							<th><div>肿瘤生长抑制活性</div></th>
+							<th><div>总结</div></th>
+						</tr>
+					</thead>
+					
+				</table>
+	</div>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-3 bg-light">
+    <div class="container">
+      <p class="text-center text-black">Work from <a href="mailto:min.lu@shsmu.edu.cn">Lu lab</a> | Shanghai Institute of Hematology | Ruijin Hospital | Shanghai Jiao Tong University School of Medicine</p>
+      <p class="text-center text-black">Copyright &copy; 2021 | Provided without warranty or guaranteed support | No responsibility assumed by the authors for its use, misuse, or functionality</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+
+
+</body>
+
+</html>

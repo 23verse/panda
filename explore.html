@@ -20,6 +20,9 @@
   <!-- CSS for DataTables -->
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.23/datatables.min.css"/>
   
+  <!-- CSS for Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
   <style>
 		thead > tr > th {
 			font-size: 10px;
@@ -31,13 +34,13 @@
 		}
 		
 		thead > tr > th.my_style {
-			font-size: 12px;
+			font-size: 13px;
 			color: rgba(0,0,0,0.8);
 			text-align: center;
 			/*background-color: rgba(204,204,204,0.5);*/
 			background-color: rgba(139,0,0,0.1);
 			/*border: 1px solid rgba(204,204,204,0.5);*/
-			border: 1px solid rgba(139,0,0,1);
+			border: 1px solid rgba(0,0,0,1);
 		}
 		
 		tbody > tr > td {
@@ -71,18 +74,48 @@
 			/*border: 1px solid rgba(250,175,186,0.5);*/
 			background-color: transparent;
 		}
+		
+		/* Change bootstrap tooltip color */
+		.my-tooltip + .tooltip > .tooltip-inner {
+			background-color: rgba(231,76,60, 0.9); 
+			color: #FFFFFF; 
+			font-size: 14px;
+			border: 1px solid transparent;
+			box-shadow: 5px 5px 2px #ccc;
+			max-width: 350px;
+		}
+		/* Tooltip on top */
+		.my-tooltip + .tooltip.top > .tooltip-arrow {
+			border-top: 5px solid rgba(231,76,60, 0.9);
+		}
+		/* Tooltip on bottom */
+		.my-tooltip + .tooltip.bottom > .tooltip-arrow {
+			border-bottom: 5px solid rgba(231,76,60, 0.9);
+		}
+		/* Tooltip on left */
+		.my-tooltip + .tooltip.left > .tooltip-arrow {
+			border-left: 5px solid rgba(231,76,60, 0.9);
+		}
+		/* Tooltip on right */
+		.my-tooltip + .tooltip.right > .tooltip-arrow {
+			border-right: 5px solid rgba(231,76,60, 0.9);
+		}
 	</style>
 
-		<!-- JS for newWin -->
-		<script type="text/javascript">
-			// new windows			
-			function newWin(url, name, width, height) { 
-				var left = (screen.width/2)-(width/2);
-				var top = (screen.height/2)-(height/2);
-				window.open(url,name,'scrollbars=yes,resizable=yes,fullscreen=yes, width=' + width + ', height='+height+', top='+top+', left='+left);
-			}
-		</script>
+	<!-- JS for newWin -->
+	<script type="text/javascript">
+		// new windows			
+		function newWin(url, name, width, height) { 
+			var left = (screen.width/2)-(width/2);
+			var top = (screen.height/2)-(height/2);
+			window.open(url,name,'scrollbars=yes,resizable=yes,fullscreen=yes, width=' + width + ', height='+height+', top='+top+', left='+left);
+		}
+	</script>
 
+	<script type="text/javascript">
+  		$("[data-toggle='tooltip']").tooltip();
+  		$('.tooltip-show').tooltip('show');
+  	</script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -107,21 +140,18 @@
 					"scrollX": 		  true,
 					"processing": 	  true,
 					"info": 		true,
-					"lengthMenu": [[4,10,50,100,-1], [4,10,50,100,"All"]],
+					"lengthMenu": [[5,10,50,100,-1], [5,10,50,100,"All"]],
 					"dom": '<"top"f>rt<"bottom"lp><"clear">',
 					
 					"aoColumns": [
 						{
-							mData:"Variant",
+							mData:"Short",
 						},
 						{
-							mData:"Name",
+							mData:"Full",
 						},
 						{
-							mData:"IARCsomatic",
-						},
-						{
-							mData:"IARCgermline",
+							mData:"IARC",
 						},
 						{
 							mData:"TCGA",
@@ -130,48 +160,56 @@
 							mData:"Location",
 						},
 						{
-							mData:"SolventAccessibility",
-						},
-						{
-							mData:"TemperatureSensitive",
+							mData:"Accessibility",
 						},
 						{
 							mData:"MutationType",
 						},
 						{
-							mData:"Structure1",
+							mData:"TemperatureSensitivity",
+						},
+						{
+							mData:"View1",
 							mRender: function ( data, type, full ) {
-								if(full.Structure1=='-'){
+								if(data=='-'){
 									return '-';
 								}else{
-									// return '<a href="panda_data/structure/'+data+'.png"</a>';
-									//return "<img src='panda_data/structure/"+data+".png' height='50px'>";
-									
-									// return "<a href=\"javascript:newWin('panda_data/structure/"+data+".png', 'Booklet', '909', '1169')\">Show</a>";
-									
-									//return "<a href=\"javascript:newWin('panda_data/structure/"+data+".png', 'Zoom', '909', '1169')\"><img src='panda_data/structure/"+data+".png' height='50px'></a>";
-									//return "<a href=\"javascript:newWin('panda_data/structure/"+data+".png', 'Zoom', '909', '1169')\">Show</a>";
-									
-									return "<a href=\"javascript:newWin('panda_data/structure/"+data+".png', 'Zoom', '800', '600')\">0°</a><br><a href=\"javascript:newWin('panda_data/structure/"+full.Structure2+".png', 'Zoom', '800', '600')\">90°</a>";
+									return "<a href=\"javascript:newWin('panda_data/structure/"+data+".png', 'Zoom', '800', '600')\">0°</a><br><a href=\"javascript:newWin('panda_data/structure/"+full.View2+".png', 'Zoom', '800', '600')\">180°</a>";
 								}
 							}
 						},
 						{
-							mData:"Variant",
+							mData:"ACT1",
 							mRender: function ( data, type, full ) {
-								//return "<a href=\"javascript:newWin('panda_data/activity/"+data+".png', 'Zoom', '350', '600')\"><img src='panda_data/activity/"+data+".png' height='100px'></a>";
-								return "<a href=\"javascript:newWin('panda_data/activity/"+data+".png', 'Zoom', '300', '500')\">detail</a>";
+								return "<a href=\"javascript:newWin('panda_data/activity/trans/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
 							}
 						},
 						{
-							mData:"Variant",
+							mData:"ACT2",
 							mRender: function ( data, type, full ) {
-								//return "<a href=\"javascript:newWin('panda_data/rescue/"+data+".png', 'Zoom', '350', '600')\"><img src='panda_data/rescue/"+data+".png' height='100px'></a>";
-								return "<a href=\"javascript:newWin('panda_data/rescue/"+data+".png', 'Zoom', '800', '488')\">"+full.mtype+"</a>";
+								return "<a href=\"javascript:newWin('panda_data/activity/inhib/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
 							}
 						},
 						{
-							mData:"ClinicalSignificance",
+							mData:"RES1",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/rescue/trans/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
+							}
+						},
+						{
+							mData:"RES2",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/rescue/cell/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
+							}
+						},
+						{
+							mData:"RES3",
+							mRender: function ( data, type, full ) {
+								return "<a href=\"javascript:newWin('panda_data/rescue/tumor/"+full.Short+".png', 'Zoom', '300', '385')\">"+data+"</a>";
+							}
+						},
+						{
+							mData:"RES4",
 						},
 					],
 				});
@@ -200,6 +238,9 @@
           <li class="nav-item active">
             <a class="nav-link" href="explore.html">Explore</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="exploreC.html">中文</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -210,8 +251,8 @@
 
 	<!-- Projects Row -->
 		<div class="row">
-			<div class="col-md-12 display-5 text-left">
-				<img src="img/panda.icon.png" height="80px">&nbsp;&nbsp;Explore p53 mutations studied in PANDA
+			<div class="col-md-12 display-5 text-left" style="font-size:28px;font-weight:400">
+				<img src="img/panda.icon.png" height="80px">&nbsp;&nbsp;PANDA Cancer Project: the most frequent p53 mutations (n = 801)
 				<hr>
 			</div>
 		</div>
@@ -228,26 +269,35 @@
 					<thead>
 						
 						<tr>
-							<th colspan="2" class="my_style">MUTATION</th>
-							<th colspan="3" class="my_style">FREQUENCY IN CANCER</th>
-							<th colspan="5" class="my_style">STRUCTURE</th>
-							<th rowspan="2" class="my_style">ACTIVITY</th>
-							<th rowspan="2" class="my_style">RESCUE BY ATO</th>
-							<th rowspan="2" class="my_style">CLINICAL SIGNIFICANCE</th>
+							<th colspan="2" class="my_style" style="background-color:#d9d9d9;">MUTATION</th>
+							<th colspan="2" class="my_style" style="background-color:#e2efda;">FREQUENCY IN CANCER</th>
+							<th colspan="5" class="my_style" style="background-color:#ddebf7;">STRUCTURAL INFORMATION</th>
+							<th colspan="2" class="my_style" style="background-color:#fce4d6;">ACTIVITIES WITHOUT ATO&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span>
+							<th colspan="4" class="my_style" style="background-color:#f8cbad;">RESCUABLE BY ATO?&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span>
+</th>
 						</tr>
+						
+						
 						
 						<tr>
 							<th><div>Short</div></th>
-							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="5-star rating.">Full</span></div></th>
-							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">IARC (somatic)</span></div></th>
-							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">IARC (germline)</span></div></th>
-							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">TCGA</span></div></th>
-							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="5-star rating.">Location</span></div></th>
-							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">Solvent accessibility</span></div></th>
-							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">Temperature sensitive</span></div></th>
-							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">Mutation type</span></div></th>
-							<th><div><span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="rating score.">View</span></div></th>
+							<th><div>Full</div></th>
 							
+							<th><div>IARC (ranking)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Bouaoun, L., et al., Hum Mutat, 2016. 37(9): p. 865-76"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+							<th><div>TCGA (ranking)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Hoadley, K.A., et al., Cell, 2018. 173(2): p. 291-304.e6"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+
+							<th><div>Location</div></th>
+							<th><div>Accessibility (score)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="Martin, A.C., et al., Hum Mutat, 2002. 19(2): p. 149-64"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+							<th><div>Mutation type</div></th>
+							<th><div>Temperature sensitivity (% cell died at 32℃)&nbsp;<span class="my-tooltip" data-toggle="tooltip" data-placement="auto right" title="PANDA cancer project (unpublished)"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></span></div></th>
+							<th><div>3D View</div></th>
+							
+							<th><div>Transcriptional activity (% wild-type)</div></th>
+							<th><div>Cell inhibitory activity (fitness score)</div></th>
+							<th><div>Transcriptional activity</div></th>
+							<th><div>Cell inhibitory activity</div></th>
+							<th><div>Tumor inhibitory activity</div></th>
+							<th><div>Summary</div></th>
 						</tr>
 					</thead>
 					
@@ -260,7 +310,7 @@
   <!-- Footer -->
   <footer class="py-3 bg-light">
     <div class="container">
-      <p class="text-center text-black">Published in <a href="https://doi.org/10.1016/j.ccell.2020.11.013">Cancer Cell</a> | Work from <a href="mailto:min.lu@shsmu.edu.cn">Lu lab</a> | Shanghai Institute of Hematology | Ruijin Hospital</p>
+      <p class="text-center text-black">Work from <a href="mailto:min.lu@shsmu.edu.cn">Lu lab</a> | Shanghai Institute of Hematology | Ruijin Hospital | Shanghai Jiao Tong University School of Medicine</p>
       <p class="text-center text-black">Copyright &copy; 2021 | Provided without warranty or guaranteed support | No responsibility assumed by the authors for its use, misuse, or functionality</p>
     </div>
     <!-- /.container -->
